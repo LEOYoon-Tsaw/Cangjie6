@@ -1,0 +1,162 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  name: "蒼頡檢字法"
+  schema_id: cangjie6
+  author:
+    - "發明人 朱邦復先生、沈紅蓮女士"
+  dependencies:
+    - luna_pinyin
+    - jyutping
+  description: "第六代倉頡輸入法\x0a碼表由雪齋、惜緣和crazy4u整理\x0a"
+  version: 0.16
+ 
+switches:
+  - name: ascii_mode
+    reset: 0
+  - name: full_shape
+    reset: 0
+  - name: simplification
+    reset: 0
+  - name: extended_charset
+    reset: 1
+
+switcher:
+  save_options:
+    - simplification
+    - extended_charset
+ 
+engine:
+  filters:
+    - simplifier
+    - uniquifier
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - table_translator
+    - table_translator@custom_phrase
+    - script_translator@pinyin
+    - script_translator@jyutping
+    - reverse_lookup_translator@reverse_pinyin
+    - reverse_lookup_translator@reverse_jyutping
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " ;'"
+
+custom_phrase:
+  comment_format:
+    - xform/^[abcdefghijklmnopqrstuvwxyz~]+$//
+  dictionary: ""
+  user_dict: custom_phrase
+  db_class: tabledb
+  enable_sentence: true
+  initial_quality: 0.4
+
+translator:
+  dictionary: cangjie6.extended
+  enable_charset_filter: true
+  enable_sentence: true
+  enable_encoder: true
+  encode_commit_history: true
+  max_phrase_length: 5
+  preedit_format:
+    - "xform/^([a-z ]*)$/$1｜\\U$1\\E/"
+    - xform/(?<=[a-z])\s(?=[a-z])//
+    - xform/(?<=[A-Z])\s(?=[A-Z])/ /
+    - "xlit|ABCDEFGHIJKLMNOPQRSTUVWXYZ|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片|"
+  comment_format:
+    - "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片・|"
+    - xform/^[abcdefghijklmnopqrstuvwxyz~]+$//
+  disable_user_dict_for_patterns:
+    - "^z.*$"
+  initial_quality: 0.75
+
+pinyin:
+  dictionary: luna_pinyin
+  enable_charset_filter: true
+  preedit_format:
+    - "xform/([nl])v/$1ü/"
+    - "xform/([nl])ue/$1üe/"
+    - "xform/([jqxy])v/$1u/"
+  initial_quality: 0.2
+
+jyutping:
+  dictionary: jyutping.extended
+  enable_charset_filter: true
+  initial_quality: 0.1
+
+reverse_pinyin:
+  comment_format:
+    - "xform/[^a-zA-Z0-9_]/\x03，\x02/"
+    - "xform/$/\x03/"
+    - "xform/^/\x02/"
+    - "xform/\x02a[^\x03]*\x03(，)?//"
+    - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片|"
+  dictionary: luna_pinyin
+  preedit_format:
+    - "xform/([nl])v/$1ü/"
+    - "xform/([nl])ue/$1üe/"
+    - "xform/([jqxy])v/$1u/"
+  prefix: '`'
+  suffix: "'"
+  tips: "【蒼頡】"
+
+reverse_jyutping:
+  comment_format:
+    - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片|"
+  dictionary: jyutping
+  prefix: "`"
+  suffix: "'"
+  tips: "【蒼頡】"
+
+key_binder:
+  bindings:
+    - { when: composing, accept: Control+p, send: Up }
+    - { when: composing, accept: Control+n, send: Down }
+    - { when: composing, accept: Control+b, send: Left }
+    - { when: composing, accept: Control+f, send: Right }
+    - { when: composing, accept: Control+a, send: Home }
+    - { when: composing, accept: Control+e, send: End }
+    - { when: composing, accept: Control+d, send: Delete }
+    - { when: composing, accept: Control+g, send: Escape }
+    - { when: composing, accept: Alt+v, send: Page_Up }
+    - { when: composing, accept: Control+v, send: Page_Down }
+
+    - { when: composing, accept: ISO_Left_Tab, send: Page_Up }
+    - { when: composing, accept: Shift+Tab, send: Page_Up }
+    - { when: composing, accept: Tab, send: Page_Down }
+    - { when: has_menu, accept: semicolon, send: 2 }
+    - { when: has_menu, accept: apostrophe, send: 3 }
+
+    - { when: always, accept: Control+1, select: .next }
+    - { when: always, accept: Control+2, toggle: full_shape }
+    - { when: always, accept: Control+3, toggle: simplification }
+    - { when: always, accept: Control+4, toggle: extended_charset }
+
+punctuator:
+  import_preset: symbols
+
+recognizer:
+  import_preset: default
+  patterns:
+    email: "^[a-z][-_.0-9a-z]*@.*$"
+    uppercase: "^[A-Z][-_+.'0-9A-Za-z]*$"
+    url: "^(www[.]|https?:|ftp:|mailto:).*$"
+    reverse_lookup: "`[a-z]*'?$"
+    punct: "^zz[a-z]*$"
