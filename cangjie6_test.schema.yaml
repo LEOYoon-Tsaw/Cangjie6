@@ -111,6 +111,7 @@ pinyin:
     - "xform/([nl])ue/$1üe/"
     - "xform/([jqxy])v/$1u/"
   tips: "【漢拼】"
+  closing_tips: "【蒼頡】"
   initial_quality: 0.2
 
 jyutping:
@@ -120,6 +121,7 @@ jyutping:
   prefix: 'J'
   suffix: ';'
   tips: "【粵拼】"
+  closing_tips: "【蒼頡】"
   initial_quality: 0.1
 
 abc_segmentor:
@@ -132,6 +134,7 @@ reverse_lookup:
   prefix: "`"
   suffix: ";"
   tips: "【反查】"
+  closing_tips: "【蒼頡】"
 
 pinyin_lookup:
   tag: pinyin_lookup
@@ -143,6 +146,7 @@ pinyin_lookup:
     - "xform/([nl])ue/$1üe/"
     - "xform/([jqxy])v/$1u/"
   tips: "【漢拼反查】"
+  closing_tips: "【蒼頡】"
   extra_tags:
     - reverse_lookup
 
@@ -152,6 +156,7 @@ jyutping_lookup:
   suffix: ";"
   dictionary: jyutping
   tips: "【粵拼反查】"
+  closing_tips: "【蒼頡】"
   extra_tags:
     - reverse_lookup
 
@@ -340,4 +345,3 @@ recognizer:
     jyutping_lookup: "`J[a-z]*;?$"
     pinyin: "(?<!`)P[a-z']*;?$"
     jyutping: "(?<!`)J[a-z']*;?$"
-    punct: "^zz[a-z]*$"
