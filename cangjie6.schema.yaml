@@ -10,27 +10,32 @@ schema:
     - luna_pinyin
     - jyutping
   description: "第六代倉頡輸入法\x0a碼表由雪齋、惜緣和crazy4u整理\x0a"
-  version: 0.16
+  version: 0.18
  
 switches:
+  - name: extended_charset
+    states: [ 通用, 增廣 ]
+    reset: 1
+# 默認開啓Unihan全字集
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+    reset: 0
   - name: ascii_mode
     reset: 0
   - name: full_shape
+    states: [ 半角, 全角 ]
     reset: 0
-  - name: simplification
-    reset: 0
-  - name: extended_charset
-    reset: 1
 
 switcher:
   save_options:
-    - simplification
     - extended_charset
- 
+    - simplification 
 engine:
   filters:
     - simplifier
     - uniquifier
+    - reverse_lookup_filter@pinyin_reverse_lookup
+    - reverse_lookup_filter@jyutping_reverse_lookup
   processors:
     - ascii_composer
     - recognizer
@@ -43,43 +48,42 @@ engine:
   segmentors:
     - ascii_segmentor
     - matcher
+    - affix_segmentor@pinyin
+    - affix_segmentor@jyutping
+    - affix_segmentor@pinyin_lookup
+    - affix_segmentor@jyutping_lookup
+    - affix_segmentor@reverse_lookup
     - abc_segmentor
     - punct_segmentor
     - fallback_segmentor
   translators:
     - punct_translator
     - table_translator
-    - table_translator@custom_phrase
     - script_translator@pinyin
     - script_translator@jyutping
-    - reverse_lookup_translator@reverse_pinyin
-    - reverse_lookup_translator@reverse_jyutping
+    - script_translator@pinyin_lookup
+    - script_translator@jyutping_lookup
+    - script_translator@reverse_lookup
 
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
-  delimiter: " ;'"
-
-custom_phrase:
-  comment_format:
-    - xform/^[abcdefghijklmnopqrstuvwxyz~]+$//
-  dictionary: ""
-  user_dict: custom_phrase
-  db_class: tabledb
-  enable_sentence: true
-  initial_quality: 0.4
+  delimiter: " '"
 
 translator:
-  dictionary: cangjie6.extended
+  dictionary: &symtable
+    cangjie6.extended
+# 不想鍵詞的話可以把上條中「.extended」刪去
   enable_charset_filter: true
+  enable_user_dict: true
+# 不想自動調頻的話，將上條中「true」改爲「false」
   enable_sentence: true
   enable_encoder: true
+# 不想自動組詞〔記錄輸入過的詞，然後變成五碼固定詞〕的話可以把上條中「true」改爲「false」
   encode_commit_history: true
   max_phrase_length: 5
   preedit_format:
-    - "xform/^([a-z ]*)$/$1｜\\U$1\\E/"
-    - xform/(?<=[a-z])\s(?=[a-z])//
-    - xform/(?<=[A-Z])\s(?=[A-Z])/ /
-    - "xlit|ABCDEFGHIJKLMNOPQRSTUVWXYZ|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片|"
+    - xform/(?<=[a-z])\s(?=[a-z])/ /
+    - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片|"
   comment_format:
     - "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片・|"
     - xform/^[abcdefghijklmnopqrstuvwxyz~]+$//
@@ -88,75 +92,109 @@ translator:
   initial_quality: 0.75
 
 pinyin:
+  tag: pinyin
   dictionary: luna_pinyin
   enable_charset_filter: true
+  prefix: 'P'
+# 漢語拼音輸入以〔大寫〕「P」引導
+  suffix: ';'
   preedit_format:
     - "xform/([nl])v/$1ü/"
     - "xform/([nl])ue/$1üe/"
     - "xform/([jqxy])v/$1u/"
+  tips: "【漢拼】"
+  closing_tips: "【蒼頡】"
   initial_quality: 0.2
 
 jyutping:
-  dictionary: jyutping.extended
+  tag: jyutping
+  dictionary: jyutping
   enable_charset_filter: true
+  prefix: 'J'
+# 粵拼輸入以〔大寫〕「J」引導
+  suffix: ';'
+  tips: "【粵拼】"
+  closing_tips: "【蒼頡】"
   initial_quality: 0.1
 
-reverse_pinyin:
-  comment_format:
-    - "xform/[^a-zA-Z0-9_]/\x03，\x02/"
-    - "xform/$/\x03/"
-    - "xform/^/\x02/"
-    - "xform/\x02a[^\x03]*\x03(，)?//"
-    - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片|"
+#abc_segmentor:
+#  extra_tags:
+#    - pinyin
+#    - jyutping
+# 若想蒼頡、漢語拼音、粵拼混用，請啓用以上四條〔刪去以上四條爲首之「#」〕
+
+reverse_lookup:
+  tag: reverse_lookup
+  prefix: "`"
+# 反查引導鍵「`」
+  suffix: ";"
+  tips: "【反查】"
+  closing_tips: "【蒼頡】"
+
+pinyin_lookup:
+  tag: pinyin_lookup
+  prefix: "`P"
+# 獨用漢語拼音反查在反查鍵「`」之後再鍵入〔大寫〕「P」
+  suffix: ";"
   dictionary: luna_pinyin
   preedit_format:
     - "xform/([nl])v/$1ü/"
     - "xform/([nl])ue/$1üe/"
     - "xform/([jqxy])v/$1u/"
-  prefix: '`'
-  suffix: "'"
-  tips: "【蒼頡】"
+  tips: "【漢拼反查】"
+  closing_tips: "【蒼頡】"
+  initial_quality: 1
+  extra_tags:
+    - reverse_lookup
 
-reverse_jyutping:
-  comment_format:
-    - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片|"
+jyutping_lookup:
+  tag: jyutping_lookup
+  prefix: "`J"
+# 獨用粵拼反查在反查鍵「`」之後再鍵入〔大寫〕「J」
+  suffix: ";"
   dictionary: jyutping
-  prefix: "`"
-  suffix: "'"
-  tips: "【蒼頡】"
+  tips: "【粵拼反查】"
+  closing_tips: "【蒼頡】"
+  initial_quality: 0.5
+#  extra_tags:
+#    - reverse_lookup
+# 若想在【反查】時加入粵拼反查，請啓用以上兩條〔刪去以上兩條爲首之「#」〕
+
+pinyin_reverse_lookup:
+  tags: [ pinyin_lookup ]
+  dictionary: *symtable
+  comment_format:
+    - "xform/$/〕/"
+    - "xform/^/〔/"
+    - "xlit|abcdefghijklmnopqrstuvwxyz |日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片、|"
+
+jyutping_reverse_lookup:
+  tags: [ jyutping_lookup ]
+  dictionary: *symtable
+  comment_format:
+    - "xform/$/〕/"
+    - "xform/^/〔/"
+    - "xlit|abcdefghijklmnopqrstuvwxyz |日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片、|"
 
 key_binder:
-  bindings:
-    - { when: composing, accept: Control+p, send: Up }
-    - { when: composing, accept: Control+n, send: Down }
-    - { when: composing, accept: Control+b, send: Left }
-    - { when: composing, accept: Control+f, send: Right }
-    - { when: composing, accept: Control+a, send: Home }
-    - { when: composing, accept: Control+e, send: End }
-    - { when: composing, accept: Control+d, send: Delete }
-    - { when: composing, accept: Control+g, send: Escape }
-    - { when: composing, accept: Alt+v, send: Page_Up }
-    - { when: composing, accept: Control+v, send: Page_Down }
-
-    - { when: composing, accept: ISO_Left_Tab, send: Page_Up }
-    - { when: composing, accept: Shift+Tab, send: Page_Up }
-    - { when: composing, accept: Tab, send: Page_Down }
-    - { when: has_menu, accept: semicolon, send: 2 }
-    - { when: has_menu, accept: apostrophe, send: 3 }
-
-    - { when: always, accept: Control+1, select: .next }
-    - { when: always, accept: Control+2, toggle: full_shape }
-    - { when: always, accept: Control+3, toggle: simplification }
-    - { when: always, accept: Control+4, toggle: extended_charset }
+  import_preset: default
 
 punctuator:
-  import_preset: symbols
+  import_preset: default
+# 請在這裏更改標點設置，具體範例參照default.yaml本節
 
 recognizer:
   import_preset: default
   patterns:
     email: "^[a-z][-_.0-9a-z]*@.*$"
-    uppercase: "^[A-Z][-_+.'0-9A-Za-z]*$"
     url: "^(www[.]|https?:|ftp:|mailto:).*$"
-    reverse_lookup: "`[a-z]*'?$"
-    punct: "^zz[a-z]*$"
+    reverse_lookup: "`[a-z]*;?$"
+# 反查引導鍵
+    pinyin_lookup: "`P[a-z]*;?$"
+# 漢語拼音反查引導鍵
+    jyutping_lookup: "`J[a-z]*;?$"
+# 粵拼反查引導鍵
+    pinyin: "(?<!`)P[a-z']*;?$"
+# 漢語拼音輸入引導鍵
+    jyutping: "(?<!`)J[a-z']*;?$"
+# 粵拼輸入引導鍵

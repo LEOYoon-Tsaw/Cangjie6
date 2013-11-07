@@ -705,7 +705,7 @@ encoder:
 翻	hwss	6617
 場	gamh	6612
 帖	lbyr	6607
-商	ycr	6605	yc'r
+商	ycr	6605
 庫	ijwj	6593
 價	omwc	6529
 物	hqphh	6524
@@ -772,8 +772,8 @@ encoder:
 板	dme	5967
 板	dhe	5967
 土	g	5951
-贏	ynbuc	5942
-贏	ykbuc	5942
+贏	ynbuc	5942	yn'buc
+贏	ykbuc	5942	yk'buc
 姐	vbm	5922
 直	jbuv	5912
 直	jbmm	5912
@@ -5389,7 +5389,7 @@ encoder:
 杓	dpm	646
 杓	dpi	646
 鵒	corhz	646
-禺	wib	645	w'ib
+禺	wib	645
 羧	tqice	645
 蹋	rxass	645
 伈	op	645
@@ -7153,7 +7153,7 @@ encoder:
 嚳	xbhgr	552
 蕤	tmom	552
 嗗	rbbb	552
-靑	qmb	552
+#靑	qmb	552
 邴	mobnl	552
 蝽	liqka	552
 蚱	lios	552
@@ -7490,7 +7490,7 @@ encoder:
 舳	hylw	536
 笹	hpt	536
 笓	hpp	536
-淸	eqmb	536
+#淸	eqmb	536
 枇	dpp	536
 栤	dime	536
 胙	bos	536
@@ -8723,7 +8723,7 @@ encoder:
 貅	bsod	477
 勯	ywmks	476
 誋	yrsup	476
-啇	yjr	476	yj'r
+啇	yjr	476
 邡	yhsnl	476
 牂	vmtq	476
 娪	vmdr	476
@@ -9326,6 +9326,7 @@ encoder:
 尯	kunmu	452
 簃	hhdn	452
 螽	heyli	452
+螽	heimi	452
 炵	fhey	452
 炵	fhem	452
 燐	ffdq	452
@@ -9547,6 +9548,7 @@ encoder:
 罣	wlgg	444
 菍	tonp	444
 翯	ssyrb	444
+翯	ssysb	444
 聙	sjqmb	444
 叿	rm	444
 嚗	rate	444
@@ -13929,6 +13931,7 @@ encoder:
 眆	buyhs	330
 昢	auu	330
 亷	yxc	329
+亷	ykmc	329
 譌	yrikf	329
 譌	yrbhf	329
 繨	vfygq	329
@@ -21378,6 +21381,7 @@ encoder:
 籁	hdlo	4
 毂	gqhne	4
 壳	gbhn	4
+壳	gbmhn	4
 烬	fsoy	4
 炝	fosu	4
 籼	fdu	4
@@ -26845,6 +26849,7 @@ encoder:
 䍕	wlhum
 䍕	wlhui
 㝶	wlhui
+㝶	wcdi
 𦌇	wlhoo
 𦋯	wlhoo
 𦌫	wlhon
@@ -44643,6 +44648,7 @@ encoder:
 𠍈	onrm
 㓧	onrln
 𠎦	onri
+𠎦	onii
 𪁟	onrhz
 𪵧	onqsk
 𪝨	onqd
@@ -54508,7 +54514,7 @@ encoder:
 𤗱	lsaib
 阊	lsaa
 𠁦	ls
-𠁣	ls
+𠁣	al
 𠁡	ls
 𧚖	lryo
 𧟓	lrrk
@@ -65185,9 +65191,9 @@ encoder:
 𢔼	holik
 𧏁	holig
 𧐱	holi
-㣠	holhy
+㣠	holy
 𢕦	holhv
-㣠	holhm
+㣠	holm
 𢔜	holhh
 𢖛	holhf
 𥱤	holh
@@ -67301,6 +67307,7 @@ encoder:
 䧷	heyog
 𨚟	heynl
 㐑	heyn
+㐑	hein
 𪐔	heylc
 𪐏	heyjr
 𪐍	heyjj
@@ -78619,6 +78626,7 @@ encoder:
 𤬍	buhio
 𥃼	buhi
 䙷	buhi
+䙷	bcdi
 𥉳	buhhw
 𧡒	buhhv
 𥉨	buhhu
