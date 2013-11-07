@@ -30,7 +30,9 @@ switches:
 switcher:
   save_options:
     - extended_charset
-    - simplification
+    - zh_trad
+    - zh_tw
+    - zh_simp
  
 engine:
   filters:
