@@ -18,19 +18,23 @@ switches:
     reset: 0
   - name: full_shape
     reset: 0
-  - name: simplification
+  - options: [ zh_trad, zh_tw, zh_simp ]
+    states:
+      - 字形 → 傳統漢字
+      - 字形 → 臺灣正體
+      - 字形 → 簡化字
     reset: 0
   - name: extended_charset
     reset: 1
 
 switcher:
   save_options:
-    - simplification
     - extended_charset
  
 engine:
   filters:
-    - simplifier
+    - simplifier@zh_simp
+    - simplifier@zh_tw
     - uniquifier
     - reverse_lookup_filter@middle_chinese
     - reverse_lookup_filter@pinyin_reverse_lookup
@@ -64,8 +68,13 @@ engine:
     - script_translator@jyutping_lookup
     - script_translator@reverse_lookup
 
-simplifier:
-  tip: all
+zh_simp:
+  option_name: zh_simp
+  tips: all
+
+zh_tw:
+  option_name: zh_tw
+  opencc_config: zht2zhtw_v.ini
 
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
