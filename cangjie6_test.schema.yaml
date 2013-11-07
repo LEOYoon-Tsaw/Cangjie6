@@ -30,6 +30,7 @@ switches:
 switcher:
   save_options:
     - extended_charset
+    - simplification
  
 engine:
   filters:
