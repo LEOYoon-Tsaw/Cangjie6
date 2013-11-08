@@ -10,14 +10,14 @@ schema:
     - luna_pinyin
     - jyutping
   description: "第六代倉頡輸入法\x0a碼表由雪齋、惜緣和crazy4u整理\x0a"
-  version: 0.18
+  version: 0.19
  
 switches:
   - name: extended_charset
     states: [ 通用, 增廣 ]
     reset: 1
 # 默認開啓Unihan全字集
-  - name: simplification
+  - options: [ zh_trad, zh_simp ]
     states: [ 漢字, 汉字 ]
     reset: 0
   - name: ascii_mode
@@ -29,10 +29,17 @@ switches:
 switcher:
   save_options:
     - extended_charset
-    - simplification 
+    - zh_trad
+    - zh_simp
+
+zh_simp:
+  option_name: zh_simp
+  tips: all
+  tags: [ pinyin, jyutping ]
+
 engine:
   filters:
-    - simplifier
+    - simplifier@zh_simp
     - uniquifier
     - reverse_lookup_filter@pinyin_reverse_lookup
     - reverse_lookup_filter@jyutping_reverse_lookup
@@ -70,7 +77,7 @@ speller:
   delimiter: " '"
 
 translator:
-  dictionary: &symtable
+  dictionary: &dict
     cangjie6.extended
 # 不想鍵詞的話可以把上條中「.extended」刪去
   enable_charset_filter: true
@@ -89,7 +96,7 @@ translator:
     - xform/^[abcdefghijklmnopqrstuvwxyz~]+$//
   disable_user_dict_for_patterns:
     - "^z.*$"
-  initial_quality: 0.75
+  initial_quality: 0.75	# 調整該編譯器出字優先度
 
 pinyin:
   tag: pinyin
@@ -104,7 +111,7 @@ pinyin:
     - "xform/([jqxy])v/$1u/"
   tips: "【漢拼】"
   closing_tips: "【蒼頡】"
-  initial_quality: 0.2
+  initial_quality: 0.2	# 調整該編譯器出字優先度
 
 jyutping:
   tag: jyutping
@@ -115,7 +122,7 @@ jyutping:
   suffix: ';'
   tips: "【粵拼】"
   closing_tips: "【蒼頡】"
-  initial_quality: 0.1
+  initial_quality: 0.1	# 調整該編譯器出字優先度
 
 #abc_segmentor:
 #  extra_tags:
@@ -130,6 +137,10 @@ reverse_lookup:
   suffix: ";"
   tips: "【反查】"
   closing_tips: "【蒼頡】"
+  extra_tags:
+    - pinyin_lookup
+    - jyutping_lookup
+# 若不想在【反查】時加入粵拼反查，請禁用上條〔在上條行首加「#」〕
 
 pinyin_lookup:
   tag: pinyin_lookup
@@ -143,9 +154,7 @@ pinyin_lookup:
     - "xform/([jqxy])v/$1u/"
   tips: "【漢拼反查】"
   closing_tips: "【蒼頡】"
-  initial_quality: 1
-  extra_tags:
-    - reverse_lookup
+  initial_quality: 1	# 調整該編譯器出字優先度
 
 jyutping_lookup:
   tag: jyutping_lookup
@@ -155,14 +164,12 @@ jyutping_lookup:
   dictionary: jyutping
   tips: "【粵拼反查】"
   closing_tips: "【蒼頡】"
-  initial_quality: 0.5
-#  extra_tags:
-#    - reverse_lookup
-# 若想在【反查】時加入粵拼反查，請啓用以上兩條〔刪去以上兩條爲首之「#」〕
+  initial_quality: 0.5	# 調整該編譯器出字優先度
 
 pinyin_reverse_lookup:
   tags: [ pinyin_lookup ]
-  dictionary: *symtable
+  dictionary: *dict
+  overwrite_comment: true  # 覆蓋其他提示
   comment_format:
     - "xform/$/〕/"
     - "xform/^/〔/"
@@ -170,7 +177,8 @@ pinyin_reverse_lookup:
 
 jyutping_reverse_lookup:
   tags: [ jyutping_lookup ]
-  dictionary: *symtable
+  dictionary: *dict
+  overwrite_comment: true  # 覆蓋其他提示
   comment_format:
     - "xform/$/〕/"
     - "xform/^/〔/"
@@ -178,6 +186,8 @@ jyutping_reverse_lookup:
 
 key_binder:
   import_preset: default
+  bindings:
+     - { when: always, accept: Control+Shift+4, toggle: zh_simp }
 
 punctuator:
   import_preset: default
