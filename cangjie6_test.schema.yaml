@@ -180,7 +180,7 @@ jyutping_reverse_lookup:
     - "xlit|abcdefghijklmnopqrstuvwxyz |日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片、|"
 
 middle_chinese:
-  tags:
+  tags: [ pinyin, jyutping ]
   dictionary: zyenpheng
   comment_format:
     - "xform/[^a-zA-Z0-9'_]/\x03、\x01/"
