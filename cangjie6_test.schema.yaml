@@ -92,8 +92,10 @@ translator:
   encode_commit_history: true
   max_phrase_length: 5
   preedit_format:
-    - xform/(?<=[a-z])\s(?=[a-z])/ /
-    - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片|"
+    - xform/^([a-z]*)$/$1｜\U$1\E/
+    - xform/(?<=[a-z])\s(?=[a-z])//
+    - xform/(?<=[A-Z])\s(?=[A-Z])/ /
+    - "xlit|ABCDEFGHIJKLMNOPQRSTUVWXYZ|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片|"
   comment_format:
     - "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片・|"
     - xform/^[abcdefghijklmnopqrstuvwxyz~]+$//
