@@ -84,7 +84,8 @@ speller:
   delimiter: " '"
 
 translator:
-  dictionary: cangjie6.extended
+  dictionary: &dict
+    cangjie6.extended
   enable_charset_filter: true
   enable_sentence: true
   enable_encoder: true
@@ -162,7 +163,7 @@ jyutping_lookup:
 
 pinyin_reverse_lookup:
   tags: [ pinyin_lookup ]
-  dictionary: cangjie6
+  dictionary: *dict
   comment_format:
     - "xform/$/〕/"
     - "xform/^/〔/"
@@ -170,7 +171,7 @@ pinyin_reverse_lookup:
 
 jyutping_reverse_lookup:
   tags: [ jyutping_lookup ]
-  dictionary: cangjie6
+  dictionary: *dict
   comment_format:
     - "xform/$/〕/"
     - "xform/^/〔/"
