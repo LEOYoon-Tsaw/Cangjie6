@@ -11,7 +11,7 @@ schema:
     - jyutping
     - zyenpheng
   description: "第六代倉頡輸入法\x0a碼表由雪齋、惜緣和crazy4u整理\x0a"
-  version: 0.18
+  version: test
  
 switches:
   - name: ascii_mode
@@ -138,6 +138,9 @@ reverse_lookup:
   suffix: ";"
   tips: "【反查】"
   closing_tips: "【蒼頡】"
+  extra_tags:
+    - pinyin_lookup
+    - jyutping_lookup
 
 pinyin_lookup:
   tag: pinyin_lookup
@@ -150,8 +153,6 @@ pinyin_lookup:
     - "xform/([jqxy])v/$1u/"
   tips: "【漢拼反查】"
   closing_tips: "【蒼頡】"
-  extra_tags:
-    - reverse_lookup
 
 jyutping_lookup:
   tag: jyutping_lookup
@@ -160,8 +161,6 @@ jyutping_lookup:
   dictionary: jyutping
   tips: "【粵拼反查】"
   closing_tips: "【蒼頡】"
-  extra_tags:
-    - reverse_lookup
 
 pinyin_reverse_lookup:
   tags: [ pinyin_lookup ]
