@@ -17,7 +17,7 @@ switches:
     states: [ 通用, 增廣 ]
     reset: 1
 # 默認開啓Unihan全字集
-  - options: [ zh_trad, zh_simp ]
+  - name: simplification
     states: [ 漢字, 汉字 ]
     reset: 0
   - name: ascii_mode
@@ -26,20 +26,14 @@ switches:
     states: [ 半角, 全角 ]
     reset: 0
 
-switcher:
-  save_options:
-    - extended_charset
-    - zh_trad
-    - zh_simp
-
-zh_simp:
-  option_name: zh_simp
+simplify:
+  option_name: simplification
   tips: all
-  tags: [ pinyin, jyutping ]
+  tags: [ abc, pinyin, jyutping ]
 
 engine:
   filters:
-    - simplifier@zh_simp
+    - simplifier@simplify
     - uniquifier
     - reverse_lookup_filter@pinyin_reverse_lookup
     - reverse_lookup_filter@jyutping_reverse_lookup
@@ -125,10 +119,8 @@ jyutping:
   initial_quality: 0.1	# 調整該編譯器出字優先度
 
 #abc_segmentor:
-#  extra_tags:
-#    - pinyin
-#    - jyutping
-# 若想蒼頡、漢語拼音、粵拼混用，請啓用以上四條〔刪去以上四條爲首之「#」〕
+#  extra_tags: [pinyin, jyutping ]
+# 若想蒼頡、漢語拼音、粵拼混用，請啓用以上兩條〔刪去以上兩條爲首之「#」〕
 
 reverse_lookup:
   tag: reverse_lookup
@@ -137,9 +129,7 @@ reverse_lookup:
   suffix: ";"
   tips: "【反查】"
   closing_tips: "【蒼頡】"
-  extra_tags:
-    - pinyin_lookup
-    - jyutping_lookup
+  extra_tags: [ pinyin_lookup, jyutping_lookup ]
 # 若不想在【反查】時加入粵拼反查，請禁用上條〔在上條行首加「#」〕
 
 pinyin_lookup:
@@ -186,8 +176,6 @@ jyutping_reverse_lookup:
 
 key_binder:
   import_preset: default
-  bindings:
-     - { when: always, accept: Control+Shift+4, toggle: zh_simp }
 
 punctuator:
   import_preset: default
