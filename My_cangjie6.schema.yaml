@@ -18,7 +18,7 @@ switches:
     reset: 0
   - name: full_shape
     reset: 0
-  - name: zh_simp
+  - name: simplification
     reset: 0
   - name: extended_charset
     reset: 1
@@ -29,7 +29,7 @@ switcher:
     - extended_charset
 
 zh_simp:
-  option_name: zh_simp
+  option_name: simplification
   tags: [ pinyin, jyutping ]
   tips: all
 
@@ -328,8 +328,6 @@ middle_chinese:
 
 key_binder:
   import_preset: default
-  bindings:
-    - {accept: "Control+3", toggle: zh_simp, when: always}
 
 punctuator:
   import_preset: default
