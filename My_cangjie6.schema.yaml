@@ -11,7 +11,7 @@ schema:
     - jyutping
     - zyenpheng
   description: "第六代倉頡輸入法\x0a碼表由雪齋、惜緣和crazy4u整理\x0a"
-  version: 0.18
+  version: 0.19
  
 switches:
   - name: ascii_mode
