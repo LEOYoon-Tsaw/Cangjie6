@@ -11,33 +11,31 @@ schema:
     - jyutping
     - zyenpheng
   description: "第六代倉頡輸入法\x0a碼表由雪齋、惜緣和crazy4u整理\x0a"
-  version: test
+  version: 0.18
  
 switches:
   - name: ascii_mode
     reset: 0
   - name: full_shape
     reset: 0
-  - options: [ zh_trad, zh_tw, zh_simp ]
-    states:
-      - 字形 → 傳統漢字
-      - 字形 → 臺灣正體
-      - 字形 → 簡化字
+  - name: zh_simp
     reset: 0
   - name: extended_charset
     reset: 1
 
 switcher:
   save_options:
-    - extended_charset
-    - zh_trad
-    - zh_tw
     - zh_simp
- 
+    - extended_charset
+
+zh_simp:
+  option_name: zh_simp
+  tags: [ pinyin, jyutping ]
+  tips: all
+
 engine:
   filters:
     - simplifier@zh_simp
-    - simplifier@zh_tw
     - uniquifier
     - reverse_lookup_filter@middle_chinese
     - reverse_lookup_filter@pinyin_reverse_lookup
@@ -71,14 +69,6 @@ engine:
     - script_translator@jyutping_lookup
     - script_translator@reverse_lookup
 
-zh_simp:
-  option_name: zh_simp
-  tips: all
-
-zh_tw:
-  option_name: zh_tw
-  opencc_config: zht2zhtw_v.ini
-
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
   delimiter: " '"
@@ -92,7 +82,7 @@ translator:
   encode_commit_history: true
   max_phrase_length: 5
   preedit_format:
-    - xform/^([a-z]*)$/$1｜\U$1\E/
+    - xform/^([a-z ]*)$/$1｜\U$1\E/
     - xform/(?<=[a-z])\s(?=[a-z])//
     - xform/(?<=[A-Z])\s(?=[A-Z])/ /
     - "xlit|ABCDEFGHIJKLMNOPQRSTUVWXYZ|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片|"
@@ -119,7 +109,7 @@ pinyin:
 
 jyutping:
   tag: jyutping
-  dictionary: jyutping
+  dictionary: jyutping.extended
   enable_charset_filter: true
   prefix: 'J'
   suffix: ';'
@@ -139,8 +129,8 @@ reverse_lookup:
   tips: "【反查】"
   closing_tips: "【蒼頡】"
   extra_tags:
-    - pinyin_lookup
     - jyutping_lookup
+    - pinyin_lookup
 
 pinyin_lookup:
   tag: pinyin_lookup
@@ -153,17 +143,20 @@ pinyin_lookup:
     - "xform/([jqxy])v/$1u/"
   tips: "【漢拼反查】"
   closing_tips: "【蒼頡】"
+  initial_quality: 1
 
 jyutping_lookup:
   tag: jyutping_lookup
   prefix: "`J"
   suffix: ";"
-  dictionary: jyutping
+  dictionary: jyutping.extended
   tips: "【粵拼反查】"
   closing_tips: "【蒼頡】"
+  initial_quality: 0.6
 
 pinyin_reverse_lookup:
   tags: [ pinyin_lookup ]
+  overwrite_comment: true
   dictionary: *dict
   comment_format:
     - "xform/$/〕/"
@@ -172,6 +165,7 @@ pinyin_reverse_lookup:
 
 jyutping_reverse_lookup:
   tags: [ jyutping_lookup ]
+  overwrite_comment: true
   dictionary: *dict
   comment_format:
     - "xform/$/〕/"
@@ -181,6 +175,7 @@ jyutping_reverse_lookup:
 middle_chinese:
   tags: [ pinyin, jyutping ]
   dictionary: zyenpheng
+  overwrite_comment: true
   comment_format:
     - "xform/[^a-zA-Z0-9'_]/\x03、\x01/"
     - "xform/$/\x03/"
@@ -334,10 +329,7 @@ middle_chinese:
 key_binder:
   import_preset: default
   bindings:
-    - {accept: "Control+2", toggle: zh_trad, when: always}
-    - {accept: "Control+3", toggle: zh_tw, when: always}
-    - {accept: "Control+4", toggle: zh_simp, when: always}
-    - {accept: "Control+5", toggle: extended_charset, when: always}
+    - {accept: "Control+3", toggle: zh_simp, when: always}
 
 punctuator:
   import_preset: default
