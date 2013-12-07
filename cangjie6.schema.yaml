@@ -64,7 +64,6 @@ engine:
     - script_translator@jyutping
     - script_translator@pinyin_lookup
     - script_translator@jyutping_lookup
-    - script_translator@reverse_lookup
 
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
@@ -130,7 +129,7 @@ reverse_lookup:
   tips: "【反查】"
   closing_tips: "【蒼頡】"
   extra_tags: [ pinyin_lookup, jyutping_lookup ]
-# 若不想在【反查】時加入粵拼反查，請禁用上條〔在上條行首加「#」〕
+# 若不想在【反查】時加入漢語拼音或粵拼反查，請在上條中刪去相應「pinyin_lookup」或「jyutping_lookup」
 
 pinyin_lookup:
   tag: pinyin_lookup
