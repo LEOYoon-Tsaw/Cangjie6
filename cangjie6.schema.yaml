@@ -77,16 +77,15 @@ translator:
   enable_user_dict: true
 # 不想自動調頻的話，將上條中「true」改爲「false」
   enable_sentence: true
+  sentence_over_completion: true
   enable_encoder: true
 # 不想自動組詞〔記錄輸入過的詞，然後變成五碼固定詞〕的話可以把上條中「true」改爲「false」
   encode_commit_history: true
   max_phrase_length: 5
   preedit_format:
-    - xform/(?<=[a-z])\s(?=[a-z])/ /
     - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片|"
   comment_format:
     - "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片・|"
-    - xform/^[abcdefghijklmnopqrstuvwxyz~]+$//
   disable_user_dict_for_patterns:
     - "^z.*$"
   initial_quality: 0.75	# 調整該編譯器出字優先度
@@ -159,7 +158,7 @@ pinyin_reverse_lookup:
   tags: [ pinyin_lookup ]
   dictionary: *dict
   overwrite_comment: true  # 覆蓋其他提示
-  comment_format:
+  comment_format: &comment
     - "xform/$/〕/"
     - "xform/^/〔/"
     - "xlit|abcdefghijklmnopqrstuvwxyz |日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片、|"
@@ -168,10 +167,7 @@ jyutping_reverse_lookup:
   tags: [ jyutping_lookup ]
   dictionary: *dict
   overwrite_comment: true  # 覆蓋其他提示
-  comment_format:
-    - "xform/$/〕/"
-    - "xform/^/〔/"
-    - "xlit|abcdefghijklmnopqrstuvwxyz |日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片、|"
+  comment_format: *comment
 
 key_binder:
   import_preset: default
