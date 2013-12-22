@@ -1,0 +1,152 @@
+# Rime schema settings
+# encoding: utf-8
+
+schema:
+  schema_id: cangjie6_express
+  name: 蒼頡·快打模式
+  version: 0.1
+  author:
+    - 發明人 朱邦復先生、沈紅蓮女士
+  description: |
+    第六代蒼頡檢字法
+    碼表源自風易辭，雪齋、惜緣和crazy4u整理
+    快打模式：單字自動上屛無連打
+  dependencies:
+    - luna_pinyin
+    - jyutping
+
+switches:
+  - name: extended_charset
+    states: [ 通用, 增廣 ]
+    reset: 1
+# 默認開啓Unihan全字集
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+    reset: 0
+  - name: ascii_mode
+    reset: 0
+  - name: full_shape
+    states: [ 半角, 全角 ]
+    reset: 0
+
+simplify:
+  option_name: simplification
+  tips: all  # 簡化字模式下提示對應的傳統漢字
+  tags: [ abc ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - affix_segmentor@pinyin_lookup
+    - affix_segmentor@jyutping_lookup
+    - affix_segmentor@reverse_lookup
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - table_translator
+    - script_translator@pinyin_lookup
+    - script_translator@jyutping_lookup
+  filters:
+    - simplifier@simplify
+    - uniquifier
+    - reverse_lookup_filter@pinyin_reverse_lookup
+    - reverse_lookup_filter@jyutping_reverse_lookup
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " "
+  auto_select: true
+
+translator:
+  dictionary: cangjie6
+  prism: cangjie6_express
+  enable_user_dict: true
+# 不想自動調頻的話，將上條中「true」改爲「false」
+  user_dict: cangjie6_express
+  enable_charset_filter: true
+  enable_sentence: false
+  sentence_over_completion: true
+  preedit_format:
+    - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片|"
+  comment_format:
+    - "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片・|"
+  disable_user_dict_for_patterns:
+    - "^z.*$"
+
+reverse_lookup:
+  tag: reverse_lookup
+  prefix: "`"
+# 反查引導鍵「`」
+  suffix: ";"
+  tips: "【反查】"
+  closing_tips: "【蒼頡】"
+  extra_tags: [ pinyin_lookup, jyutping_lookup ]
+# 若不想在【反查】時加入漢語拼音或粵拼反查，請在上條中刪去相應「pinyin_lookup」或「jyutping_lookup」
+
+pinyin_lookup:
+  tag: pinyin_lookup
+  prefix: "`P"
+# 獨用漢語拼音反查在反查鍵「`」之後再鍵入〔大寫〕「P」
+  suffix: ";"
+  dictionary: luna_pinyin
+  preedit_format:
+    - "xform/([nl])v/$1ü/"
+    - "xform/([nl])ue/$1üe/"
+    - "xform/([jqxy])v/$1u/"
+  tips: "【漢拼反查】"
+  closing_tips: "【蒼頡】"
+
+jyutping_lookup:
+  tag: jyutping_lookup
+  prefix: "`J"
+# 獨用粵拼反查在反查鍵「`」之後再鍵入〔大寫〕「J」
+  suffix: ";"
+  dictionary: jyutping
+  tips: "【粵拼反查】"
+  closing_tips: "【蒼頡】"
+
+pinyin_reverse_lookup:
+  tags: [ pinyin_lookup ]
+  dictionary: cangjie6
+  overwrite_comment: true  # 覆蓋其他提示
+  comment_format: &comment
+    - "xform/$/〕/"
+    - "xform/^/〔/"
+    - "xlit|abcdefghijklmnopqrstuvwxyz |日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片、|"
+
+jyutping_reverse_lookup:
+  tags: [ jyutping_lookup ]
+  dictionary: cangjie6
+  overwrite_comment: true  # 覆蓋其他提示
+  comment_format: *comment
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+  bindings:
+    - { when: has_menu, accept: comma, send: comma }
+    - { when: has_menu, accept: period, send: period }
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*;?$"
+# 反查引導鍵
+    pinyin_lookup: "`P[a-z]*;?$"
+# 漢語拼音反查引導鍵
+    jyutping_lookup: "`J[a-z]*;?$"
+# 粵拼反查引導鍵
