@@ -18,18 +18,25 @@
 二、`cangjie6.dict.yaml`爲蒼頡檢字法字表，`cangjie6_express.schema.yaml`爲方案配置文件   
 三、如欲更改默認配置，請循`cangjie6_express.schema.yaml`中註釋進行
 
-##使用方法
-<ol>
-<li>將下載的文件解壓縮，放入【用戶檔案夾】；
+##使用方法〔Get started〕
+<ol><li>Unarchieve the package, move the files archieved to Rime's user folder.</li>
+<li>Add</li>
+<pre>patch:
+  schema_list:
+    - schema: cangjie6
+    - schema: cangjie6_express</pre>
+to <code>default.custom.yaml</code> in Rime's user folder.
+<li>Deploy. Then press <code>control</code>+<code>`</code> and choose Cangjie6 or Cangjie6 Express to start to use.</li></ol>
+一、解壓縮下載檔，放入【用戶檔案夾】；
 <br><small><ul>
 <code>MacOS X</code>: ~/Library/Rime (鼠鬚管狀態欄選單中的「用戶文檔…」)<br>
 <code>Windows</code>: User_Direction\AppData\Roaming\Rime (開始→所有程式→小狼毫→用戶檔案夾)
 </small></ul>
-<li>在<code>default.custom.yaml</code>中加入；
-<pre>patch:
+二、在<code>default.custom.yaml</code>中加入；
+<ul><pre>patch:
   schema_list:
     - schema: cangjie6  # 蒼頡檢字法
     - schema: cangjie6_express  # 蒼頡·快打模式
-</pre>
-<li>重新佈署後用<code>Control</code>+<code>`</code> 或 <code>F4</code> (僅Windows) 叫出〔方案選單〕，選中「蒼頡檢字法」或「蒼頡·快打模式」。
+</pre></ul>
+三、重新佈署後用<code>Control</code>+<code>`</code> 或 <code>F4</code> (僅Windows) 叫出〔方案選單〕，選中「蒼頡檢字法」或「蒼頡·快打模式」。
 </ol>
