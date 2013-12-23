@@ -34444,7 +34444,7 @@ encoder:
 疾	kok
 𧎿	koki
 𢞱	kokp
-痴	kokr
+痴	kokr	1
 𡗟	kol
 疥	koll	2
 𡗦	koll
@@ -49883,8 +49883,8 @@ encoder:
 𩝔	oinyb
 𩟋	oinyr
 𩜷	oinzd
-𩚆	oio
 飤	oio
+𩚆	oio
 𩜲	oioae
 𩞃	oioah
 𩝞	oioar
@@ -52403,8 +52403,8 @@ encoder:
 𩟋	osnyr
 𩜷	osnzd
 伬	oso	2
-𩚆	oso
 飤	oso
+𩚆	oso
 𩜲	osoae
 𩞃	osoah
 𩝞	osoar
@@ -53844,6 +53844,7 @@ encoder:
 𡚷	piv
 𢠯	pivb
 𢚜	piw
+懐	pjwv
 𢢘	pixf
 㦇	pixp
 𢤭	piyd
@@ -55001,7 +55002,6 @@ encoder:
 憻	pywm
 𠣱	pyws
 懷	pywv	2
-懐	pywv
 懠	pyx
 𢥖	pyxf
 忭	pyy
