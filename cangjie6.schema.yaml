@@ -173,8 +173,8 @@ key_binder:
   import_preset: default
 
 punctuator:
-  import_preset: default
-# 請在這裏更改標點設置，具體範例參照default.yaml本節
+  import_preset: symbols
+# 請在這裏更改標點設置，具體範例參照symbols.yaml本節
 
 recognizer:
   import_preset: default
@@ -191,3 +191,5 @@ recognizer:
 # 漢語拼音輸入引導鍵
     jyutping: "(?<!`)J[a-z']*;?$"
 # 粵拼輸入引導鍵
+    punct: "^/[0-9]?[a-z]*$"
+# 以「/」引導特殊符號
