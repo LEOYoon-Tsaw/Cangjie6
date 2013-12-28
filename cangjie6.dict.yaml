@@ -1338,7 +1338,7 @@ encoder:
 𣋌	aoos
 匙	aop	2
 𪰾	aopa
-晔	aopj	5
+晔	aopj
 𪰟	aoq
 韪	aoqs	3
 𣆗	aor	1
@@ -1938,7 +1938,7 @@ encoder:
 𩩻	bbhju
 𣂤	bbhl
 𩨢	bbhlo
-鹏	bbhm	7
+鹏	bbhm
 骺	bbhmr
 𩨯	bbhmy
 𩨒	bbhn	1
@@ -1953,7 +1953,7 @@ encoder:
 𩨽	bbhrr
 𩩯	bbhsb
 𩩾	bbhsu
-觅	bbhu	6
+觅	bbhu
 骶	bbhui
 骶	bbhum
 𩩎	bbhur
@@ -2880,7 +2880,7 @@ encoder:
 䐿	bhbk
 𦜋	bhbn
 𦚡	bhbt
-脓	bhbv	5
+脓	bhbv
 𦟣	bhce
 𥝩	bhd
 𣍩	bhd
@@ -3014,7 +3014,7 @@ encoder:
 𤴋	bidww
 𦣆	bidy
 𦡻	bifn
-脏	big	7
+脏	big
 臁	bihc
 𦟠	bihf
 𦝉	bihi
@@ -3625,7 +3625,7 @@ encoder:
 腹	boae
 膓	boah
 𦋃	boamj
-赐	boaph	5
+赐	boaph
 𦞛	boar
 𪞓	boav
 肭	bob	1
@@ -3647,7 +3647,7 @@ encoder:
 赠	bocwa	1
 𦌘	bocwa
 䏫	bod
-财	bodh	7
+财	bodh
 胕	bodi
 𦙳	bof
 赕	boff
@@ -3661,11 +3661,11 @@ encoder:
 䐪	bogh
 𦞠	bogj
 臇	bogs
-贩	bohe	6
+贩	bohe
 赂	boher	1
 𦊹	boher
 胗	bohh
-贬	bohio	5
+贬	bohio
 䞌	bohjr
 𤯴	bohqm
 𤬖	bohvf
@@ -3680,11 +3680,11 @@ encoder:
 𧹑	boiks
 䑎	boim
 𫆛	boip
-贻	boir	5
+贻	boir
 𦣗	boiu
 㬳	boj
 贮	bojm
-赎	bojnk	5
+赎	bojnk
 𦚥	boju	1
 䍃	boju
 贿	bokb
@@ -3695,7 +3695,7 @@ encoder:
 𧡯	boku
 䐰	bolb
 𧹗	bollp
-则	boln	9
+则	boln
 𦌯	bolsf	1
 𤑪	bolsf
 𦛼	bomc	1
@@ -3705,7 +3705,7 @@ encoder:
 祭	bommf
 赈	bommv
 䏗	bomn
-赋	bompx	5
+赋	bompx
 𦝵	bomr
 豋	bomrt
 𫎫	bomwj
@@ -3724,7 +3724,7 @@ encoder:
 𫎨	boofm
 脞	boog
 罂	booju
-败	book	7
+败	book
 𠛧	booln
 赊	boomf	3
 𦊭	boor
@@ -3733,7 +3733,7 @@ encoder:
 𠕿	bop
 胣	bopd
 购	bopi
-账	bopo	5
+账	bopo
 𫎧	bopr
 脌	boq
 赌	boqa
@@ -3784,7 +3784,7 @@ encoder:
 詧	boymr
 贴	boyr	1
 𦟋	boyr
-赔	boytr	7
+赔	boytr
 𦊀	boyv	1
 𦉺	boyv
 赅	boyvo	3
@@ -5075,7 +5075,7 @@ encoder:
 瞪	bunot
 䂁	bunri
 𥈂	bunrm
-睁	bunsd	6
+睁	bunsd
 𥈲	bunsp
 𥌧	bunwa
 𥌔	bunwc
@@ -5327,7 +5327,7 @@ encoder:
 䁐	butlk
 䁧	butlo
 𥈣	butma
-瞒	butmb	6
+瞒	butmb
 瞱	butmj
 矆	butoe
 𥉌	butor
@@ -5719,7 +5719,7 @@ encoder:
 䐱	byjr
 膸	bykb	1
 𦜢	bykb
-脐	bykl	5
+脐	bykl
 䐮	bykm
 𫆷	bykn
 𣍵	bykr
@@ -6352,7 +6352,7 @@ encoder:
 銂	cill	1
 𠛀	ciln
 鎕	cilr
-颂	cimbo	5
+颂	cimbo
 𨭟	cimf
 瓮	cimn
 𥗛	cimr
@@ -6590,7 +6590,7 @@ encoder:
 𨨹	cksj
 𤕖	cksje
 爺	cksjl
-爷	cksl	7
+爷	cksl
 鉫	cksr
 𨦇	ckt
 𤕏	cku
@@ -7992,7 +7992,7 @@ encoder:
 桐	dbmr	1	db'mr
 𪲾	dbmr
 𣑂	dbms
-桴	dbnd	5
+桴	dbnd
 僰	dbo	2
 𪱷	dbo
 𣐶	dbob
@@ -8001,7 +8001,7 @@ encoder:
 敇	dbok
 𪲕	dbol
 榣	dbou
-樱	dbov	5
+樱	dbov
 𦣓	dbptb
 𪱽	dbq
 椆	dbqr		db'qr
@@ -8311,7 +8311,7 @@ encoder:
 𤿋	dedh	1
 䴭	dedh
 麬	dedhe	2
-树	dedi	7
+树	dedi
 𤿗	dedj	1
 䴲	dedj
 𪌊	dedk
@@ -8614,7 +8614,7 @@ encoder:
 𫜴	dforb
 柈	dfq
 𨇌	dfryo
-档	dfs	7
+档	dfs
 棬	dfsu
 𣒁	dft
 桜	dfv
@@ -9231,7 +9231,7 @@ encoder:
 橑	dkcf	1
 𣗟	dkcf
 𣔏	dkcj
-栋	dkd	7
+栋	dkd
 榝	dkde	1
 樧	dkde
 𪲄	dkf
@@ -9385,7 +9385,7 @@ encoder:
 頼	dlmz
 𣏀	dln
 賴	dlnbc
-赖	dlnbo	7
+赖	dlnbo
 柹	dlnh
 𣗧	dlnib
 欶	dlno
@@ -9810,7 +9810,7 @@ encoder:
 𪌑	doeok
 𪌏	doeye
 𣐐	dof
-检	dofm	7
+检	dofm
 椎	dog	5
 𣗃	dog	4
 𣐴	dog	3
@@ -9929,7 +9929,7 @@ encoder:
 㮢	dosk
 𢠗	doskp
 柃	dosl
-枪	dosu	8
+枪	dosu
 橅	dotf
 𣡅	dotk
 𣡅	dotn
@@ -10489,7 +10489,7 @@ encoder:
 𣚴	dtla
 樠	dtlb	1
 𪲍	dtlb
-横	dtlc	7
+横	dtlc
 𣟛	dtlf
 㮖	dtlj
 楧	dtlk
@@ -11048,7 +11048,7 @@ encoder:
 𤃑	eadz
 𣴉	eae
 𤂖	eafh
-灏	eafo	5
+灏	eafo
 滉	eafu
 灝	eafz	1
 灦	eafz
@@ -11068,7 +11068,7 @@ encoder:
 𪳼	eajd
 𣺂	eajv
 𣵖	eak
-湿	eal	7
+湿	eal
 泹	eam	1
 𣵀	eam
 𪷑	eamg
@@ -11796,7 +11796,7 @@ encoder:
 𣳛	ehe
 𣲋	ehe
 𣴗	eheb
-涤	ehed	5
+涤	ehed
 𣶳	ehei
 浲	ehej	1
 湰	ehem	1
@@ -11898,7 +11898,7 @@ encoder:
 𣼖	ehnd	2
 𣳼	ehnd	1
 𣑃	ehnd
-没	ehne	6
+没	ehne
 汎	ehni	1	ehn'i
 渢	ehni		ehn'i
 沨	ehnk		ehn'k
@@ -11907,7 +11907,7 @@ encoder:
 𪷘	ehnq
 沿	ehnr
 鯊	ehnwf	1
-鲨	ehnwm	5
+鲨	ehnwm
 瀩	ehnz	1
 㵯	ehnz
 𣸄	ehoa
@@ -11957,7 +11957,7 @@ encoder:
 𪄣	ehrz	1
 𪃕	ehrz
 𤁪	ehrz
-沪	ehs	7
+沪	ehs
 㴜	ehsb
 淭	ehsd
 沒	ehse	3
@@ -12528,13 +12528,13 @@ encoder:
 𠲻	elr
 涧	elsa	1
 𣾝	elsa
-润	elsg	7
+润	elsg
 𣽖	elsi
 聻	elsj	2
 𫆏	elsj
 𫞗	elsk
 𫞝	elso
-澜	elsw	6
+澜	elsw
 渄	elsy
 澲	eltd
 灇	elte
@@ -12626,7 +12626,7 @@ encoder:
 𤃝	emha
 源	emhf	1
 𪷐	emhg
-鸿	emhm	7
+鸿	emhm
 𣽝	emhn
 𤃉	emhp	1
 𤂢	emhp
@@ -12912,7 +12912,7 @@ encoder:
 泾	enom
 溌	enop	1
 澄	enot
-涨	enpo	9
+涨	enpo
 滐	enqd
 𣾎	enrf	1
 𣻍	enrf
@@ -13232,7 +13232,7 @@ encoder:
 𣷴	eqmv
 涍	eqnd	1
 𠭂	eqnd
-潜	eqoa	5
+潜	eqoa
 𤄵	eqob
 濽	eqoc	1
 𤄴	eqoc
@@ -13522,7 +13522,7 @@ encoder:
 湔	etbn
 濛	etbo
 𤃫	etbp
-涝	etbs	5
+涝	etbs
 𤃐	etbw
 𤅎	etbz
 洪	etc
@@ -13587,7 +13587,7 @@ encoder:
 漭	etit
 𣻡	etiv
 𣳘	etj
-滞	etjb	6
+滞	etjb
 𤄠	etjc
 𣿻	etjf
 𪷺	etjp
@@ -13618,7 +13618,7 @@ encoder:
 𪷞	etlt
 瀟	etlx
 泔	etm		et'm
-满	etmb	9
+满	etmb
 颒	etmbo
 潢	etmc
 湈	etmd	1
@@ -14266,7 +14266,7 @@ encoder:
 𣷷	eyze
 湙	eyzk	1
 𪶺	eyzk
-湾	eyzn	7
+湾	eyzn
 㴒	eyzt
 𣝨	ezd
 𧮝	ezymr
@@ -14360,7 +14360,7 @@ encoder:
 焩	fbb
 燰	fbbe	2
 𤊐	fbbe
-觉	fbbhu	5
+觉	fbbhu
 𪄹	fbbhz
 𤇒	fbbm
 𩀯	fbbog
@@ -14434,7 +14434,7 @@ encoder:
 𤇅	fbm	1
 𡭙	fbm
 煖	fbme
-尝	fbmmi	7
+尝	fbmmi
 𠤝	fbmmp
 烔	fbmr		fb'mr
 𡜈	fbmv
@@ -15609,7 +15609,7 @@ encoder:
 㷘	fird
 𤊨	firm
 𤏘	firp
-炉	fis	5
+炉	fis
 煸	fisb	1
 𤍦	fisb
 𪸠	fise
@@ -15738,7 +15738,7 @@ encoder:
 𡦤	fknd
 鱉	fknwf	2
 𩻪	fknwf
-鳖	fknwm	5
+鳖	fknwm
 𫠝	fknwu
 龞	fknxu	1
 𪛆	fknxu
@@ -15829,7 +15829,7 @@ encoder:
 煗	fmbk
 𦓒	fmbl
 𤉑	fmbm
-烦	fmbo	7
+烦	fmbo
 𪹄	fmbp
 𤐾	fmbp
 兴	fmc
@@ -16093,7 +16093,7 @@ encoder:
 𤆻	fpsh
 炮	fpsu	1
 煠	fptd
-炖	fpu	5
+炖	fpu
 𪺃	fpug
 𤈤	fpuk
 煼	fpuu
@@ -16173,7 +16173,7 @@ encoder:
 熉	frbc
 𪹢	frbe
 𤈶	frbo
-炽	frc	5
+炽	frc
 𪹐	frf
 焒	frhr
 炾	frhu	1
@@ -16730,7 +16730,7 @@ encoder:
 𡑋	gbkf
 𡔮	gbkne
 𪣒	gbkq
-壶	gbl	5
+壶	gbl
 𪇄	gblhz	1
 𪄽	gblhz
 𡔱	gblk
@@ -16847,7 +16847,7 @@ encoder:
 𡎛	gcst
 𢌻	gct
 𡓠	gcta
-丧	gcv	5
+丧	gcv
 𤱒	gcw
 增	gcwa	1
 増	gcwa
@@ -16877,7 +16877,7 @@ encoder:
 𢧣	gdi
 邿	gdinl
 𡊉	gdj
-块	gdk	9
+块	gdk
 𥡮	gdksr
 𡓟	gdkx
 𡓒	gdlc
@@ -17136,7 +17136,7 @@ encoder:
 㙪	ggbt
 𧠹	ggbuu
 堎	ggce
-墙	ggcw	7
+墙	ggcw
 𣙇	ggd
 封	ggdi	1
 𡊋	gge
@@ -17899,7 +17899,7 @@ encoder:
 𡉁	gnh
 垜	gnhd
 圾	gnhe
-场	gnhh	7
+场	gnhh
 殼	gnhne	2
 彀	gnhne	1
 殻	gnhne
@@ -19972,7 +19972,7 @@ encoder:
 𥞟	hdemn
 𨞃	hdenl
 𩁄	hdeog
-释	hdeq	5
+释	hdeq
 𥢳	hdeqa
 秋	hdf	1
 𤇫	hdf
@@ -20399,7 +20399,7 @@ encoder:
 𥝔	hdnd
 䅍	hdneg
 𫁀	hdneq
-称	hdnf	9
+称	hdnf
 𥝦	hdng
 𥟷	hdngg
 秀	hdnh	1
@@ -20676,7 +20676,7 @@ encoder:
 𥠄	hdumb
 䅱	hdumt
 頹	hdumz
-秽	hduni	5	hdun'i
+秽	hduni		hdun'i
 𣜱	hduob
 𦤙	hduu
 𥞃	hduu
@@ -21558,7 +21558,7 @@ encoder:
 𨊜	hhqpu
 筶	hhqr	1
 𥮂	hhqr
-笔	hhqu	8
+笔	hhqu
 𨛫	hhrau
 篩	hhrb
 𨈪	hhrc
@@ -21846,7 +21846,7 @@ encoder:
 𩳢	hiklu
 𩳢	hiklv
 𩳣	hikmr
-笼	hikp	5
+笼	hikp
 㔟	hiks
 𥮎	hikt
 𩲴	hilbk
@@ -22265,7 +22265,8 @@ encoder:
 𤉰	hkf	1
 𡮜	hkf
 㷺	hkf
-圱	hkg
+圱	hkg	1
+𡏕	hkg
 𨟃	hkgnl
 𠂚	hkh
 𥵍	hkhb
@@ -22306,7 +22307,7 @@ encoder:
 𢖄	hkli
 䘉	hklii
 䗞	hklii
-乔	hkll	7
+乔	hkll
 𥁢	hkllt
 刋	hkln
 𥲩	hklo
@@ -22469,7 +22470,7 @@ encoder:
 州	hlil	1
 𥶨	hlil
 𪖯	hlisb
-篮	hlit	5
+篮	hlit
 䶑	hljbo
 齉	hljbv	1
 𢺼	hlje
@@ -22533,7 +22534,7 @@ encoder:
 𪖽	hlqoa
 啠	hlr
 𪖲	hlrse
-简	hlsa	7
+简	hlsa
 帰	hlsb
 𪖧	hlsbe
 𪖔	hlshh
@@ -23062,7 +23063,7 @@ encoder:
 凬	hnma	1	hn'ma
 䉲	hnmb
 𠙒	hnmbc
-颓	hnmbo	5
+颓	hnmbo
 𨡐	hnmcw
 𩗢	hnme
 𩗿	hnmeb
@@ -23426,7 +23427,7 @@ encoder:
 𧗱	hofdn
 𢕸	hofdq
 𧗰	hofkn
-签	hofm	7
+签	hofm
 𢓥	hofmu
 𢔑	hofsu
 𧗯	hofun
@@ -23440,7 +23441,6 @@ encoder:
 𡒴	hog	2
 𡒰	hog	1
 𡑸	hog
-𡏕	hog
 𢕿	hogak
 𢓒	hogb
 𥵎	hogc
@@ -23867,7 +23867,7 @@ encoder:
 㣘	hopr
 瓟	hopru	2
 爮	hopru	1
-彻	hopsh	6
+彻	hopsh
 瓟	hopsu	2
 爮	hopsu	1
 𤫭	hopu
@@ -24353,7 +24353,7 @@ encoder:
 𫂢	hqkc
 𥱧	hqkd
 𫂐	hqke
-筹	hqki	5
+筹	hqki
 𥯪	hqkk
 𥮇	hqkl
 𤙅	hqklb
@@ -24922,6 +24922,7 @@ encoder:
 𥵫	hseo
 𥵁	hset
 勲	hsf	2
+𪺋	hsf
 扊	hsff
 𥳀	hsfi
 𢩊	hsfmu
@@ -25846,7 +25847,7 @@ encoder:
 𡤍	hvmhf
 䉃	hvmi
 𠛆	hvmln
-邬	hvmnl	5
+邬	hvmnl
 𥯉	hvmr
 瓾	hvmun
 𥠨	hvnin
@@ -25867,7 +25868,7 @@ encoder:
 𠛓	hvsln
 𠷞	hvslr
 𫚵	hvslz
-乌	hvsm	7
+乌	hvsm
 𠑼	hvsu
 𥴘	hvtd
 𥲀	hvvd
@@ -26405,7 +26406,7 @@ encoder:
 舴	hyos	1
 𥯧	hyos
 舲	hyosl	1
-舱	hyosu	5
+舱	hyosu
 䒉	hyotq
 𥸊	hyoz
 簴	hypc
@@ -27193,7 +27194,7 @@ encoder:
 𨟖	idrnl
 麿	idrr
 𨄬	idryo
-书	ids	9
+书	ids
 𠞧	idsh
 𦗕	idsj
 黀	idsje
@@ -27282,7 +27283,7 @@ encoder:
 𪪥	ifbc
 𥚖	ifbd
 禂	ifbgr
-视	ifbhu	7
+视	ifbhu
 禈	ifbjj
 廠	ifbk	1
 𥘝	ifbk
@@ -27625,7 +27626,7 @@ encoder:
 䄇	ifrmg
 祦	ifrmk
 禒	ifrmo
-祸	ifrob	5
+祸	ifrob
 𥘰	ifrr
 禪	ifrrj
 𫀤	ifrrk
@@ -27743,7 +27744,7 @@ encoder:
 𫀑	ifyaj
 禘	ifybb
 禎	ifybc
-祯	ifybo	5
+祯	ifybo
 䄘	ifybs
 禭	ifyco
 𥚔	ifyfe
@@ -28082,7 +28083,7 @@ encoder:
 啔	iir
 郒	iirau
 𢈿	iirm
-庐	iis	5
+庐	iis
 𢉞	iisb
 𣒷	iisd
 㓪	iish
@@ -28093,7 +28094,7 @@ encoder:
 𦫏	iitt
 𠔰	iittc
 庬	iiuh
-废	iive	7
+废	iive
 䋯	iivif
 廊	iivl
 𤱊	iiw
@@ -28207,7 +28208,7 @@ encoder:
 𪁪	ikhhz
 𩒿	ikhmz
 飆	ikhni		ikhn'i
-飙	ikhnk	5	ikhn'k
+飙	ikhnk		ikhn'k
 𨿙	ikhog
 𪄬	ikhz	1
 𪀵	ikhz
@@ -28262,9 +28263,9 @@ encoder:
 龙	ikp	1
 𢞾	ikp
 𠫵	ikp
-龚	ikpc	5
+龚	ikpc
 垄	ikpg
-聋	ikpj	5
+聋	ikpj
 䶮	ikpk
 𫛟	ikpm
 詟	ikpr	1
@@ -28469,7 +28470,7 @@ encoder:
 㦶	imig
 𠗼	imihf	1
 㓕	imihf
-减	imihr	7
+减	imihr
 𪞞	imihs
 𠗿	imiih
 𠗷	imiil
@@ -28485,7 +28486,7 @@ encoder:
 𠘡	imiyd
 𢇛	imj
 㓓	imjbl
-凄	imjlv	5
+凄	imjlv
 𪞥	imjmf
 𠗞	imjmo
 𨾰	imjog
@@ -28695,7 +28696,7 @@ encoder:
 㢁	inin
 𩒩	inkmz
 𠫜	inks
-邝	inl	5
+邝	inl
 廕	inli
 㢌	inlr
 𢋈	inmd
@@ -28722,7 +28723,7 @@ encoder:
 庂	io
 𠫣	iob
 㢏	iobn
-资	iobo	7
+资	iobo
 盗	iobt
 資	iobuc
 㢏	iobv
@@ -28905,7 +28906,7 @@ encoder:
 𪊯	iphqp
 𣯺	iphqu
 𪊘	iphv
-鸢	iphym	5
+鸢	iphym
 麔	iphyr
 鳶	iphz	1
 𩾢	iphz
@@ -29296,7 +29297,7 @@ encoder:
 廜	isqa
 𢉿	isqf
 𢾹	isqok
-启	isr	7
+启	isr
 扈	israu
 廦	isrl	1
 𢋖	isrl
@@ -29318,7 +29319,7 @@ encoder:
 𢩣	istyj
 𢨤	isu
 讠	isu
-谁	isuog	9
+谁	isuog
 𢾥	isuye
 𢨭	isv
 䋀	isvif
@@ -29418,27 +29419,27 @@ encoder:
 谩	iuawe
 调	iubgr		iub'gr
 诨	iubkq
-诅	iubm	3
+诅	iubm
 谖	iubme
 𫍣	iubmr
 谣	iubou
 诇	iubr		iub'r
 𫍬	iubtv
 𨧒	iuc
-讼	iuci	5
-说	iucru	5
+讼	iuci
+说	iucru
 𫍛	iucsh
 𫟠	iucwj
 𥀧	iudhe	1
 诐	iudhe
-讨	iudi	7
+讨	iudi
 诀	iudk
 𫍧	iudt
 谏	iudwf		iudw'f
 𠮈	iue
-译	iueq	7
+译	iueq
 焈	iuf
-诮	iufb	3
+诮	iufb
 谠	iufbu
 𫍴	iufdv
 谈	iuff	1
@@ -29447,19 +29448,19 @@ encoder:
 𡎺	iug	1
 𡊏	iug
 诗	iugdi
-诖	iugg	2
+诖	iugg
 𫍜	iugi
-诘	iugr	3
+诘	iugr
 𫍻	iugrr
 𫍦	iuhbv
 𫍺	iuhce
-诱	iuhdh	6
+诱	iuhdh
 诿	iuhdv
 𫍞	iuhfd
 诰	iuhgr
-诜	iuhgu	3
+诜	iuhgu
 尨	iuhhh
-谢	iuhhi	7
+谢	iuhhi
 𠒕	iuhhv
 𪁪	iuhhz
 诛	iuhjd
@@ -29469,11 +29470,11 @@ encoder:
 𫍤	iuhkl
 䜣	iuhml
 诟	iuhmr
-诉	iuhmy	5
+诉	iuhmy
 𩒿	iuhmz
-讥	iuhn	3
+讥	iuhn
 设	iuhne
-讽	iuhnk	3	iuhn'k
+讽	iuhnk		iuhn'k
 𨿙	iuhog
 讬	iuhp
 诋	iuhui	3
@@ -29484,7 +29485,7 @@ encoder:
 诚	iuihs
 议	iuik	1
 𤟵	iuik
-诶	iuiok	7
+诶	iuiok
 谘	iuior
 试	iuipm
 诒	iuir
@@ -29493,12 +29494,12 @@ encoder:
 诫	iuit	3
 计	iuj
 谳	iujbk
-谊	iujbm	5
+谊	iujbm
 𢻄	iuje
 诧	iujhp
 谉	iujll
 𫟡	iujmf
-读	iujnk	9
+读	iujnk
 𫍡	iujp
 𫍾	iujpn
 𫍢	iujpu
@@ -29508,7 +29509,7 @@ encoder:
 𫍫	iuklu
 𫍝	iukvd
 𧊢	iuli
-训	iulll	7
+训	iulll
 䜨	iullp
 谰	iulsw
 诽	iulsy	4
@@ -29527,35 +29528,35 @@ encoder:
 诬	iumoo	3
 谮	iumua
 讶	iumvh	3
-谭	iumwj	7
+谭	iumwj
 𫟢	iumwo
 证	iumx
 谗	iunay
 䜥	iunem
-诞	iunex	5
+诞	iunex
 诵	iunib
 𫍠	iuniu
 讯	iunj
 𫑛	iunl
-诡	iunmu	3
+诡	iunmu
 诌	iuns
-诤	iunsd	4
+诤	iunsd
 谄	iunx
 谞	iunyb
 谵	iunyr
-谲	iunzb	4
+谲	iunzb
 认	iuo
-讷	iuob	5
+讷	iuob
 谕	iuobn
 𢊛	iuog
 谯	iuogf
-诊	iuohh	6
+诊	iuohh
 谶	iuoim
-许	iuoj	7
-诠	iuomg	3
+许	iuoj
+诠	iuomg
 讫	iuon
 谂	iuonp
-论	iuop	1
+论	iuop
 讹	iuop
 𫍟	iuopd
 诈	iuos
@@ -29566,47 +29567,47 @@ encoder:
 诣	iupa
 𫍙	iupd
 谧	iupht
-谐	iuppa	5
+谐	iuppa
 谍	iuptd
 诸	iuqa
 诔	iuqd
 诪	iuqki
-请	iuqmb	9
-讳	iuqs	3
+请	iuqmb
+讳	iuqs
 𫍵	iuqsk
 识	iurc
 𪨈	iurli
 误	iurmk
 𫍩	iurob
-谔	iurrs	4
+谔	iurrs
 讱	iushh
-诏	iushr	5
+诏	iushr
 䜧	iusix
 诹	iusje
 讴	iusk		ius'k
-诓	iusmg	3	ius'mg
+诓	iusmg		ius'mg
 词	iusmr
 诩	iuss	1
 讵	iuss
-谬	iussh	5
-记	iusu	7
+谬	iussh
+记	iusu
 𫍪	iusup
 𫍮	iusuu
 谟	iutak
 谫	iutbh
 𫍿	iutbs
 䜤	iutc
-谥	iutct	3
+谥	iutct
 诺	iutkr
-谱	iutla	5
+谱	iutla
 䜩	iutlf
-谨	iutlm	6
+谨	iutlm
 谋	iutmd
 䜦	iutpa
 详	iutq
 讲	iutt
-谦	iutxc	5
-谎	iutyu	5
+谦	iutxc
+谎	iutyu
 谌	iutzv
 讪	iuu	1
 𢇿	iuu
@@ -29617,29 +29618,29 @@ encoder:
 𢉾	iuv
 谓	iuwb
 谡	iuwce
-课	iuwd	7
+课	iuwd
 𫍽	iuwlv
 𫍰	iuwp
 𫟞	iux
 𫍲	iuxle
-谀	iuxo	3
-讣	iuy	3
+谀	iuxo
+讣	iuy
 谛	iuybb
-谤	iuybs	3
+谤	iuybs
 𢩡	iuycc
 谜	iuyfd
 谚	iuyhh
-访	iuyhs	7
+访	iuyhs
 谪	iuyjr
 谴	iuylr
-让	iuym	9
+让	iuym
 谇	iuyoj
 𫍹	iuypm	1
 谑	iuypm
 𧮪	iuyr
-谆	iuyrd	3
+谆	iuyrd
 谅	iuyrf
-谙	iuyta	3
+谙	iuyta
 𫍼	iuytg
 𫍭	iuytv
 该	iuyvo
@@ -30171,7 +30172,7 @@ encoder:
 𥥣	jcmam
 𥧡	jcmbc
 𥨄	jcmbk
-颠	jcmbo	5
+颠	jcmbo
 𥨐	jcmcn
 穻	jcmd
 𥥫	jcmdj
@@ -30267,7 +30268,7 @@ encoder:
 𥨣	jcogs
 𥩏	jcogz
 𫁏	jcohd
-窑	jcoju	5
+窑	jcoju
 𢻾	jcok
 𥨖	jcoku
 窱	jcold
@@ -30353,7 +30354,7 @@ encoder:
 𥥎	jcrln
 𩔜	jcrmz
 𣤄	jcrno
-窝	jcrob	7
+窝	jcrob
 𥦗	jcrp
 𥦂	jcrsn
 䆗	jcrv
@@ -30763,7 +30764,7 @@ encoder:
 𢦛	jik
 寪	jikf
 𡪱	jikk
-宠	jikp	7
+宠	jikp
 载	jikq
 𡨌	jil
 𡪼	jild
@@ -31482,7 +31483,7 @@ encoder:
 𨝩	jkrau
 𨆕	jkryo
 㔹	jks
-协	jksc	5
+协	jksc
 𪧫	jksf
 協	jkss
 𢍛	jkt
@@ -31884,7 +31885,7 @@ encoder:
 𧒧	jpli
 𡩃	jpmm
 𡩺	jpmr
-尧	jpmu	5
+尧	jpmu
 㼠	jpmun
 𡫍	jpmw
 𡬈	jpmy
@@ -32322,7 +32323,7 @@ encoder:
 㝑	jyhs
 𡧵	jyij
 𡬜	jyjyy
-实	jyk	8
+实	jyk
 宰	jyl
 𡩁	jylc
 𡪔	jyld
@@ -32829,7 +32830,7 @@ encoder:
 𤷛	kfbr
 盔	kfbt
 𤸽	kfdp
-瘘	kfdv	5
+瘘	kfdv
 𤹤	kfe	1
 𤶌	kfe
 痰	kff	1
@@ -33273,14 +33274,14 @@ encoder:
 𤠬	khkrb
 𤜜	khks
 㹢	khksr
-狭	khkt	5
+狭	khkt
 癓	khku
 狆	khl	1
 𤝪	khl
 𢁛	khlb
 㹧	khlbk
 𤜴	khlbu
-独	khli	7
+独	khli
 狮	khllb
 𤟸	khllk
 狒	khlln	1
@@ -33499,7 +33500,7 @@ encoder:
 𤠮	khpuu
 𤟼	khpyr
 𤵃	khq
-猪	khqa	9
+猪	khqa
 𪻊	khqav
 𤞖	khqd
 猰	khqhk
@@ -33817,7 +33818,7 @@ encoder:
 盇	kibt
 𨫦	kic
 痠	kice
-刹	kicln	5
+刹	kicln
 𧮯	kicor
 𣏂	kid
 㾁	kid
@@ -34047,7 +34048,7 @@ encoder:
 𡙃	kkyg
 𡗔	kl
 㚔	kl
-暂	kla	7
+暂	kla
 𡘨	klae
 布	klb
 㽸	klbu
@@ -34290,7 +34291,7 @@ encoder:
 𠛘	knhln
 𠤙	knhp
 𪖒	knht
-鸠	knhym	5
+鸠	knhym
 鳩	knhz	2
 鴺	knhz	1
 𩾛	knhz
@@ -34340,7 +34341,7 @@ encoder:
 𦓏	knmbl
 𤣬	knmi
 𠄆	knml
-癣	knmq	5
+癣	knmq
 𤺜	knmr
 𪜙	knmt
 頄	knmz	2
@@ -34495,7 +34496,7 @@ encoder:
 𤸌	kosi
 瘊	kosk
 㾉	kosl
-疮	kosu	5
+疮	kosu
 𤻍	kovo
 𩠣	kovvu
 𩔯	kovvz
@@ -34546,7 +34547,7 @@ encoder:
 𫐏	kqbgr
 辋	kqbtv		kqb'tv
 轰	kqee
-辍	kqeee	3
+辍	kqeee
 辚	kqfdq
 𨐈	kqfmu
 𤸟	kqgi
@@ -34557,12 +34558,12 @@ encoder:
 𤺚	kqhf
 轷	kqhfd
 瘈	kqhk
-轿	kqhkl	5
-斩	kqhml	5
+轿	kqhkl
+斩	kqhml
 𨐅	kqhne
 瘛	kqhp
 𤸪	kqhq
-轶	kqhqo	5
+轶	kqhqo
 𫐍	kqhsh
 𤸞	kqht
 轹	kqhvd
@@ -34573,7 +34574,7 @@ encoder:
 𫐈	kqike
 𨐇	kqikp
 轼	kqipm
-辘	kqixp	3
+辘	kqixp
 𫟥	kqjbc
 𫟤	kqjp
 𨐊	kqjqp
@@ -34582,7 +34583,7 @@ encoder:
 𫐑	kqjrr
 轪	kqk
 𫐎	kqkmr
-轨	kqkn	5
+轨	kqkn
 𦎃	kqkni
 𦎃	kqknk
 𤷰	kqkq
@@ -34595,7 +34596,7 @@ encoder:
 𢆐	kqmj
 𫐆	kqmks
 轲	kqmnr
-辆	kqmob	7
+辆	kqmob
 辐	kqmrw
 轭	kqmsu
 𨐆	kqmt
@@ -34603,29 +34604,29 @@ encoder:
 𤷶	kqmv
 𤸚	kqmy
 痚	kqnd
-软	kqno	8
+软	kqno
 轻	kqnom
 𫐓	kqnzd
 𫐇	kqob
 输	kqobn
 轸	kqohh
-辁	kqomg	2
+辁	kqomg
 䢀	kqon
 𫐉	kqoni
-轮	kqop	7
+轮	kqop
 𤶁	kqp
 𢡶	kqp
 𫐒	kqpyr
 𢴷	kqq
 𫐕	kqqjs
-辏	kqqkk	2
+辏	kqqkk
 转	kqqni
 轵	kqrc
 辑	kqrsj
 轫	kqshh
-轫	kqshi	3
+轫	kqshi
 轺	kqshr
-辄	kqsju	3
+辄	kqsju
 㾲	kqsk
 𫐖	kqssh
 辗	kqstv
@@ -34634,7 +34635,7 @@ encoder:
 轧	kqu	1
 𫐅	kqu
 𦅬	kqvif
-辎	kqvvw	2
+辎	kqvvw
 辒	kqwot
 𫐙	kqwww
 𫐐	kqxhu
@@ -34720,7 +34721,7 @@ encoder:
 𡚍	krrx
 㔖	krs
 瘕	krse
-驾	krsm	5
+驾	krsm
 駕	krsqf
 㠰	krsu
 𤸅	krua
@@ -34744,7 +34745,7 @@ encoder:
 㾛	ksbe
 𤷯	ksbn
 𣣲	ksbno
-办	ksc	9
+办	ksc
 癜	ksce	1
 𣤥	kscno
 𠡙	ksdy
@@ -35539,7 +35540,7 @@ encoder:
 𢁕	lbpi
 𢅟	lbpko
 𢃭	lbpkp
-帐	lbpo	7
+帐	lbpo
 𢁦	lbpp
 𢂁	lbpr
 𦘡	lbpsl
@@ -35648,7 +35649,7 @@ encoder:
 𢅗	lbybb
 幀	lbybc	1
 𢆂	lbybn
-帧	lbybo	5
+帧	lbybo
 𢄎	lbybs
 𢅕	lbyco
 𢁵	lbye
@@ -35705,7 +35706,7 @@ encoder:
 被	ldhe	1
 𣫩	ldhne
 鹇	ldhym
-衬	ldi	6
+衬	ldi
 袜	ldj
 袂	ldk	1
 𧚏	ldl	1
@@ -35727,7 +35728,7 @@ encoder:
 㕜	le
 𧛆	lea
 肾	leb
-贤	lebo	7
+贤	lebo
 𪾋	lebt
 䝨	lebuc
 鑿	lec	1
@@ -35749,14 +35750,14 @@ encoder:
 𧌿	leli
 𢜂	lep
 𫋷	leq
-紧	levif	7
+紧	levif
 𨽶	lew
 𨾂	lewc
 𠟷	lewln
 𤲯	lewm
 𦦹	lex
 𧮙	leymr
-竖	leyt	5
+竖	leyt
 肃	lf	3
 𤇷	lf	2
 𤇇	lf	1
@@ -35770,13 +35771,13 @@ encoder:
 𧜎	lfcq
 粛	lfd	1
 𫂱	lfdl
-褛	lfdv	3
+褛	lfdv
 裧	lff
 𧞩	lfgi
 𧘡	lfh
 鹔	lfhym
 袢	lfq	1
-裆	lfs	5
+裆	lfs
 裷	lfsu
 褝	lfwj
 𩽟	lfypm
@@ -35821,7 +35822,7 @@ encoder:
 𠞷	lgwln
 畫	lgwm
 𥂛	lgwt
-装	lgyhv	9
+装	lgyhv
 𦍍	lh
 袙	lha
 𧟉	lhab
@@ -36592,7 +36593,7 @@ encoder:
 𧋇	limx
 䗡	limxf
 𧑕	limxp
-虾	limy	7
+虾	limy
 𧉝	limys
 蝢	limz
 蠕	limzb	1
@@ -37410,7 +37411,7 @@ encoder:
 𣲴	llne
 𥿏	llnf	1
 𤇝	llnf
-畅	llnhh	5
+畅	llnhh
 𧕒	llni	1
 𠔘	llni
 𤖻	llnin
@@ -37420,7 +37421,7 @@ encoder:
 𤯽	llnm
 𢏇	llnn
 𨚓	llnnl
-费	llno	9
+费	llno
 𤗳	llnoe
 㪄	llnok
 𤳘	llnot
@@ -37549,7 +37550,7 @@ encoder:
 𣃂	lmhml
 𧞿	lmhx
 䘭	lmig
-状	lmik	8
+状	lmik
 衦	lmj
 𧙧	lmjj
 䙄	lmjx
@@ -37587,7 +37588,7 @@ encoder:
 䙠	lmto
 𧞝	lmttb
 𧝆	lmua
-妆	lmv	5
+妆	lmv
 𧘪	lmvh
 褥	lmvi
 𧘾	lmvv	1
@@ -37625,7 +37626,7 @@ encoder:
 𩰏	lncsh
 桨	lnd
 𩎡	lndmq
-浆	lne	5
+浆	lne
 䘰	lnex
 𩰗	lnfbc
 𦨆	lnfdq
@@ -37658,7 +37659,7 @@ encoder:
 䘟	lnl
 𧝍	lnlb
 𤮤	lnlbk
-酱	lnmcw	5
+酱	lnmcw
 𩰞	lnmfb
 鬫	lnmjk
 𧟂	lnmm
@@ -37735,7 +37736,7 @@ encoder:
 衿	lon
 𧜃	lond
 袊	loni
-郑	lonl	8
+郑	lonl
 𧛋	lonp
 𧚙	loos
 袘	lopd
@@ -37862,7 +37863,7 @@ encoder:
 冂	ls	1
 𠁦	ls
 𠁡	ls
-间	lsa	9
+间	lsa
 阊	lsaa
 𤗱	lsaib
 𤗘	lsamo
@@ -37882,7 +37883,7 @@ encoder:
 阅	lscru
 𤖭	lscsh
 阐	lscwj
-闲	lsd	8
+闲	lsd
 闭	lsdh
 𤖷	lsdhe
 𤗗	lsdw
@@ -37890,7 +37891,7 @@ encoder:
 𤗛	lsdwf
 䘵	lse
 𧜶	lseg
-阔	lsehr	5
+阔	lsehr
 䙱	lsei
 䙙	lseq
 𧞫	lset	1
@@ -38035,7 +38036,7 @@ encoder:
 㸥	lsnri
 䦶	lsnsd
 阄	lsnwu
-阎	lsnx	5
+阎	lsnx
 𤗻	lsnyr
 𤗓	lsnzo
 闪	lso
@@ -38083,7 +38084,7 @@ encoder:
 𤖰	lsse
 𦑬	lssh
 牊	lsshr
-闻	lssj	7
+闻	lssj
 闯	lssm
 𤗺	lssrl
 𤗨	lsssa
@@ -38097,7 +38098,7 @@ encoder:
 𨸉	lstor
 𤗩	lstpb
 𤗽	lstpd
-阙	lstuo	5
+阙	lstuo
 𤗰	lstwa
 𤖨	lsu	1
 𡶓	lsu
@@ -38130,7 +38131,7 @@ encoder:
 闼	lsyk
 𫔳	lsykq
 𧛺	lsyl
-闹	lsylb	7
+闹	lsylb
 韭	lsym
 訚	lsymr
 剕	lsyn
@@ -38629,7 +38630,7 @@ encoder:
 䴓	mbhym
 戞	mbi	1
 𩰭	mbi
-丽	mbib	8
+丽	mbib
 𧟽	mbibp
 𩰽	mbice	1
 𩰺	mbice
@@ -39060,7 +39061,7 @@ encoder:
 𥙨	mfhnd
 祋	mfhne
 飄	mfhni	2	mfhn'i
-飘	mfhnk	7	mfhn'k
+飘	mfhnk		mfhn'k
 𩥡	mfhnm
 𪇃	mfhnz
 𥛨	mfhoo
@@ -39349,7 +39350,7 @@ encoder:
 禒	mfrmo
 䫊	mfrmz
 𨛔	mfrnl
-祸	mfrob	5
+祸	mfrob
 𥘰	mfrr
 禪	mfrrj	2
 𫀤	mfrrk
@@ -39500,7 +39501,7 @@ encoder:
 𥜠	mfypt
 𥚚	mfypu
 𫀅	mfyr
-禞	mfyrb	5
+禞	mfyrb
 𥚠	mfyrd
 𥜭	mfyrl
 禳	mfyrv	1
@@ -40614,7 +40615,7 @@ encoder:
 𤪽	mgypu
 玷	mgyr
 𤧼	mgyrb
-琼	mgyrf	5
+琼	mgyrf
 𪻥	mgyrn
 瓖	mgyrv
 𠩝	mgys
@@ -40715,7 +40716,7 @@ encoder:
 𪖕	mhhul
 𪖕	mhhut
 𠪐	mhhw
-鸦	mhhym	5
+鸦	mhhym
 𪇚	mhhz
 𠦇	mhj
 𢀤	mhje
@@ -40734,7 +40735,7 @@ encoder:
 𠨻	mhne
 𠁉	mhng
 𫚯	mhnhz
-巩	mhni	5	mhn'i
+巩	mhni	1	mhn'i
 𠘲	mhnn
 餮	mhoav
 𠪪	mhog
@@ -41113,7 +41114,7 @@ encoder:
 丌	ml	3
 亚	ml	1
 𠃍	ml
-晋	mla	7
+晋	mla
 𠀥	mlam
 鄑	mlanl
 帀	mlb	1
@@ -41193,7 +41194,7 @@ encoder:
 𨳏	mman
 𨳌	mman
 𠀙	mmbb
-丽	mmbib	8
+丽	mmbib
 项	mmbo
 𡡜	mmbuv
 𣣬	mmcno
@@ -41290,14 +41291,14 @@ encoder:
 𠄾	mmsr
 𩿸	mmsz
 㕃	mmt
-厨	mmti	6
+厨	mmti
 㕏	mmtj
 𩍻	mmtlj
 元	mmu	2
 𡷆	mmu
 黿	mmua	1
 𪓣	mmua
-厦	mmue	5
+厦	mmue
 𩵶	mmuf
 坖	mmug
 䲮	mmuhz
@@ -42171,7 +42172,7 @@ encoder:
 䃣	mrbhf
 𥓕	mrbhg
 𥐱	mrbhn
-砚	mrbhu	5
+砚	mrbhu
 鷊	mrbhz
 𥒗	mrbi
 鞷	mrbj
@@ -42887,7 +42888,7 @@ encoder:
 𪿦	mrqmv
 碡	mrqmy
 硣	mrqnd
-砖	mrqni	7
+砖	mrqni
 砆	mrqo	1
 㠬	mrqo
 𥗇	mrqoj
@@ -42962,7 +42963,7 @@ encoder:
 𥐰	mrsk
 砸	mrslb		mrs'lb
 𥗲	mrslr
-码	mrsm	7
+码	mrsm
 𥕟	mrsmb
 𥖇	mrsmi
 𪿫	mrsmk
@@ -43741,7 +43742,7 @@ encoder:
 酮	mwbmr	1	mwb'mr
 酻	mwbnd
 𨣥	mwbne
-贾	mwbo	7
+贾	mwbo
 𨢵	mwbof
 𩈮	mwbqr
 𨡑	mwbqr
@@ -45269,7 +45270,7 @@ encoder:
 𧤮	nbkrr
 𧢹	nblb
 𧣁	nblbu
-触	nbli	5
+触	nbli
 𧢸	nbm
 䚙	nbmam
 𧣰	nbmbm
@@ -45456,7 +45457,7 @@ encoder:
 𡙟	ncppk
 𧶯	nctc
 𢐞	ncwa
-弹	ncwj	7
+弹	ncwj
 𧩏	ncymr
 子	nd	1
 𡥀	nd
@@ -47108,7 +47109,7 @@ encoder:
 阝	nl	1
 𢎠	nl
 𢎟	nl
-阳	nla	7
+阳	nla
 𨼗	nlaaa
 𨺐	nlabn
 𨺷	nlabr
@@ -47365,7 +47366,7 @@ encoder:
 𨺈	nlkcs
 𨻚	nlkcu
 𨻚	nlkcv
-陈	nlkd	9
+陈	nlkd
 䧀	nlki
 𫕐	nlkkk
 𨺍	nlklu
@@ -47437,7 +47438,7 @@ encoder:
 䧩	nlmjk
 𨸦	nlmkj
 𨹙	nlmkr
-际	nlmmf	5
+际	nlmmf
 阮	nlmmu
 陙	nlmmv
 䦺	nlmn
@@ -47493,7 +47494,7 @@ encoder:
 陉	nlnom	2
 隥	nlnot
 䧯	nlnri
-隐	nlnsp	7
+隐	nlnsp
 𨽊	nlnuu
 陷	nlnx
 𨼮	nlnyr
@@ -47511,7 +47512,7 @@ encoder:
 附	nlodi
 𨹉	nloe
 𨹈	nlof
-险	nlofm	7
+险	nlofm
 陮	nlog
 𨸩	nlok
 𨹲	nlokh
@@ -47747,11 +47748,11 @@ encoder:
 𢐤	nmaa
 鲳	nmaa
 鳁	nmabt
-鲥	nmadi	2
+鲥	nmadi
 鲫	nmail
 鳀	nmamo
 弼	nman
-鲲	nmapp	3
+鲲	nmapp
 鳎	nmass
 𢐝	nmau	1
 鲃	nmau
@@ -47780,7 +47781,7 @@ encoder:
 𩾆	nmesp
 彌	nmfb
 鲿	nmfbi
-鳞	nmfdq	5
+鳞	nmfdq
 𫚌	nmfh
 𢏊	nmfj
 𫚠	nmfsu
@@ -47796,7 +47797,7 @@ encoder:
 鳇	nmhag
 𤾿	nmhao
 稣	nmhd
-鳅	nmhdf	3
+鳅	nmhdf
 鲦	nmhed
 𩾋	nmhjg
 鳤	nmhjr
@@ -47840,7 +47841,7 @@ encoder:
 𫚕	nmllb
 𫚒	nmlln
 鳉	nmlmi
-鲱	nmlsy	2
+鲱	nmlsy
 鲉	nmlw
 𫚉	nmm	1
 𢏚	nmm
@@ -47849,7 +47850,7 @@ encoder:
 鲡	nmmbb
 𩾎	nmmbe
 鲕	nmmbl		nmmb'l
-颈	nmmbo	5
+颈	nmmbo
 𠼡	nmme
 𤎧	nmmf
 鲆	nmmfj
@@ -47864,7 +47865,7 @@ encoder:
 鲾	nmmrw
 𠣀	nmms	1
 㢪	nmms
-鳜	nmmto	2
+鳜	nmmto
 鳔	nmmwf
 鳕	nmmzs
 𩾅	nmnai
@@ -47900,7 +47901,7 @@ encoder:
 𢞔	nmp
 𫚑	nmph
 鲍	nmpru
-鲍	nmpsu	5
+鲍	nmpsu
 鲽	nmptd
 鲀	nmpu
 䲠	nmqka
@@ -47937,7 +47938,7 @@ encoder:
 鳓	nmtjs
 𫠐	nmtm
 鳠	nmtoe
-鲜	nmtq	7
+鲜	nmtq
 鳝	nmtqr
 𫚤	nmtv
 𫚧	nmtwa
@@ -47971,14 +47972,14 @@ encoder:
 彊	nmwm
 鳂	nmwmv
 弻	nmwn
-鳃	nmwp	3
+鳃	nmwp
 𫚔	nmwr
 𢐡	nmww
 𩱗	nmwz
 鲵	nmxhu
 𫠑	nmxle
 鳑	nmybs
-鲛	nmyck	4
+鲛	nmyck
 𩾈	nmyfe
 鲂	nmyhs
 巯	nmyiu
@@ -47986,7 +47987,7 @@ encoder:
 鲢	nmykq
 𩾄	nmynj
 𩾇	nmypn
-鲇	nmyr	3
+鲇	nmyr
 鲸	nmyrf
 𫚨	nmyrl
 鲈	nmys
@@ -48327,7 +48328,7 @@ encoder:
 檃	nsd	2
 争	nsd	1
 𣖶	nsd
-皱	nsdhe	5
+皱	nsdhe
 𩓞	nsdmz
 𨛰	nsdnl
 𠃮	nse
@@ -48356,7 +48357,7 @@ encoder:
 張	nsmv
 邹	nsnl
 𢏉	nsno
-雏	nsog	5
+雏	nsog
 急	nsp
 𪂺	nsphz
 彄	nsrr		ns'rr
@@ -48441,9 +48442,9 @@ encoder:
 馌	nugit
 𦫖	nuha
 𫗮	nuhag
-饷	nuhbr	3	nuhb'r
+饷	nuhbr		nuhb'r
 𫗪	nuhdv
-饭	nuhe	9
+饭	nuhe
 𪚽	nuhem
 饹	nuher
 𪚽	nuhey
@@ -48472,7 +48473,7 @@ encoder:
 𫗦	nuijb
 饴	nuir
 𦫘	nuive
-饽	nujbd	2
+饽	nujbd
 馕	nujbv
 𥤾	nujc
 𢏫	nuje	1
@@ -48490,7 +48491,7 @@ encoder:
 蚀	nuli	1
 䖤	nuli
 𧷪	nulmc
-馈	nulmo	3
+馈	nulmo
 𫗬	numbk
 𡖏	numd
 𫗞	numj
@@ -48500,7 +48501,7 @@ encoder:
 饾	numrt
 𠨜	numu
 㼝	numun
-馋	nunay	6
+馋	nunay
 饧	nunhh
 𦫓	nuni	1
 㢷	nuni
@@ -48508,15 +48509,15 @@ encoder:
 𢑎	nunmn
 饮	nuno
 𫗳	nunri
-馅	nunx	5
+馅	nunx
 𩠋	nunyb
 𠈽	nuo
 𩚴	nuoav
 𩟿	nuob
 饬	nuoks
-饰	nuolb	7
+饰	nuolb
 馀	nuomd
-饩	nuomn	3
+饩	nuomn
 𪚬	nuon
 𩠈	nuonp
 𩠂	nuopd
@@ -48529,7 +48530,7 @@ encoder:
 𫗠	nupo
 𪚶	nupr
 饱	nupru
-饱	nupsu	7
+饱	nupsu
 饨	nupu
 𢪸	nuq
 𠒾	nuqmy
@@ -48549,7 +48550,7 @@ encoder:
 馑	nutlm
 𠞚	nutln
 𩠁	nutm
-馐	nutqg	3
+馐	nutqg
 饼	nutt
 𩠎	nutwa
 𠓍	nutwt
@@ -48568,7 +48569,7 @@ encoder:
 𫗩	nuwln
 𫗭	nuwmv
 𪛇	nuwrw
-馊	nuxle	3
+馊	nuxle
 饺	nuyck
 𫗰	nuyhr
 饻	nuyhv
@@ -48619,7 +48620,7 @@ encoder:
 亀	nwlu
 彋	nwlv
 鱼	nwm
-鲁	nwma	7
+鲁	nwma
 𤋳	nwof
 𤱡	nwpd
 𪹌	nwpf
@@ -48748,7 +48749,7 @@ encoder:
 𪃃	oaehz
 𪝧	oaff
 𪝚	oafu
-复	oahe	7
+复	oahe
 𣃀	oahml
 倉	oahr
 𠋥	oahu
@@ -49164,7 +49165,7 @@ encoder:
 偗	ofhu
 鹪	ofhym
 𪆔	ofhzf
-伞	ofj	7
+伞	ofj
 𠉅	ofkh
 𠉮	ofks
 𧖝	ofli
@@ -49203,7 +49204,7 @@ encoder:
 𠇦	ogb
 𧔰	ogbi
 𡎬	ogbm
-赁	ogbo	3
+赁	ogbo
 𠍼	ogbt
 賃	ogbuc	1
 𫎔	ogbuc
@@ -49791,7 +49792,7 @@ encoder:
 𩚐	oikni
 𩚐	oiknk
 𩛩	oikoo
-伪	oiks	5
+伪	oiks
 优	oiku
 䭙	oikua
 𩛌	oikv
@@ -49813,7 +49814,7 @@ encoder:
 餆	oiluo
 𩞪	oimbb
 餪	oimbk
-领	oimbo	7
+领	oimbo
 𩜝	oimbv
 𨠰	oimcw
 飯	oime
@@ -50092,7 +50093,7 @@ encoder:
 𩜱	oitzv
 𩚂	oiu	1
 𠇘	oiu
-储	oiua	5
+储	oiua
 䬮	oiuio
 𩞉	oiujf
 𩜵	oiumb
@@ -50575,7 +50576,7 @@ encoder:
 𠋞	olid
 𠏃	olii
 𠌒	olik
-们	olis	9
+们	olis
 介	oll	1
 䲸	ollhz
 敒	ollk
@@ -50943,7 +50944,7 @@ encoder:
 偩	onbc
 𪝀	onbg
 觎	onbhu
-贪	onbo	7
+贪	onbo
 𪝀	onbq
 𠎿	onbq
 𠐂	onbr
@@ -51013,7 +51014,7 @@ encoder:
 𣱖	onim
 領	onimz
 侈	onin	1
-邻	oninl	5
+邻	oninl
 𣢝	onino
 𡦈	onio	1
 𠍐	onio
@@ -51078,7 +51079,7 @@ encoder:
 𠝓	onnn
 欦	onno	1
 𣢆	onno
-氢	onnom	5
+氢	onnom
 𠐂	onnr
 𪂄	onnz
 㐸	ono
@@ -51363,7 +51364,7 @@ encoder:
 钽	opam
 锝	opami
 𫔂	opamo
-锡	opaph	7
+锡	opaph
 锟	opapp
 𠋹	opas
 钯	opau	2
@@ -51378,7 +51379,7 @@ encoder:
 锾	opbme	2
 𫛾	opbmm
 铜	opbmr		opb'mr
-锄	opbms	5
+锄	opbms
 贷	opbo	2
 货	opbo	1
 钡	opbo
@@ -51412,7 +51413,7 @@ encoder:
 钬	opf
 销	opfb
 镗	opfbg
-锁	opfbo	8
+锁	opfbo
 镋	opfbu
 镂	opfdv
 锬	opff
@@ -51428,14 +51429,14 @@ encoder:
 𫓯	opgg
 𫔐	opgte
 佖	oph	1
-铂	opha	5
-锦	ophab	7
+铂	opha
+锦	ophab
 锽	ophag
-锹	ophdf	3
+锹	ophdf
 锈	ophdh
 𫓼	ophdr
-钣	ophe	3
-锋	ophej	7
+钣	ophe
+锋	ophej
 𫟾	ophem
 铬	opher
 𫔍	ophfw
@@ -51450,9 +51451,9 @@ encoder:
 𨱃	ophio
 钎	ophj	3
 铢	ophjd
-锻	ophje	5
+锻	ophje
 锺	ophjg
-锤	ophjm	5
+锤	ophjm
 锧	ophjo
 𫟽	ophjp
 铦	ophjr
@@ -51463,13 +51464,13 @@ encoder:
 䥿	ophms
 𠏦	ophn
 𨱁	ophne
-钒	ophni	5	ophn'i
-铅	ophnr	2
+钒	ophni		ophn'i
+铅	ophnr
 牮	ophq
 锇	ophqi
-铁	ophqo	7
+铁	ophqo
 镍	ophud
-铄	ophvd	3
+铄	ophvd
 铆	ophvl
 钨	ophvm
 𩲜	ophwi
@@ -51487,7 +51488,7 @@ encoder:
 铖	opihs
 𫟵	opihu
 𨱍	opiil
-钱	opij	9
+钱	opij
 铺	opijb
 𨱇	opije
 钹	opike
@@ -51500,14 +51501,14 @@ encoder:
 铽	opipp
 𠊝	opir
 䦂	opiss
-镰	opitc	3
+镰	opitc
 镀	opite
 钺	opiu
 䥽	opive
 𨱍	opivl
 针	opj	1
 华	opj
-镇	opjbc	7
+镇	opjbc
 镲	opjbf	1
 𫔅	opjbf
 𠍜	opjbm
@@ -51521,15 +51522,15 @@ encoder:
 镔	opjoc
 铊	opjp
 铙	opjpu
-钴	opjr	5
+钴	opjr
 𫔁	opjto
 铵	opjv
 䦄	opjwv
-钵	opjz	5
+钵	opjz
 铕	opkb
-镣	opkcf	3
+镣	opkcf
 铩	opkd
-钛	opki	5
+钛	opki
 锛	opkjt
 钸	opklb
 锜	opkmr
@@ -51540,20 +51541,20 @@ encoder:
 钟	opl
 帒	oplb
 𫓭	oplbk
-铿	opleg	3
+铿	opleg
 𧊇	opli
 钔	oplis
 𫔃	opliu
-钏	oplll	3
+钏	oplll
 镄	opllo
-锵	oplmi	4
+锵	oplmi
 𠛛	opln
 锏	oplsa
 锎	oplst
 镧	oplsw
-镤	oplto	1
+镤	oplto
 铫	opluo
-铀	oplw	5
+铀	oplw
 仢	opm	2
 铻	opmdr
 钚	opmf
@@ -51566,9 +51567,9 @@ encoder:
 伨	opmm	2
 𠋧	opmm
 𫓵	opmmv
-钉	opmn	5
+钉	opmn
 钶	opmnr
-倾	opmo	7
+倾	opmo
 镉	opmrb
 𨱀	opmrm
 钘	opmt
@@ -51576,10 +51577,10 @@ encoder:
 铏	opmtn
 镢	opmto
 䥺	opmvh
-镖	opmwf	5
+镖	opmwf
 镡	opmwj
 钲	opmx
-钙	opmys	7
+钙	opmys
 傾	opmz	1
 𩑭	opmz
 𫔓	opmzg
@@ -51589,10 +51590,10 @@ encoder:
 𨱕	opnbq
 𫓦	opnd
 𡥖	opnd
-锰	opndt	5
+锰	opndt
 铤	opneg
 键	opneq
-钮	opng	5
+钮	opng
 钑	opnhe
 钖	opnhh
 铭	opnir
@@ -51602,11 +51603,11 @@ encoder:
 钌	opnn
 𣢉	opno
 钦	opno
-镫	opnot	3
+镫	opnot
 镪	opnri	1
 镵	opnri
 𫓮	opns
-铮	opnsd	5
+铮	opnsd
 镥	opnwa
 𩶕	opnwf
 𫔎	opnzb
@@ -51643,7 +51644,7 @@ encoder:
 锪	opphp
 钩	oppi	1
 钓	oppi
-钧	oppim	5
+钧	oppim
 锴	opppa
 铇	oppru
 铇	oppsu
@@ -51651,7 +51652,7 @@ encoder:
 锗	opqa
 锲	opqhk
 䦁	opqjl
-铸	opqki	5
+铸	opqki
 䦁	opqkl
 锖	opqmb
 铐	opqms
@@ -51664,16 +51665,16 @@ encoder:
 𠯒	opr
 𫓶	oprb
 铞	oprlb
-锃	oprmg	2
+锃	oprmg
 锅	oprob
 铝	oprr
-锷	oprrs	3
+锷	oprrs
 𫟳	opru	1
 佨	opru
 锓	opsbe
 铒	opsj
 镊	opsje
-锯	opsjr	5
+锯	opsjr
 𢘈	opsl
 𫓬	opslb
 𨰾	opsm
@@ -51690,7 +51691,7 @@ encoder:
 𨱊	opsuu
 伳	opt	2
 错	opta
-镆	optak	2
+镆	optak
 𫔌	optbk
 铹	optbs
 𫟹	optc
@@ -51703,7 +51704,7 @@ encoder:
 镨	optla
 𨱑	optlc
 锳	optlk
-钳	optm	5	opt'm
+钳	optm		opt'm
 镬	optoe
 𨱏	optor
 䦃	optqa
@@ -51729,22 +51730,22 @@ encoder:
 铷	opvr
 镴	opvvv
 锱	opvvw
-钿	opw	3
+钿	opw
 锞	opwd
 黛	opwff
 锂	opwg
 黛	opwgf
 𨱌	opwjo
-锢	opwjr	3	opw'jr
+锢	opwjr		opw'jr
 铟	opwk		opw'k
-钾	opwl	5
+钾	opwl
 镯	opwli	1
 𫔆	opwli
-锣	opwln	5
+锣	opwln
 镮	opwlv
 锶	opwp
-镙	opwvf	3
-锼	opxle	2
+镙	opwvf
+锼	opxle
 𪘕	opxuo
 铲	opy	1
 钋	opy
@@ -51761,12 +51762,12 @@ encoder:
 钭	opyj
 镝	opyjr
 𫟼	opyk
-链	opykq	7
+链	opykq
 锌	opyl
 铈	opylb
 𫌸	opymr
 𫓺	opyps
-钻	opyr	7
+钻	opyr
 镐	opyrb
 𨱉	opyrf
 镶	opyrv	1
@@ -51812,7 +51813,7 @@ encoder:
 傃	oqmf	1
 𠉩	oqmh
 𠉩	oqmj
-债	oqmo	5
+债	oqmo
 侤	oqms
 俵	oqmv
 𪜓	oqn
@@ -51882,7 +51883,7 @@ encoder:
 侃	orhu	1
 㑆	orhu
 侃	orhv
-鸽	orhym	5
+鸽	orhym
 鴿	orhz	1
 戧	ori
 舗	orijb	1
@@ -52598,7 +52599,7 @@ encoder:
 䬮	osuio
 𩰤	osuip
 𩞉	osujf
-创	osuln	7
+创	osuln
 𩜵	osumb
 𩝚	osumi
 𩜠	osumr
@@ -53360,7 +53361,7 @@ encoder:
 㦓	pbkf
 恽	pbkq
 怚	pbm
-惧	pbmc	5
+惧	pbmc
 愋	pbme
 懚	pbmp
 恫	pbmr		pb'mr
@@ -53928,7 +53929,7 @@ encoder:
 駂	pjsqf	1
 憤	pjtc
 𢢈	pjtm
-愤	pjto	5
+愤	pjto
 𢢈	pjty
 𪫲	pjv
 慱	pjwi
@@ -54075,7 +54076,7 @@ encoder:
 愞	pmbk
 恆	pmbm	1
 𢗶	pmbm
-顷	pmbo	5
+顷	pmbo
 𢥬	pmbp	1
 𢣁	pmbp
 𢡡	pmbp
@@ -54503,7 +54504,7 @@ encoder:
 㥟	prmo
 䪷	prmz
 𡥯	prnd
-够	prnin	9
+够	prnin
 邭	prnl
 欨	prno
 雊	prog
@@ -54835,7 +54836,7 @@ encoder:
 㥥	pwib
 慖	pwim	1	pw'im
 慣	pwjc
-惯	pwjo	5
+惯	pwjo
 𢛅	pwjr
 𢙫	pwk
 𩖂	pwkmz
@@ -54979,7 +54980,7 @@ encoder:
 㥉	pytr
 𢜡	pytv
 𢟢	pyub
-恼	pyuk	5
+恼	pyuk
 忙	pyv	1
 匄	pyv
 𢟚	pyvb
@@ -55157,7 +55158,7 @@ encoder:
 靛	qbjmo	1
 㧏	qbk
 撚	qbkf
-挥	qbkq	5
+挥	qbkq
 𢲂	qblo
 抯	qbm	2
 𢭊	qbm
@@ -55544,7 +55545,7 @@ encoder:
 𪮩	qfdm
 𢷥	qfdo
 撛	qfdq
-搂	qfdv	5
+搂	qfdv
 𧔓	qfeii
 掞	qff
 㩞	qffd
@@ -55850,7 +55851,7 @@ encoder:
 𢮒	qhrj
 𢯔	qhrn
 𢸢	qhro
-护	qhs	7
+护	qhs
 掮	qhsb	2
 揙	qhsb	1
 𢳹	qhsb
@@ -56012,10 +56013,10 @@ encoder:
 拔	qike
 撝	qikf	1
 𢮥	qikf
-掺	qikh	6
+掺	qikh
 撪	qikj
 拔	qikk
-拢	qikp	5
+拢	qikp
 𫐋	qikq
 𢴖	qikr
 势	qiks	1
@@ -56058,7 +56059,7 @@ encoder:
 𨛚	qirau
 掝	qirm
 𢰾	qirp
-护	qis	7
+护	qis
 掮	qisb	2
 揙	qisb	1
 𢳹	qisb
@@ -56303,7 +56304,7 @@ encoder:
 𢫬	qkd
 摋	qkde
 焘	qkdf	3
-寿	qkdi	7
+寿	qkdi
 䵅	qkdoe
 𪫷	qkdp
 泰	qke	4
@@ -56374,9 +56375,9 @@ encoder:
 执	qkni	1
 𢩾	qkni
 𢪄	qknj
-执	qknk	5
+执	qknk
 邦	qknl
-抛	qkns	8
+抛	qkns
 𪭹	qknu
 鰲	qknwf	2
 𩷢	qknwf
@@ -56418,7 +56419,7 @@ encoder:
 𠢌	qksrs
 拹	qkss	1
 𪩫	qksu
-挟	qkt	5
+挟	qkt
 𢺌	qktd
 嶅	qku	1
 撍	qkua
@@ -56493,7 +56494,7 @@ encoder:
 𧣯	qlnbq
 𢬈	qlo
 䭁	qloav
-掷	qlol	5
+掷	qlol
 悊	qlp
 揹	qlpb
 𢳢	qlpu
@@ -56618,7 +56619,7 @@ encoder:
 掭	qmkp
 㧷	qmkr
 扝	qmks
-抚	qmku	5
+抚	qmku
 㩑	qmky
 挜	qml
 搢	qmla
@@ -56748,7 +56749,7 @@ encoder:
 𪮱	qnao
 挽	qnau	1
 𢬘	qnau
-搀	qnay	5
+搀	qnay
 𢲍	qnbb
 𢰺	qnbc
 𢷳	qnbe
@@ -56896,7 +56897,7 @@ encoder:
 𢫩	qod
 拊	qodi
 𪳭	qodw
-捡	qofm	7
+捡	qofm
 𢭬	qofq
 推	qog	1
 𢫟	qog
@@ -57178,7 +57179,7 @@ encoder:
 扶	qqo
 攅	qqoc
 攆	qqoj
-撵	qqoq	5
+撵	qqoq
 摫	qqou	2
 𢶄	qqoz
 㧯	qqp
@@ -57192,7 +57193,7 @@ encoder:
 挹	qrau
 捐	qrb
 損	qrbc
-损	qrbo	7
+损	qrbo
 𢮺	qrbu
 抧	qrc
 𪭷	qrd
@@ -57255,7 +57256,7 @@ encoder:
 𢱥	qsbe	1
 𢬶	qsbe
 𢯍	qsbn
-韬	qsbx	5
+韬	qsbx
 㩔	qsce
 挦	qsdi
 𡘢	qsdk
@@ -57314,7 +57315,7 @@ encoder:
 㧜	qslb
 𢷴	qslc
 𢹐	qsld
-报	qsle	9
+报	qsle
 𢸵	qslg
 挋	qsll		qs'll
 𪮪	qsmb	1
@@ -57354,7 +57355,7 @@ encoder:
 摺	qssa
 擢	qssg
 摎	qssh
-韧	qsshh	5
+韧	qsshh
 韧	qsshi
 𦕴	qssj	1
 𦕥	qssj
@@ -57460,7 +57461,7 @@ encoder:
 𢵎	qtme
 𢯒	qtmf
 撶	qtmj
-拦	qtmm	5
+拦	qtmm
 𢯥	qtmu
 𢶬	qtnj
 𢹵	qtnm
@@ -57550,7 +57551,7 @@ encoder:
 𣪭	quhne
 𠑸	quhu
 𪄯	quhz
-拟	quio	7
+拟	quio
 𡙭	quk
 㨏	qukf
 𧉒	quli
@@ -57720,7 +57721,7 @@ encoder:
 𢸂	qxvf
 𢹰	qxwf
 𢷣	qxyc
-扑	qy	7
+扑	qy
 𢫾	qya
 𢱊	qyaf
 掉	qyaj
@@ -57789,7 +57790,7 @@ encoder:
 𢱘	qykh
 𢬭	qyki
 𪮉	qykj
-挤	qykl	7
+挤	qykl
 摌	qykm
 𢺑	qykq
 𢭹	qykr
@@ -58015,7 +58016,7 @@ encoder:
 𠸾	rbho
 𠯟	rbhu	1
 㕴	rbhu
-鹃	rbhym	5
+鹃	rbhym
 鵑	rbhz
 𢨐	rbi
 𤟶	rbik
@@ -58315,7 +58316,7 @@ encoder:
 𠺫	rfdj
 𠺼	rfdo
 噒	rfdq
-喽	rfdv	7
+喽	rfdv
 𡁭	rfdy
 啖	rff
 㘇	rffd
@@ -58541,7 +58542,7 @@ encoder:
 噬	rhmo
 㖃	rhmr
 𡀜	rhmt
-叽	rhn	6
+叽	rhn
 哚	rhnd	1
 𡥕	rhnd
 𠼝	rhnd
@@ -59004,11 +59005,11 @@ encoder:
 㕪	rlbu
 𪡽	rlcq
 𡅢	rldf
-啸	rlf	5
+啸	rlf
 嘨	rlfd
 嚉	rlgi	1
 㗲	rlgm
-虽	rli	7
+虽	rli
 𡀨	rlib
 雖	rliog
 𠹃	rlkt
@@ -59164,7 +59165,7 @@ encoder:
 𠻒	rmku
 𠱏	rmkv
 㗺	rmky
-哑	rml	6
+哑	rml
 啢	rmlb	1
 𠯗	rmlb
 哽	rmlk
@@ -59220,7 +59221,7 @@ encoder:
 哣	rmrt	1
 𠶡	rmrt
 𠸢	rmrw
-号	rms	9
+号	rms
 𪢙	rmsb
 鴞	rmshz
 蠡	rmsi	1
@@ -59274,7 +59275,7 @@ encoder:
 嘕	rmxf
 啞	rmxm
 噁	rmxp
-吓	rmy	8
+吓	rmy	1
 𡅃	rmyp
 𠰁	rmys
 㖽	rmz
@@ -59564,7 +59565,7 @@ encoder:
 𦑙	ross	1
 𠳔	ross
 䟳	ross
-呛	rosu	6
+呛	rosu
 𠼸	rosv
 𪅺	rosz
 𠺦	rota
@@ -59912,7 +59913,7 @@ encoder:
 㓵	rrsln
 嚚	rrslr	1
 𡂨	rrslr
-骂	rrsm	7
+骂	rrsm
 顎	rrsmz
 哵	rrsn
 鄂	rrsnl
@@ -60002,7 +60003,7 @@ encoder:
 𪢧	rsgp
 叨	rsh	1
 叧	rsh
-嘱	rshb	5
+嘱	rshb
 𠯄	rshh
 𠯄	rshi
 𠰾	rshn
@@ -60425,7 +60426,7 @@ encoder:
 𠵎	rvjr
 𫚾	rvkhz
 巺	rvmc
-哟	rvmi	7
+哟	rvmi
 𢁌	rvmjc
 𢁅	rvmjj
 𢁅	rvmkj
@@ -60718,7 +60719,7 @@ encoder:
 䟯	rxhjr
 踲	rxhju
 𨂵	rxhjx
-跃	rxhk	5
+跃	rxhk
 𨇸	rxhka
 蹻	rxhkb	1
 𨅳	rxhkb
@@ -60866,7 +60867,7 @@ encoder:
 𨈃	rxjcc
 𨇶	rxjck	1
 𨃍	rxjck
-蹿	rxjcl	5
+蹿	rxjcl
 䠚	rxjco
 𨅻	rxjcr
 躥	rxjcv
@@ -62036,7 +62037,7 @@ encoder:
 䮮	sfdoe
 騋	sfdoo	2
 𡳞	sfdq
-屡	sfdv	5
+屡	sfdv
 𪟱	sfdw	1
 𩣳	sfdw
 馭	sfe	2
@@ -62888,7 +62889,7 @@ encoder:
 𩯋	shjji
 鬃	shjmf
 𩯅	shjmw
-鬓	shjoc	5
+鬓	shjoc
 鬡	shjpn
 𩮝	shjqr
 𩬩	shjr
@@ -63345,7 +63346,7 @@ encoder:
 肆	silq
 𨱵	siluo
 𨱽	silwp
-习	sim	5
+习	sim
 镾	simfb
 𤧤	simgi
 㻨	simgi
@@ -63587,7 +63588,7 @@ encoder:
 聵	sjlmc
 聩	sjlmo	3
 刵	sjln
-联	sjlo	8
+联	sjlo
 𡲦	sjlp
 𦕊	sjls
 𦖕	sjlsy
@@ -63782,7 +63783,7 @@ encoder:
 𥏰	skgp
 殹	skhne	1
 殴	skhne
-鸥	skhym	5
+鸥	skhym
 鴎	skhz
 𣀄	skjye
 𠛇	skk
@@ -64009,7 +64010,7 @@ encoder:
 𫘢	smdr
 驭	sme
 屚	smeb
-骚	smeii	7
+骚	smeii
 驿	smeq
 𠤯	smf
 𩨇	smfdv
@@ -64056,7 +64057,7 @@ encoder:
 𢿼	smiok
 骀	smir	3
 驴	smis
-骗	smisb	7
+骗	smisb
 骟	smiss	1
 𢩗	smiss
 𩧯	smive
@@ -64065,14 +64066,14 @@ encoder:
 骔	smjmf
 𩧻	smjnp
 驼	smjp
-骁	smjpu	5
+骁	smjpu
 䯃	smjv
 𨍒	smjwj
 㞚	smjx
 驮	smk
 㝷	smki
 𩧼	smkjt
-驳	smkk	5
+驳	smkk
 𫘭	smkkk
 𨞟	smkkl
 骑	smkmr
@@ -64142,7 +64143,7 @@ encoder:
 驰	smpd
 𥃉	smpht
 𫘦	smpou
-驹	smpr	5
+驹	smpr
 𡲄	smqq
 司	smr
 𡲻	smrb
@@ -64160,9 +64161,9 @@ encoder:
 骎	smsbe
 𫘧	smse	1
 𠭙	smse
-骤	smseo	5
+骤	smseo
 䯅	smsje
-驱	smsk	5	nms'k
+驱	smsk		sms'k
 骉	smsmm
 骣	smsnd
 𨚑	smsnl
@@ -64175,7 +64176,7 @@ encoder:
 𪇖	smthz
 㔋	smtln
 骈	smtt
-骐	smtz	5
+骐	smtz
 𪨉	smu
 𢑘	smue
 𡳘	smuo
@@ -64239,7 +64240,7 @@ encoder:
 尺	so	1
 𡰦	so
 𠤭	so
-昼	soam	5
+昼	soam
 𠥐	soar
 䬤	soav
 𠥮	sob
@@ -64312,7 +64313,7 @@ encoder:
 𢑲	sovif
 𡱮	sowm
 𣥉	sox
-尽	soy	7
+尽	soy
 𠛾	soyln
 𧨭	soymr
 𧇬	soypu
@@ -65260,7 +65261,7 @@ encoder:
 䒽	tbkk	1
 䒯	tbkk
 𦭂	tbkp
-荤	tbkq	5
+荤	tbkq
 荕	tbks	1
 劳	tbks
 𧅖	tbkz
@@ -65349,12 +65350,12 @@ encoder:
 葋	tbpr
 苚	tbq		tb'q
 䓟	tbqr
-苘	tbr	5	tb'r
+苘	tbr		tb'r
 𦳡	tbre
 𧄎	tbrf
 𦸔	tbrh
 𠟗	tbrln
-营	tbrr	7
+营	tbrr
 𢾠	tbrye
 䠢	tbryo
 𦱊	tbsd
@@ -66040,7 +66041,7 @@ encoder:
 𩱀	tgcb
 菱	tgce
 𩛬	tgci
-蔷	tgcw	5
+蔷	tgcw
 𧂣	tgde	1
 𦾫	tgde
 𥀞	tgdhe
@@ -67497,7 +67498,7 @@ encoder:
 惹	tkrp
 艻	tks
 𫉆	tksb
-苏	tksc	7
+苏	tksc
 𫈻	tkso
 驚	tksqf	1
 𩣻	tksqf
@@ -67580,7 +67581,7 @@ encoder:
 𦵈	tlii
 𦾌	tlij
 虄	tlim
-蓝	tlit	7
+蓝	tlit
 革	tlj
 䳬	tljhz
 勒	tljks
@@ -67617,7 +67618,7 @@ encoder:
 𦳒	tlmf
 荘	tlmg
 𪅀	tlmhz
-蒋	tlmi	7
+蒋	tlmi
 芈	tlmj
 勤	tlmks	1
 𠢀	tlmks
@@ -67963,7 +67964,7 @@ encoder:
 茾	tmt
 華	tmtj
 𦴐	tmtk
-荆	tmtln	5
+荆	tmtln
 荊	tmtn
 蕨	tmto
 𧂱	tmtt
@@ -68171,7 +68172,7 @@ encoder:
 𦹥	tnlv
 蔯	tnlw
 𦾩	tnlx
-萨	tnly	7
+萨	tnly
 䕳	tnmb
 𧃯	tnmd
 蒻	tnmm	1
@@ -68557,7 +68558,7 @@ encoder:
 茐	tpkk
 薿	tpko	1
 𦹔	tpko
-葱	tpkp	5
+葱	tpkp
 𦷐	tpkt
 𫈖	tpli
 𥂿	tplt
@@ -68878,7 +68879,7 @@ encoder:
 𫅒	tqrup
 䍻	tqrvc
 㪨	tqrye
-苇	tqs	5
+苇	tqs
 𦾬	tqsa
 𦎾	tqseq
 𧃔	tqsg
@@ -69129,7 +69130,7 @@ encoder:
 蔒	tskf
 荵	tskp
 莙	tskr
-节	tsl	7
+节	tsl
 𦭧	tslb
 䕚	tslc
 蘗	tsld	1
@@ -71874,7 +71875,7 @@ encoder:
 㠤	uyrv
 崺	uysd
 𡻬	uysk
-屿	uysm	5
+屿	uysm
 㠡	uysv
 岦	uyt	1
 𡶧	uyt
@@ -71970,7 +71971,7 @@ encoder:
 㚩	vbmm
 姛	vbmr	2	vb'mr
 𡡗	vbnb
-娐	vbnd	5
+娐	vbnd
 𡟰	vbni
 𩺈	vbnwf
 𫝦	vbo
@@ -72012,7 +72013,7 @@ encoder:
 妢	vcsh
 𡟆	vcst
 𡡑	vcwa
-婵	vcwj	5
+婵	vcwj
 㜁	vdam
 𪥱	vdb
 𪦡	vdbb
@@ -73810,7 +73811,7 @@ encoder:
 𪥿	vjnk
 婉	vjnu
 㜚	vjoa
-嫔	vjoc	5
+嫔	vjoc
 𡛥	vjp
 嬣	vjpn
 娆	vjpu	3
@@ -73909,7 +73910,7 @@ encoder:
 㗽	vlr
 𨃢	vlryo
 㛠	vlsa
-娴	vlsd	5
+娴	vlsd
 𫝮	vlsw
 婔	vlsy
 𡡐	vlto
@@ -73928,7 +73929,7 @@ encoder:
 缊	vmabt
 姮	vmam	1
 缇	vmamo
-绲	vmapp	2
+绲	vmapp
 𦈛	vmase
 𦈖	vmass
 缦	vmawe
@@ -73951,17 +73952,17 @@ encoder:
 𧌜	vmbli
 组	vmbm	1
 𤕲	vmbm
-缓	vmbme	5
+缓	vmbme
 𦈠	vmbmp
 𫄡	vmbmr
 𤖕	vmbmw
 𫝪	vmbo
-缨	vmbov	5
+缨	vmbov
 孋	vmbp	1
 𡤘	vmbp
 䌹	vmbr
 𦣽	vmbu
-缈	vmbuh	3
+缈	vmbuh
 𤖎	vmbul
 𤖎	vmbus
 绥	vmbv	1
@@ -73973,7 +73974,7 @@ encoder:
 纷	vmcsh
 𡜳	vmcw	1
 㛉	vmcw
-缯	vmcwa	3
+缯	vmcwa
 𦈎	vmcwj
 𪺡	vmcww
 牀	vmd	2
@@ -73982,7 +73983,7 @@ encoder:
 缃	vmdbu
 𦈟	vmddf
 䌶	vmdh
-纣	vmdi	3
+纣	vmdi
 𦈌	vmdl
 𤖂	vmdl
 𤖧	vmdow	1
@@ -73992,13 +73993,13 @@ encoder:
 𤕭	vme
 𤖒	vmeed
 缀	vmeee
-绎	vmeq	3
+绎	vmeq
 妚	vmf	2
 嬭	vmfb	1
 绡	vmfb
-绱	vmfbr	3	vmfb'r
-缕	vmfdv	5
-纱	vmfh	5
+绱	vmfbr		vmfb'r
+缕	vmfdv
+纱	vmfh
 𡣋	vmfi
 㛁	vmfj
 㚰	vmfm
@@ -74010,7 +74011,7 @@ encoder:
 壯	vmg	4
 妊	vmg	3
 𡉟	vmg
-绫	vmgce	5
+绫	vmgce
 𫄪	vmgcv
 𫄱	vmgcw
 娾	vmgg
@@ -74020,7 +74021,7 @@ encoder:
 𡝺	vmgk
 𡡱	vmgn
 牆	vmgow
-结	vmgr	8
+结	vmgr
 缬	vmgro
 㛞	vmgt
 𫄵	vmgth
@@ -74028,13 +74029,13 @@ encoder:
 绵	vmhab
 缐	vmhae
 𫄣	vmhbv
-绣	vmhdh	5
+绣	vmhdh
 𤖉	vmhdl
 𤖣	vmhdw
 绦	vmhed
 𤖍	vmheg
 𤖀	vmhej
-绛	vmheq	5
+绛	vmheq
 络	vmher
 终	vmhey
 嫄	vmhf	1
@@ -74042,18 +74043,18 @@ encoder:
 𤕽	vmhfd
 𡡳	vmhg	1
 纴	vmhg
-纤	vmhj	5
+纤	vmhj
 缎	vmhje
 𫄸	vmhjf
 𫟆	vmhjg
-缍	vmhjm	3
+缍	vmhjm
 斨	vmhml	1
 𣃔	vmhml
 𦈈	vmhmy
 绗	vmhon
 𫄳	vmhoo
 𫄜	vmhqu
-编	vmhsb	7
+编	vmhsb
 缴	vmhsk	1
 𫄫	vmhsk
 𦈏	vmhua
@@ -74090,9 +74091,9 @@ encoder:
 编	vmisb
 𫟇	vmish
 𫄫	vmisk
-缠	vmiwg	5
+缠	vmiwg
 奸	vmj
-缜	vmjbc	3
+缜	vmjbc
 䌾	vmjbl
 㸜	vmjcm
 妍	vmjj	2
@@ -74104,28 +74105,28 @@ encoder:
 纻	vmjm
 综	vmjmf
 绽	vmjmo
-续	vmjnk	7
+续	vmjnk
 𪥻	vmjo
 缩	vmjoa
-缤	vmjoc	3
+缤	vmjoc
 绕	vmjpu
 姡	vmjr	2
-绾	vmjrr	5
+绾	vmjrr
 𡚯	vmjs
 𤖘	vmjtc
 㛼	vmjx
-缭	vmkcf	4
+缭	vmkcf
 纮	vmki
 姸	vmkj
 𫄨	vmkkb
 绮	vmkmr
-绔	vmkms	3
-纨	vmkni	4
+绔	vmkms
+纨	vmkni
 纨	vmknk
 𤖏	vmkok
 婖	vmkp
 𡚯	vmks
-妩	vmku	4
+妩	vmku
 练	vmkvd
 娅	vml	1
 㚦	vml
@@ -74135,7 +74136,7 @@ encoder:
 缆	vmliu
 㛐	vmlk
 𤕰	vmlll
-绋	vmlln	3
+绋	vmlln
 𤕰	vmlls
 缋	vmlmo
 绯	vmlsy
@@ -74150,7 +74151,7 @@ encoder:
 𫄥	vmmbb
 𨟻	vmmcw	1
 𦈋	vmmcw
-纡	vmmd	3
+纡	vmmd
 𤕻	vmmdr
 𡛭	vmmf
 𫄞	vmmfm
@@ -74158,7 +74159,7 @@ encoder:
 妘	vmmi	1
 绖	vmmig
 𡣜	vmmk
-缙	vmmla	3
+缙	vmmla
 绠	vmmlk
 纭	vmmmi
 牁	vmmnr
@@ -74167,12 +74168,12 @@ encoder:
 䌿	vmmrw
 妧	vmmu
 娠	vmmv
-缛	vmmvi	3
+缛	vmmvi
 缥	vmmwf
 𦈑	vmmwg
 𤖤	vmmwk
 缰	vmmwm
-缅	vmmws	5	vmmw's
+缅	vmmws		vmmw's
 𤖙	vmmwt
 𦈡	vmmzb
 𤖜	vmmzi
@@ -74186,7 +74187,7 @@ encoder:
 𫄧	vmnex
 纽	vmng
 𧢼	vmngq
-级	vmnhe	9
+级	vmnhe
 𫄮	vmnht
 𤕶	vmnic
 𡠸	vmnj
@@ -74196,9 +74197,9 @@ encoder:
 经	vmnom
 妸	vmnr
 𫄶	vmnri
-绉	vmns	3
+绉	vmns
 𤖝	vmnyr
-纾	vmnz	4
+纾	vmnz
 𫄭	vmoae
 牄	vmoar
 纳	vmob	1
@@ -74209,7 +74210,7 @@ encoder:
 𫄢	vmoik
 𤖚	vmokm
 绘	vmomi
-缏	vmomk	1
+缏	vmomk
 纥	vmon	1
 𫄛	vmon
 𤕵	vmoni
@@ -74224,48 +74225,48 @@ encoder:
 𤕵	vmosl
 𪦌	vmov
 𫄩	vmowy
-绚	vmpa	5
+绚	vmpa
 𤕮	vmpd
-约	vmpi	1
+约	vmpi
 绹	vmpou
 纰	vmpp
 绁	vmpt
 牃	vmptd	1
 𫄬	vmptd
-纯	vmpu	7
+纯	vmpu
 娬	vmpx
 𢪇	vmq
-绪	vmqa	6
-绑	vmqjl	7
+绪	vmqa
+绑	vmqjl
 绑	vmqkl
 𤖓	vmqmc
 绩	vmqmo
 䌸	vmqni
-纬	vmqs	6
+纬	vmqs
 妬	vmr	1
 辔	vmr
 绢	vmrb	1
 𡢓	vmrb
-织	vmrc	5
+织	vmrc
 𡟽	vmrg
 𤖞	vmrij
 𤖞	vmrji
 𡢩	vmrk
 𪥾	vmrl
-绳	vmrlu	5
+绳	vmrlu
 𪥦	vmrm
-缘	vmrmo	7
+缘	vmrmo
 𪥾	vmrn
 𪦰	vmrr	1
 𡟵	vmrr
-缲	vmrrd	1
+缲	vmrrd
 缉	vmrsj
 㛒	vmrt
 缗	vmrua
 𦈝	vmruc
 绿	vmse	1
 𤕱	vmse
-纫	vmshh	3
+纫	vmshh
 纫	vmshi
 绍	vmshr	1
 㸛	vmshr
@@ -74301,7 +74302,7 @@ encoder:
 㜧	vmto
 𦈘	vmtor
 牂	vmtq
-缮	vmtqr	3
+缮	vmtqr
 缣	vmtxc
 𫄙	vmu
 𡚲	vmu
@@ -74312,10 +74313,10 @@ encoder:
 婳	vmuw		vmu'w
 妝	vmv	2
 纠	vmv
-继	vmvfd	7
+继	vmvfd
 媷	vmvi
 娙	vmvm
-缫	vmvvd	2
+缫	vmvvd
 缁	vmvvw	1
 𪺟	vmvvw
 细	vmw
@@ -74333,19 +74334,19 @@ encoder:
 𡞎	vmwr
 媔	vmws		vmw's
 婹	vmwv
-缧	vmwvf	2
+缧	vmwvf
 姃	vmx	1
 嫣	vmxf
 婭	vmxm
 𡢇	vmxp
-绰	vmyaj	5
+绰	vmyaj
 缔	vmybb
 𤖄	vmybl
 𫄰	vmybs
 𤖊	vmybu
-绞	vmyck	5
+绞	vmyck
 缝	vmyhj
-缒	vmyhr	2
+缒	vmyhr
 纺	vmyhs
 𫄴	vmyij
 统	vmyiu
@@ -74615,7 +74616,7 @@ encoder:
 娽	vrme
 𡝚	vrmg
 𤥏	vrmgi
-娱	vrmk	6
+娱	vrmk
 𥙦	vrmmf
 𡟼	vrmo	1
 𡟇	vrmo
@@ -75300,7 +75301,7 @@ encoder:
 𡈹	wddd
 𣡙	wddlc
 𣛤	wddoo
-团	wdh	7	w'dh
+团	wdh		w'dh
 𤱍	wdhe
 𢒙	wdhhh
 𤬁	wdhio
@@ -75736,7 +75737,7 @@ encoder:
 斣	wiyj
 毌	wj
 𡈓	wjbc
-贯	wjbo	5
+贯	wjbo
 𥁉	wjbt	1
 𣫳	wjbt
 貫	wjbuc
@@ -75861,7 +75862,7 @@ encoder:
 罣	wlgg
 罫	wlggy
 𪈰	wlghz
-罢	wlgi	7
+罢	wlgi
 罴	wlgif
 睪	wlgl
 𦌙	wlglk
@@ -75884,7 +75885,7 @@ encoder:
 𦋋	wlhuu
 𦊑	wlhvl
 𩲣	wlhwi
-鸭	wlhym	7
+鸭	wlhym
 鴨	wlhz
 䍚	wliav
 罷	wlibp
@@ -75970,7 +75971,7 @@ encoder:
 𩼄	wlnff
 𦌥	wlnfn
 𦌸	wlnfo
-罗	wlni	7	wln'i
+罗	wlni		wln'i
 𫅈	wlnnc
 𦋲	wlnne
 𣢗	wlno
@@ -76126,7 +76127,7 @@ encoder:
 囨	wmf	2	w'mf
 𪢩	wmfm
 囯	wmg	1	w'mg
-国	wmgi	9	w'mgi
+国	wmgi		w'mgi
 𡈵	wmgv
 爴	wmhlo
 𣂽	wmhml
@@ -76755,7 +76756,7 @@ encoder:
 𦥻	xhjg
 𦦈	xhjx
 𣦜	xhkb
-频	xhmbo	5
+频	xhmbo
 𫞓	xhmfp
 𣥍	xhml
 𤎵	xhnf
@@ -76814,7 +76815,7 @@ encoder:
 𪌲	xkoe
 𦥹	xkq	1
 𢲓	xkq
-舆	xkqc	5
+舆	xkqc
 𦦆	xkvf
 𦥔	xl
 帠	xlb	1
@@ -76853,7 +76854,7 @@ encoder:
 𦦍	xmgg
 𩕨	xmhmz	1
 𩕘	xmhmz
-毁	xmhne	7
+毁	xmhne
 𣥭	xmjj
 𦦈	xmjx
 𠢈	xmks
@@ -77156,7 +77157,7 @@ encoder:
 𪚃	xunri
 䶟	xunx
 𪙀	xunyb
-齿	xuo	5	xu'o
+齿	xuo		xu'o
 𪙎	xuoar
 𪗝	xuob
 𪘆	xuod
@@ -78550,7 +78551,7 @@ encoder:
 𥫔	yjhec
 竷	yjhee
 𣁲	yjhem
-赣	yjheo	5
+赣	yjheo
 𥪴	yjheq
 𫁯	yjhew
 𣁲	yjhey
@@ -78748,7 +78749,7 @@ encoder:
 𧌱	ykli
 螡	yklii	2
 䘇	yklii
-齐	ykll	7
+齐	ykll
 斎	ykllf
 齑	yklll	1
 𪯠	yklll
@@ -78757,7 +78758,7 @@ encoder:
 斓	yklsw
 𪙯	yklu
 遀	ykmb
-斋	ykmbl	5	ykmb'l
+斋	ykmbl		ykmb'l
 亷	ykmc	1
 彥	ykmh	1
 𪯨	ykmh
@@ -78913,7 +78914,7 @@ encoder:
 𨐑	ylihu
 𡰐	yliku
 𫐜	ylip
-辩	yliul	5
+辩	yliul
 𠅊	ylj
 𨕛	yljs
 𨐟	yljtr
@@ -79073,7 +79074,7 @@ encoder:
 䢚	ymlk
 𨒿	ymlw
 𧥛	ymmb
-颤	ymmbo	6
+颤	ymmbo
 运	ymmi
 𢆒	ymmj	1
 𢆌	ymmj
@@ -79542,7 +79543,7 @@ encoder:
 𨜻	ypknl
 𪎁	ypkoe
 𧆱	ypkr
-虏	ypks	5
+虏	ypks
 虚	ypl	2
 𪚚	ypl
 𪚑	yplb	1
@@ -79712,7 +79713,7 @@ encoder:
 𨘝	yqpg
 𢤴	yqpyq
 𫐧	yqqo
-违	yqs	5
+违	yqs
 遨	yqsk
 𨗅	yqto
 𦏞	yqtq
@@ -81293,7 +81294,7 @@ encoder:
 𫑕	ytgr	1
 𨗚	ytgr
 𨘏	ytgv
-产	yth	7
+产	yth
 𤾕	ytha
 𨕷	ythb
 𥩹	ythbt
@@ -81977,7 +81978,7 @@ encoder:
 𠆑	ywrc
 稟	ywrd	1
 𪲪	ywrd
-禀	ywrf	5
+禀	ywrf
 𪉞	ywrj
 亶	ywrm	1
 𪉙	ywrm
@@ -82122,7 +82123,7 @@ encoder:
 𨓞	yyiv
 䢏	yyj
 適	yyjr
-这	yyk	7
+这	yyk
 遃	yykh
 𨒻	yyki
 𨔉	yykj
@@ -82182,14 +82183,14 @@ encoder:
 栾	yzd
 变	yze
 変	yzhe
-鸾	yzhm	5
+鸾	yzhm
 𪁂	yzhz
 鵉	yzhz
 奕	yzk
 𡙩	yzko
 帟	yzlb
-蛮	yzli	7
-弯	yzn	7
+蛮	yzli
+弯	yzn
 孪	yznd
 亪	yzo	1
 脔	yzob		yz'ob
