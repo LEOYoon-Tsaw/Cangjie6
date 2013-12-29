@@ -82,8 +82,6 @@ translator:
     - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片|"
   comment_format:
     - "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片・|"
-  disable_user_dict_for_patterns:
-    - "^z.*$"
 
 reverse_lookup:
   tag: reverse_lookup
