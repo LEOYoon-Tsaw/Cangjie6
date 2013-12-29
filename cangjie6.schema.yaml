@@ -9,8 +9,10 @@ schema:
   dependencies:
     - luna_pinyin
     - jyutping
-  description: "第六代倉頡輸入法\x0a碼表由雪齋、惜緣和crazy4u整理\x0a"
-  version: 0.19
+  description: |
+    第六代倉頡輸入法
+    碼表由雪齋、惜緣和crazy4u整理
+  version: 0.2
  
 switches:
   - name: extended_charset
