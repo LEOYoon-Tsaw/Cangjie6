@@ -11,7 +11,9 @@ schema:
     - jyutping
     - zyenpheng
     - emoji
-  description: "第六代倉頡輸入法\x0a碼表由雪齋、惜緣和crazy4u整理\x0a"
+  description: |
+    第六代倉頡輸入法
+    碼表由雪齋、惜緣和crazy4u整理
   version: 0.19
  
 switches:
@@ -81,6 +83,7 @@ translator:
   enable_charset_filter: true
   enable_completion: true
   enable_sentence: true
+  sentence_over_completion: true
   enable_encoder: true
   encode_commit_history: true
   max_phrase_length: 5
@@ -167,7 +170,7 @@ pinyin_reverse_lookup:
   tags: [ pinyin_lookup ]
   overwrite_comment: true
   dictionary: *dict
-  comment_format:
+  comment_format: &comment
     - "xform/$/〕/"
     - "xform/^/〔/"
     - "xlit|abcdefghijklmnopqrstuvwxyz |日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片、|"
@@ -176,10 +179,7 @@ jyutping_reverse_lookup:
   tags: [ jyutping_lookup ]
   overwrite_comment: true
   dictionary: *dict
-  comment_format:
-    - "xform/$/〕/"
-    - "xform/^/〔/"
-    - "xlit|abcdefghijklmnopqrstuvwxyz |日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片、|"
+  comment_format: *comment
 
 middle_chinese:
   tags: [ pinyin, jyutping ]
@@ -253,8 +253,8 @@ middle_chinese:
 
     - "xform/'//"
 
-    - xform/\x01(L?)([^\x00-\x7f]{3})\x02([^\x01\x02\x03wxhqd]+)([wxhdq]+)\x03\s((?:\x01[^\x01\x03]+\x03\s)*)\x01\1([^\x00-\x7f]{3})\x02\3([wxdhq]+)\x03\s((?:\x01[^\x01\x03]+\x03\s)*)\x01\1([^\x00-\x7f]{3})\x02\3([wxhqd]+\x03)/\x01$1$2／$6／$9\x02$3$4／$7／$10 $5$8/
-    - xform/\x01(L?)([^\x00-\x7f]{3})\x02([^\x01\x02\x03wxhqd]+)([wxhqd]+)\x03\s((?:\x01[^\x01\x03]+\x03\s)*)\x01\1([^\x00-\x7f]{3})\x02\3([wxhdq]+\x03)/\x01$1$2／$6\x02$3$4／$7 $5/
+    - xform/\x01(L?)([^\x00-\x7f]{3})\x02([^\x01\x02\x03wxhq]+)([wxhq]*)\x03\s((?:\x01[^\x01\x03]+\x03\s)*)\x01\1([^\x00-\x7f]{3})\x02\3([wxhq]*)\x03\s((?:\x01[^\x01\x03]+\x03\s)*)\x01\1([^\x00-\x7f]{3})\x02\3([wxhq]*\x03)/\x01$1$2／$6／$9\x02$3$4／$7／$10 $5$8/
+    - xform/\x01(L?)([^\x00-\x7f]{3})\x02([^\x01\x02\x03wxhq]+)([wxhq]*)\x03\s((?:\x01[^\x01\x03]+\x03\s)*)\x01\1([^\x00-\x7f]{3})\x02\3([wxhq]*\x03)/\x01$1$2／$6\x02$3$4／$7 $5/
     - "xform/([xhq]+)w/w$1/"
     - "xform/(w?)([hq]+)x/$1x$2/"
     - "xform/qh/hq/"
@@ -381,4 +381,4 @@ recognizer:
     jyutping: "(?<![`A-Z])J[a-z']*;?$"
     emoji: "(?<![A-Z])E[a-z]*;?$"
     punct: "^zz([a-z]+|[0-9])$"
-    upper_case: "^[A-DF-IK-OQ-Z][a-zA-Z0-9]*$"
+    upper_case: "^([A-DF-IK-OQ-Z][a-zA-Z0-9]*|[EJP][A-Z0-9]*)$"
