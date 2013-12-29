@@ -8713,8 +8713,8 @@ encoder:
 𪳕	dhdp
 𣒇	dhdu
 㮃	dhdv
-板	dhe	1
-皮	dhe
+皮	dhe	1
+板	dhe
 𪓜	dhea
 𣒥	dheb
 㯯	dhec
@@ -11965,8 +11965,8 @@ encoder:
 㴃	ehse
 𣸔	ehsf
 𣶉	ehsj
-淚	ehsk	2
-激	ehsk	1
+激	ehsk	2
+淚	ehsk	1
 𣺱	ehsk
 𣷲	ehsl
 𩣟	ehsqf
@@ -12681,9 +12681,9 @@ encoder:
 澒	emmz	1
 𩒍	emmz
 汀	emn	2
-𣲠	emn
 𪷌	emnf	1
 𪶭	emnf
+𣲠	emni
 𣸶	emnj	1
 𣷊	emnj
 𪵹	emnl
@@ -18233,8 +18233,8 @@ encoder:
 𧺗	gommn
 趑	gommo
 䞸	gommr
-𧺰	gomn	1
 𡉛	gomn
+𧺰	gomni
 趔	gomnn
 𧾒	gomoc
 趦	gomor
@@ -18746,13 +18746,13 @@ encoder:
 𡍾	gsss
 塀	gstt
 𪤍	gstv
-圮	gsu	1
-𡉏	gsu
+圮	gsu
 𡊓	gsuj
 堀	gsuu	2
 𡝔	gsv
 𡔑	gswu
 𡎰	gsyl
+𡉏	gsyu
 𪣤	gta
 塻	gtak
 𡑪	gtav
@@ -19734,6 +19734,7 @@ encoder:
 翩	hbss	1
 䎗	hbss
 𥮄	hbsu
+𥮄	hbsyu
 血	hbt	4
 笧	hbt	3
 𢍢	hbt	2
@@ -20587,11 +20588,11 @@ encoder:
 𫀸	hdssr
 𥡪	hdsst
 𥠧	hdstq
-𥝗	hdsu	1
 䄫	hdsu
 𥤟	hdswt
 𥤝	hdswu
 稺	hdsyl
+𥝗	hdsyu
 乗	hdt	1
 𠂲	hdt
 稓	hdta	1
@@ -23080,7 +23081,7 @@ encoder:
 風	hnmli		hn'mli
 篛	hnmm
 凨	hnmmi		hn'mmi
-夙	hnmn		hn'mn
+夙	hnmni	2	hn'mn'i
 㓘	hnmni
 颲	hnmnn	1
 𢤉	hnmp
@@ -28611,6 +28612,7 @@ encoder:
 𠖰	imsu
 𠘕	imsuf	1
 𠘑	imsuf
+𠖰	imsyu
 𢇩	imt
 𠗘	imtbc
 㓋	imtc
@@ -28999,8 +29001,8 @@ encoder:
 𢎂	ipoo
 㓒	ipop
 態	ipp	5
-忒	ipp	4
-庇	ipp	3
+庇	ipp	4
+忒	ipp	3
 麀	ipp	2
 𢖼	ipp
 𪊨	ippa
@@ -31654,10 +31656,10 @@ encoder:
 宸	jmmv	1
 𣦍	jmmx
 宁	jmn	2
-𡧒	jmn
 𧵒	jmnc
 𫁎	jmndu
 𪅢	jmnhz
+𡧒	jmni
 𡬋	jmnr
 㿾	jmnt
 顁	jmomz	1
@@ -40345,10 +40347,10 @@ encoder:
 𤩉	mgssr
 𤧅	mgstt
 𤧷	mgstv
-玘	mgsu	1
-𤣱	mgsu
+玘	mgsu
 㻕	mgsuu
 𤤃	mgsy
+𤣱	mgsyu
 弄	mgt
 𤦘	mgta
 𤪶	mgtap
@@ -41331,8 +41333,7 @@ encoder:
 巰	mmyiv
 𤲾	mmyw
 項	mmz	1
-丁	mn	3
-歹	mn	2
+丁	mn	2
 乛	mn	1
 𠃌	mn
 𠀂	mn
@@ -41471,8 +41472,10 @@ encoder:
 殦	mnhz	3
 鴷	mnhz	1
 𩾚	mnhz
+歹	mni	1	mn'i
 𣧌	mni
 㱢	mniav
+𢁳	mnib
 𣧵	mnihm
 殘	mnii
 残	mnij
@@ -41480,9 +41483,13 @@ encoder:
 殏	mnije	1
 𣧧	mnike
 𣧧	mnikk
+𣦺	mniks
 𣧗	mniku
+列	mniln
 𤮂	mnilr
+𣧋	mnino
 𣧸	mnimo
+𨚌	mninl
 𣧆	mnip
 殘	mniq
 殆	mnir	1
@@ -41491,6 +41498,7 @@ encoder:
 𣨲	mnite
 𣧡	mniu
 𣩏	mnixp
+𣧏	mniye
 瓧	mnj	3
 𠦦	mnj	2
 𠦘	mnj	1
@@ -41533,11 +41541,9 @@ encoder:
 㱦	mnkmr
 殎	mnkoo
 劽	mnks	1
-𣦺	mnks
 𢍗	mnkt
 𣩳	mnkua
 邛	mnl
-𢁳	mnlb
 㡂	mnlb
 殃	mnlbk
 殔	mnle
@@ -41550,7 +41556,6 @@ encoder:
 𤮃	mnlkt
 殨	mnlmc
 㱮	mnlmo
-列	mnln
 𠞺	mnlnr
 肂	mnlq
 𩐁	mnlsm
@@ -41573,8 +41578,8 @@ encoder:
 𣧒	mnmlj
 𣧸	mnmmo
 𣧁	mnmms
-㱛	mnmn
 𣍌	mnmna
+㱛	mnmni
 𣧿	mnmnn
 𣧤	mnmnr
 𣧰	mnmob
@@ -41605,10 +41610,8 @@ encoder:
 𤬫	mnnj
 𤬫	mnnk
 邒	mnnl	1
-𨚌	mnnl
 𣧼	mnnmu
 𣧓	mnnnn
-𣧋	mnno
 𣩶	mnnom
 𣩟	mnnot
 𣩊	mnnqd
@@ -41784,7 +41787,6 @@ encoder:
 𣩪	mnxif
 䶛	mnxuo
 𪚗	mnybp
-𣧏	mnye
 殩	mnyed
 𣩌	mnyeq
 殧	mnyfu
@@ -51056,7 +51058,7 @@ encoder:
 𠊱	onmk
 𣱗	onmks
 氩	onml
-𣱚	onmn
+𣱚	onmni
 𪵤	onmnr
 氞	onmob
 𠍻	onmr
@@ -54144,9 +54146,9 @@ encoder:
 𠣑	pmmu
 𢠷	pmmz
 忊	pmn	1
-𢗚	pmn
 𪬔	pmnd
 𢟏	pmnf
+𢗚	pmni
 㤡	pmnn
 𢟈	pmnp
 𪫧	pmnr	1
@@ -56638,14 +56640,14 @@ encoder:
 抏	qmmu
 振	qmmv
 𢴦	qmmz
-打	qmn	3
-𦒱	qmn	2
-𢪰	qmn	1
+打	qmn	2
+𦒱	qmn	1
 𢪞	qmn
 𢵍	qmnd	2
 𢳗	qmnd	1
 𢲬	qmnd
 𦥆	qmng
+𢪰	qmni
 挒	qmnn	2
 𢲀	qmnp	1
 𢱽	qmnp
@@ -57369,7 +57371,6 @@ encoder:
 𢴚	qstr
 摒	qstt
 搌	qstv
-𢩽	qsu	1
 𢩵	qsu
 𩏾	qsue
 𢭮	qsuk
@@ -57379,6 +57380,7 @@ encoder:
 韫	qswot
 攬	qswu
 搱	qsyl
+𢩽	qsyu
 措	qta
 𢸓	qtaa
 摸	qtak	1
@@ -59182,9 +59184,9 @@ encoder:
 𠰂	rmmu
 㖘	rmmv
 𠾿	rmmz
-叮	rmn	1
-𠯪	rmn
+叮	rmn
 𠺅	rmnf
+𠯪	rmni
 𢑣	rmnk
 咧	rmnn
 𠺱	rmnp
@@ -61236,6 +61238,7 @@ encoder:
 𨁳	rxrvs
 𨃿	rxrvt
 踀	rxryo
+𧿆	rxryu
 𧿸	rxse	1
 䟿	rxse
 䠱	rxsei
@@ -64764,7 +64767,6 @@ encoder:
 𪚁	stxuo
 𪨚	styg
 𠥊	stz
-已	su	2
 己	su	1
 㞪	su
 㔾	su
@@ -64986,6 +64988,7 @@ encoder:
 𢑔	sysr	1
 𠰟	sysr
 㞐	syt
+已	syu
 𠥞	syug
 𡱍	syvo
 𡱦	syx
@@ -66095,8 +66098,8 @@ encoder:
 𦸻	tghr
 羲	tghs	2
 𦏡	tghs
-着	tghu	3
-羌	tghu	2
+羌	tghu	3
+着	tghu	2
 齹	tghu	1
 𠒌	tghu
 𪉵	tghw	1
@@ -69279,8 +69282,8 @@ encoder:
 蓳	ttlm
 𠛼	ttln	1
 㓝	ttln
-並	ttm	1
-苷	ttm
+苷	ttm	1
+並	ttm
 普	ttma
 𫉉	ttmc
 𦳑	ttmd
@@ -71458,9 +71461,8 @@ encoder:
 嵺	ussh	1
 𡻪	ussh
 𪩒	usst
-屺	usu	5
-岂	usu	3
-𡴾	usu	2
+屺	usu	4
+岂	usu	2
 𡴼	usu	1
 𡴱	usu
 剀	usuln
@@ -71468,6 +71470,7 @@ encoder:
 崛	usuu	1
 崫	usuu
 𡴰	usvs
+𡴾	usyu
 𢌲	ut
 㟙	uta
 𡻟	utak
@@ -74179,7 +74182,6 @@ encoder:
 𤖜	vmmzl
 𤖦	vmmzo
 奵	vmn	1
-𡛃	vmn
 绝	vmnau
 𧢼	vmnbg
 𫄧	vmnex
@@ -74187,6 +74189,7 @@ encoder:
 𧢼	vmngq
 级	vmnhe
 𫄮	vmnht
+𡛃	vmni
 𤕶	vmnic
 𡠸	vmnj
 𡣜	vmnk
@@ -74969,7 +74972,7 @@ encoder:
 𡝂	vvmg
 鸶	vvmhm
 姧	vvmj
-𣧄	vvmn
+𣧄	vvmni
 维	vvmog
 𠙭	vvmun
 𡿸	vvmwo
@@ -79094,8 +79097,8 @@ encoder:
 𧝑	ymmv	1
 𧘎	ymmv
 𠧗	ymmy
-𫟧	ymn	1
-𨑰	ymn
+𫟧	ymn
+𨑰	ymni
 𩑨	ymnmz
 迾	ymnn
 𢼁	ymnok
@@ -81218,6 +81221,7 @@ encoder:
 𣄚	ysyto
 𣃡	ysyvi
 𣃷	ysywo
+𨑓	ysyu
 立	yt	1
 𨑬	yt
 𢌮	yt
