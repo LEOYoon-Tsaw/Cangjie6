@@ -9,6 +9,7 @@
 # 單字編碼兼顧宋體、細明體字形 crazy4u 2013-04-02
 # 又增一千字 crazy4u 2013-04-27
 # 增加組詞分隔符、正體字字頻 雪齋 2013-05-30
+# 採用相對字頻 雪齋 2013-12-09
 
 # 本字表收中日韓越統一表意文字及其擴展A、B、C、D區另加相容表意文字區之12箇獨立字。
 # 取碼依宋體及明體。另：擴展B區有四個重複收錄字，本表錄之，但加「#」註。
@@ -16,7 +17,7 @@
 # License: GPL
 ---
 name: "cangjie6"
-version: "0.25"
+version: "0.26"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -3680,6 +3681,7 @@ encoder:
 𧹑	boiks
 䑎	boim
 𫆛	boip
+贱	boiq
 贻	boir
 𦣗	boiu
 㬳	boj
@@ -12155,7 +12157,7 @@ encoder:
 𪸇	eipg
 𣼀	eiph
 𤄟	eipr
-浅	eiq
+浅	eiq	1
 治	eir
 𤅳	eirb
 𤁭	eirb
@@ -29091,6 +29093,7 @@ encoder:
 𠫚	iq	1
 㦮	iq
 𢉜	iqa
+盏	iqbt
 𠬏	iqbtv
 緳	iqhf
 𢊏	iqhq
@@ -29103,6 +29106,7 @@ encoder:
 𢧔	iqka
 𢊷	iqkc
 𧕹	iqki
+刬	iqln
 𢉑	iqmb
 𢊂	iqmw
 庨	iqnd	1
@@ -33192,6 +33196,7 @@ encoder:
 㽿	khio
 𤣄	khipf
 𤞔	khipm
+𫞣	khiq
 猵	khisb	1
 猏	khisb
 𤟑	khisk
@@ -33875,6 +33880,7 @@ encoder:
 𤻩	kipf
 𤼗	kipo
 𤼛	kipv
+𪽭	kiq
 𠮫	kir	1
 㾂	kir
 𡙮	kirg
@@ -41494,7 +41500,7 @@ encoder:
 𣧸	mnimo
 𨚌	mninl
 𣧆	mnip
-殘	mniq
+残	mniq
 殆	mnir	1
 𣨤	mnirm
 𣩀	mnisb
@@ -48474,6 +48480,7 @@ encoder:
 馂	nuice
 饯	nuij
 𫗦	nuijb
+饯	nuiq
 饴	nuir
 𦫘	nuive
 饽	nujbd
@@ -50188,8 +50195,8 @@ encoder:
 𩟮	oiywv
 䭣	oiyx
 飰	oiyy
-什	oj	3
-午	oj	2
+午	oj	3
+什	oj	2
 仐	oj	1
 𠓝	oj
 𣉻	oja
@@ -51503,6 +51510,7 @@ encoder:
 𫔒	opipf
 𫟸	opipm
 铽	opipp
+钱	opiq
 𠊝	opir
 䦂	opiss
 镰	opitc
@@ -60838,6 +60846,7 @@ encoder:
 𨁵	rxioi
 䠖	rxior
 𧿑	rxip
+践	rxiq
 跆	rxir
 蹁	rxisb
 𨁸	rxisk
@@ -62782,8 +62791,8 @@ encoder:
 髻	shgr
 𩮯	shgsk
 𩭑	shgz
-刃	shh	2
-屛	shh	1
+屛	shh	2
+刃	shh	1
 𩭲	shh
 𩯠	shhar
 𣏉	shhd
@@ -64060,6 +64069,7 @@ encoder:
 𨝻	sminl
 𫘤	smiok	1
 𢿼	smiok
+𩧩	smiq
 骀	smir
 驴	smis
 骗	smisb
@@ -74093,6 +74103,7 @@ encoder:
 𦈍	vmikx
 牅	vmilb
 𢍿	vmip
+线	vmiq
 绐	vmir
 𦈒	vmird
 编	vmisb
