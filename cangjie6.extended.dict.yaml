@@ -6,7 +6,7 @@
 # License: GPL
 ---
 name: "cangjie6.extended"
-version: "0.3"
+version: "0.31"
 sort: by_weight
 use_preset_vocabulary: false
 import_tables:
@@ -15,14 +15,12 @@ columns:
   - text
   - weight
 encoder:
-  exclude_patterns:
-    - '^z.*$'
   rules:
     - length_equal: 2
       formula: "AaAzBaBbBz"
-    - length_in_range: [3, 3]
+    - length_equal: 3
       formula: "AaAzBaYzZz"
-    - length_in_range: [4, 8]
+    - length_in_range: [4, 5]
       formula: "AaBzCaYzZz"
   tail_anchor: "'"
 ...
@@ -19226,8 +19224,8 @@ encoder:
 橄欖球場
 相反數
 相反詞
-概不	1
-木炭
+概不	2
+木炭	1
 相看兩不厭
 相視
 相融合

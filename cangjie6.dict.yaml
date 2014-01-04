@@ -1,5 +1,5 @@
 # encoding: utf-8
-#
+
 # 單字碼表自百度貼吧「倉頡」吧網友风易辞得
 # 又：
 # 蒼頡六代構詞碼碼表
@@ -17,7 +17,7 @@
 # License: GPL
 ---
 name: "cangjie6"
-version: "0.26"
+version: "0.27"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -26,14 +26,12 @@ columns:
   - weight
   - stem
 encoder:
-  exclude_patterns:
-    - '^z.*$'
   rules:
     - length_equal: 2
       formula: "AaAzBaBbBz"
-    - length_in_range: [3, 3]
+    - length_equal: 3
       formula: "AaAzBaYzZz"
-    - length_in_range: [4, 8]
+    - length_in_range: [4, 5]
       formula: "AaBzCaYzZz"
   tail_anchor: "'"
 ...
