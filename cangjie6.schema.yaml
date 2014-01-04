@@ -4,9 +4,10 @@
 schema:
   name: 蒼頡檢字法
   schema_id: cangjie6
-  version: 0.2
+  version: "0.2"
   author:
-    - 發明人 朱邦復先生、沈紅蓮女士
+    - 朱邦復先生
+    - 沈紅蓮女士
   description: |
     第六代倉頡輸入法
     碼表由雪齋、惜緣和crazy4u整理
@@ -97,7 +98,7 @@ pinyin:
   prefix: P
 # 漢語拼音輸入以〔大寫〕「P」引導
   suffix: ;
-  preedit_format:
+  preedit_format: &pinyin
     - xform/([nl])v/$1ü/
     - xform/([nl])ue/$1üe/
     - xform/([jqxy])v/$1u/
@@ -127,8 +128,10 @@ reverse_lookup:
   suffix: ;
   tips: 【反查】
   closing_tips: 【蒼頡】
-  extra_tags: [ pinyin_lookup, jyutping_lookup ]
-# 若不想在【反查】時加入漢語拼音或粵拼反查，請在上條中刪去相應「pinyin_lookup」或「jyutping_lookup」
+  extra_tags:
+    - pinyin_lookup
+    - jyutping_lookup
+# 若不想在【反查】時加入漢語拼音或粵拼反查，請在上兩條中刪去相應「pinyin_lookup」或「jyutping_lookup」
 
 pinyin_lookup:
   tag: pinyin_lookup
@@ -136,10 +139,7 @@ pinyin_lookup:
 # 獨用漢語拼音反查在反查鍵「`」之後再鍵入〔大寫〕「P」
   suffix: ;
   dictionary: luna_pinyin
-  preedit_format:
-    - xform/([nl])v/$1ü/
-    - xform/([nl])ue/$1üe/
-    - xform/([jqxy])v/$1u/
+  preedit_format: *pinyin
   tips: 【漢拼反查】
   closing_tips: 【蒼頡】
   initial_quality: 1	# 調整該編譯器出字優先度

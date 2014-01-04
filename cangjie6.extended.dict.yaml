@@ -6,7 +6,7 @@
 # License: GPL
 ---
 name: cangjie6.extended
-version: 0.31
+version: "0.31"
 sort: by_weight
 use_preset_vocabulary: false
 import_tables:

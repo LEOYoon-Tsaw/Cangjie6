@@ -2,18 +2,19 @@
 # encoding: utf-8
 
 schema:
-  name: "蒼頡檢字法"
   schema_id: cangjie6
+  name: 蒼頡檢字法
+  version: 0.19.custom.20131228
   author:
-    - "發明人 朱邦復先生、沈紅蓮女士"
+    - 朱邦復先生
+    - 沈紅蓮女士
+  description: |
+    第六代倉頡輸入法
+    碼表由雪齋、惜緣和crazy4u整理
   dependencies:
     - luna_pinyin
     - jyutping
     - terra_pinyin
-  description: |
-    第六代倉頡輸入法
-    碼表由雪齋、惜緣和crazy4u整理
-  version: 0.19.custom.20131228
  
 switches:
   - name: extended_charset
@@ -89,36 +90,35 @@ translator:
   preedit_format:
     - xform/^([a-z ]*)$/$1｜\U$1\E/
     - xform/(?<=[a-z])\s(?=[a-z])//
-    - xform/(?<=[A-Z])\s(?=[A-Z])/ /
-    - "xlit|ABCDEFGHIJKLMNOPQRSTUVWXYZ|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片|"
+    - xlit|ABCDEFGHIJKLMNOPQRSTUVWXYZ|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片|
   comment_format:
-    - "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片・|"
+    - xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片・|
   initial_quality: 0.75	# 調整該編譯器出字優先度
 
 pinyin:
   tag: pinyin
   dictionary: luna_pinyin
   enable_charset_filter: true
-  prefix: 'P'
+  prefix: P
 # 漢語拼音輸入以〔大寫〕「P」引導
-  suffix: ';'
-  preedit_format:
-    - "xform/([nl])v/$1ü/"
-    - "xform/([nl])ue/$1üe/"
-    - "xform/([jqxy])v/$1u/"
-  tips: "【漢拼】"
-  closing_tips: "【蒼頡】"
+  suffix: ;
+  preedit_format: &pinyin
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+  tips: 【漢拼】
+  closing_tips: 【蒼頡】
   initial_quality: 0.2	# 調整該編譯器出字優先度
 
 jyutping:
   tag: jyutping
   dictionary: jyutping
   enable_charset_filter: true
-  prefix: 'J'
+  prefix: J
 # 粵拼輸入以〔大寫〕「J」引導
-  suffix: ';'
-  tips: "【粵拼】"
-  closing_tips: "【蒼頡】"
+  suffix: ;
+  tips: 【粵拼】
+  closing_tips: 【蒼頡】
   initial_quality: 0.1	# 調整該編譯器出字優先度
 
 #abc_segmentor:
@@ -129,34 +129,33 @@ reverse_lookup:
   tag: reverse_lookup
   prefix: "`"
 # 反查引導鍵「`」
-  suffix: ";"
-  tips: "【反查】"
-  closing_tips: "【蒼頡】"
-  extra_tags: [ pinyin_lookup, jyutping_lookup ]
+  suffix: ;
+  tips: 【反查】
+  closing_tips: 【蒼頡】
+  extra_tags:
+    - pinyin_lookup
+    - jyutping_lookup
 # 若不想在【反查】時加入漢語拼音或粵拼反查，請在上條中刪去相應「pinyin_lookup」或「jyutping_lookup」
 
 pinyin_lookup:
   tag: pinyin_lookup
   prefix: "`P"
 # 獨用漢語拼音反查在反查鍵「`」之後再鍵入〔大寫〕「P」
-  suffix: ";"
+  suffix: ;
   dictionary: luna_pinyin
-  preedit_format:
-    - "xform/([nl])v/$1ü/"
-    - "xform/([nl])ue/$1üe/"
-    - "xform/([jqxy])v/$1u/"
-  tips: "【漢拼反查】"
-  closing_tips: "【蒼頡】"
+  preedit_format: *pinyin
+  tips: 【漢拼反查】
+  closing_tips: 【蒼頡】
   initial_quality: 1	# 調整該編譯器出字優先度
 
 jyutping_lookup:
   tag: jyutping_lookup
   prefix: "`J"
 # 獨用粵拼反查在反查鍵「`」之後再鍵入〔大寫〕「J」
-  suffix: ";"
+  suffix: ;
   dictionary: jyutping
-  tips: "【粵拼反查】"
-  closing_tips: "【蒼頡】"
+  tips: 【粵拼反查】
+  closing_tips: 【蒼頡】
   initial_quality: 0.5	# 調整該編譯器出字優先度
 
 pinyin_reverse_lookup:
@@ -164,9 +163,9 @@ pinyin_reverse_lookup:
   dictionary: *dict
   overwrite_comment: true  # 覆蓋其他提示
   comment_format: &comment
-    - "xform/$/〕/"
-    - "xform/^/〔/"
-    - "xlit|abcdefghijklmnopqrstuvwxyz |日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片、|"
+    - xform/$/〕/
+    - xform/^/〔/
+    - xlit|abcdefghijklmnopqrstuvwxyz |日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片、|
 
 jyutping_reverse_lookup:
   tags: [ jyutping_lookup ]
@@ -220,17 +219,17 @@ punctuator:
 recognizer:
   import_preset: default
   patterns:
-    email: "^[a-z][-_.0-9a-z]*@.*$"
-    url: "^(www[.]|https?:|ftp:|mailto:).*$"
+    email: ^[a-z][-_.0-9a-z]*@.*$
+    url: ^(www[.]|https?:|ftp:|mailto:).*$
     reverse_lookup: "`[a-z]*;?$"
 # 反查引導鍵
     pinyin_lookup: "`P[a-z]*;?$"
 # 漢語拼音反查引導鍵
     jyutping_lookup: "`J[a-z]*;?$"
 # 粵拼反查引導鍵
-    pinyin: "(?<!`)P[a-z']*;?$"
+    pinyin: (?<!`)P[a-z']*;?$
 # 漢語拼音輸入引導鍵
-    jyutping: "(?<!`)J[a-z']*;?$"
+    jyutping: (?<!`)J[a-z']*;?$
 # 粵拼輸入引導鍵
-    punct: "^/[0-9]?[a-z]*$"
+    punct: ^/[0-9]?[a-z]*$
 # 以「/」引導特殊符號

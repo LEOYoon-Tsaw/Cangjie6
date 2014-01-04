@@ -4,9 +4,10 @@
 schema:
   name: 蒼頡·快打模式
   schema_id: cangjie6_express
-  version: 0.1
+  version: "0.1"
   author:
-    - 發明人 朱邦復先生、沈紅蓮女士
+    - 朱邦復先生
+    - 沈紅蓮女士
   description: |
     第六代蒼頡檢字法
     碼表源自風易辭，雪齋、惜緣和crazy4u整理
@@ -90,8 +91,10 @@ reverse_lookup:
   suffix: ;
   tips: 【反查】
   closing_tips: 【蒼頡】
-  extra_tags: [ pinyin_lookup, jyutping_lookup ]
-# 若不想在【反查】時加入漢語拼音或粵拼反查，請在上條中刪去相應「pinyin_lookup」或「jyutping_lookup」
+  extra_tags:
+    - pinyin_lookup
+    - jyutping_lookup
+# 若不想在【反查】時加入漢語拼音或粵拼反查，請在上兩條中刪去相應「pinyin_lookup」或「jyutping_lookup」
 
 pinyin_lookup:
   tag: pinyin_lookup
