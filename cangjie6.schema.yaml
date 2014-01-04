@@ -4,15 +4,15 @@
 schema:
   name: "蒼頡檢字法"
   schema_id: cangjie6
+  version: 0.2
   author:
-    - "發明人 朱邦復先生、沈紅蓮女士"
-  dependencies:
-    - luna_pinyin
-    - jyutping
+    - 發明人 朱邦復先生、沈紅蓮女士
   description: |
     第六代倉頡輸入法
     碼表由雪齋、惜緣和crazy4u整理
-  version: 0.2
+  dependencies:
+    - luna_pinyin
+    - jyutping
  
 switches:
   - name: extended_charset
@@ -28,17 +28,7 @@ switches:
     states: [ 半角, 全角 ]
     reset: 0
 
-simplify:
-  option_name: simplification
-  tips: all
-  tags: [ abc, pinyin, jyutping ]
-
 engine:
-  filters:
-    - simplifier@simplify
-    - uniquifier
-    - reverse_lookup_filter@pinyin_reverse_lookup
-    - reverse_lookup_filter@jyutping_reverse_lookup
   processors:
     - ascii_composer
     - recognizer
@@ -66,6 +56,16 @@ engine:
     - script_translator@jyutping
     - script_translator@pinyin_lookup
     - script_translator@jyutping_lookup
+  filters:
+    - simplifier@simplify
+    - uniquifier
+    - reverse_lookup_filter@pinyin_reverse_lookup
+    - reverse_lookup_filter@jyutping_reverse_lookup
+
+simplify:
+  option_name: simplification
+  tips: all
+  tags: [ abc, pinyin, jyutping ]
 
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba

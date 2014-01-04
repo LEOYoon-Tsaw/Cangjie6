@@ -29,11 +29,6 @@ switches:
     states: [ 半角, 全角 ]
     reset: 0
 
-simplify:
-  option_name: simplification
-  tips: all  # 簡化字模式下提示對應的傳統漢字
-  tags: [ abc ]
-
 engine:
   processors:
     - ascii_composer
@@ -63,6 +58,11 @@ engine:
     - uniquifier
     - reverse_lookup_filter@pinyin_reverse_lookup
     - reverse_lookup_filter@jyutping_reverse_lookup
+
+simplify:
+  option_name: simplification
+  tips: all  # 簡化字模式下提示對應的傳統漢字
+  tags: [ abc ]
 
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
@@ -143,6 +143,8 @@ key_binder:
 recognizer:
   import_preset: default
   patterns:
+    email: "^[a-z][-_.0-9a-z]*@.*$"
+    url: "^(www[.]|https?:|ftp:|mailto:).*$"
     reverse_lookup: "`[a-z]*;?$"
 # 反查引導鍵
     pinyin_lookup: "`P[a-z]*;?$"
