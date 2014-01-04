@@ -5,8 +5,8 @@
 
 # License: GPL
 ---
-name: "cangjie6.extended"
-version: "0.31"
+name: cangjie6.extended
+version: 0.31
 sort: by_weight
 use_preset_vocabulary: false
 import_tables:
@@ -17,11 +17,11 @@ columns:
 encoder:
   rules:
     - length_equal: 2
-      formula: "AaAzBaBbBz"
+      formula: AaAzBaBbBz
     - length_equal: 3
-      formula: "AaAzBaYzZz"
+      formula: AaAzBaYzZz
     - length_in_range: [4, 5]
-      formula: "AaBzCaYzZz"
+      formula: AaBzCaYzZz
   tail_anchor: "'"
 ...
 日日
