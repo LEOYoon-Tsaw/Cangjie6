@@ -12,7 +12,7 @@ schema:
     碼表由雪齋、惜緣和crazy4u整理
   version: 0.19
   dependencies: [ luna_pinyin, jyutping, zyenpheng, emoji ]
- 
+
 switches:
   - name: ascii_mode
     reset: 0
@@ -262,7 +262,7 @@ middle_chinese:
     - xform/\x02(u?e)ŋ((?:[wxhq]|／)*\x03)/\x02$1o青$2/
     - xform/\x02([iy])ŋ((?:[wxhq]|／)*\x03)/\x02$1o蒸$2/
     - xform/\x02(u?)oŋ((?:[wxhq]|／)*\x03)/\x02$1o登$2/
- 
+
     - xform/\x02(j?)(y)ɿn((?:[wxhq]|／)*\x03)/\x02$1ɨ$2o諄$3/
     - xform/\x02(j?)(i)ɿn((?:[wxhq]|／)*\x03)/\x02$1ɨ$2o臻$3/
     - xform/\x02(j?)([iy])n((?:[wxhq]|／)*\x03)/\x02$1ɨ$2o眞$3/
@@ -277,7 +277,7 @@ middle_chinese:
     - xform/\x02(ru?)en((?:[wxhq]|／)*\x03)/\x02$1o山$2/
     - xform/\x02(j?)([iy])en((?:[wxhq]|／)*\x03)/\x02$1ɨ$2o仙$3/
     - xform/\x02(u?e)n((?:[wxhq]|／)*\x03)/\x02$1o先$2/
- 
+
     - xform/\x02(j?)(i)m((?:[wxhq]|／)*\x03)/\x02$1ɨ$2o侵$3/
     - xform/\x02(i)am((?:[wxhq]|／)*\x03)/\x02$1o嚴$2/
     - xform/\x02(y)am((?:[wxhq]|／)*\x03)/\x02$1o凡$2/
@@ -287,7 +287,7 @@ middle_chinese:
     - xform/\x02(j?)(i)em((?:[wxhq]|／)*\x03)/\x02$1ɨ$2o鹽$3/
     - xform/\x02(e)m((?:[wxhq]|／)*\x03)/\x02$1o添$2/
     - xform/\x02om((?:[wxhq]|／)*\x03)/\x02o覃$1/
- 
+
     - xform/\x02(r)au((?:[wxh]|／)*\x03)/\x02$1肴$2/
     - xform/\x02au((?:[wxh]|／)*\x03)/\x02豪$1/
     - xform/\x02(j?)(i)eu((?:[wxh]|／)*\x03)/\x02$1ɨ$2宵$3/
@@ -295,7 +295,7 @@ middle_chinese:
     - xform/\x02(i)u((?:[wxh]|／)*\x03)/\x02$1尤$2/
     - xform/\x02u((?:[wxh]|／)*\x03)/\x02侯$1/
     - xform/\x02(y)((?:[wxh]|／)*\x03)/\x02$1幽$2/
- 
+
     - xform/\x02(j?)([iy])e((?:[wxh]|／)*\x03)/\x02$1ɨ$2o支$3/
     - xform/\x02(j?)([iy])i((?:[wxh]|／)*\x03)/\x02$1ɨ$2o脂$3/
     - xform/\x02i((?:[wxh]|／)*\x03)/\x02o之$1/
@@ -309,7 +309,7 @@ middle_chinese:
     - xform/\x02(u?e)((?:[wxh]|／)*\x03)/\x02$1o齊$2/
     - xform/\x02i?(u)ai((?:[wxh]|／)*\x03)/\x02$1o灰$2/
     - xform/\x02ai((?:[wxh]|／)*\x03)/\x02o咍$1/
- 
+
     - xform/\x02([uiy])a((?:[wxh]|／)*\x03)/\x02$1o戈$2/
     - xform/\x02a((?:[wxh]|／)*\x03)/\x02o歌$1/
     - xform/\x02j?(r[ui]?)a((?:[wxh]|／)*\x03)/\x02$1o麻$2/
