@@ -14,7 +14,7 @@ schema:
   dependencies:
     - luna_pinyin
     - jyutping
- 
+
 switches:
   - name: extended_charset
     states: [ 通用, 增廣 ]
