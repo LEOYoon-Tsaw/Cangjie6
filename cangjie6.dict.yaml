@@ -7733,7 +7733,7 @@ encoder:
 鈄	cyj	2
 𨰮	cyje
 鏈	cyjj
-鏑	cyjr
+鏑	cyjr		cy'jr
 鈫	cyk
 䥦	cykb
 𫒤	cykd
@@ -10903,7 +10903,7 @@ encoder:
 𣛔	dyji	1
 𣚢	dyji
 槤	dyjj
-樀	dyjr
+樀	dyjr		dy'jr
 𣐀	dyk
 𣙛	dykb
 𣟆	dykf
@@ -14032,7 +14032,7 @@ encoder:
 洨	eyck
 澵	eycl
 澻	eyco
-滳	eycr
+滳	eycr		ey'cr
 𣳍	eycs
 瀙	eycu	1
 渷	eycu
@@ -14083,7 +14083,7 @@ encoder:
 𤁀	eyjh
 漣	eyjj
 𣸘	eyjp
-滴	eyjr
+滴	eyjr		ey'jr
 汶	eyk	3
 㳠	eyk
 㵦	eykb
@@ -16559,7 +16559,7 @@ encoder:
 煷	fybu
 烄	fyck
 燧	fyco
-熵	fycr	1
+熵	fycr	1	fy'cr
 𤐹	fyct
 燉	fydk
 𤍪	fydl
@@ -19040,7 +19040,7 @@ encoder:
 𡉽	gyc
 𡋟	gyck
 𡑞	gyco
-墒	gycr
+墒	gycr		gy'cr
 壌	gycv	1
 㙥	gycv
 墩	gydk
@@ -19063,7 +19063,7 @@ encoder:
 𡊿	gyiu
 㘰	gyj
 𪤎	gyjj
-墑	gyjr
+墑	gyjr		gy'jr
 坟	gyk	1
 垯	gyk
 𪤕	gykm
@@ -29638,7 +29638,7 @@ encoder:
 谜	iuyfd
 谚	iuyhh
 访	iuyhs
-谪	iuyjr
+谪	iuyjr		iuy'jr
 谴	iuylr
 让	iuym
 谇	iuyoj
@@ -37086,7 +37086,7 @@ encoder:
 螃	liybs
 𧐢	liybu
 蛟	liyck
-螪	liycr
+螪	liycr		liy'cr
 𧍄	liycu
 𧑒	liydk
 𧐒	liydl
@@ -42070,7 +42070,7 @@ encoder:
 𧲖	moybp
 𧱱	moyhh
 𣂀	moyj
-豴	moyjr
+豴	moyjr		moy'jr
 𧲈	moykb
 𧱱	moykh
 𥕔	moymr
@@ -51773,7 +51773,7 @@ encoder:
 铳	opyiu	1
 锍	opyiu
 钭	opyj
-镝	opyjr
+镝	opyjr		opy'jr
 𫟼	opyk
 链	opykq
 锌	opyl
@@ -57797,7 +57797,7 @@ encoder:
 𪮮	qyji
 摙	qyjj
 𢷢	qyjl
-摘	qyjr
+摘	qyjr		qy'jr
 抆	qyk	1
 𢪖	qyk
 挞	qyk
@@ -61476,7 +61476,7 @@ encoder:
 䟽	rxyiv
 𧿫	rxyj
 蹥	rxyjj
-蹢	rxyjr
+蹢	rxyjr		rxy'jr
 跶	rxyk
 𨂪	rxykh
 跻	rxykl
@@ -61593,7 +61593,7 @@ encoder:
 𪡁	ryiu
 呌	ryj
 嗹	ryjj
-嘀	ryjr
+嘀	ryjr		ry'jr
 𡀧	ryjv
 呅	ryk	1
 哒	ryk
@@ -69920,7 +69920,7 @@ encoder:
 茭	tyck
 薪	tycl
 𦼯	tyco	1
-蔏	tycr
+蔏	tycr		ty'cr
 藽	tycu	2
 萒	tycu	1
 𦳆	tycu
@@ -69971,7 +69971,7 @@ encoder:
 𧆐	tyjc
 𦺩	tyji
 蓮	tyjj
-蔐	tyjr
+蔐	tyjr		ty'jr
 𦿪	tyjt
 芠	tyk	1
 荙	tyk
@@ -80884,7 +80884,7 @@ encoder:
 𨖰	yryc
 詨	yryck
 譢	yryco
-謪	yrycr	1
+謪	yrycr	1	yry'cr
 𧭼	yrycu
 譲	yrycv	1
 𧫀	yrycv
@@ -80914,7 +80914,7 @@ encoder:
 𣂉	yryj	1
 䚵	yryj
 謰	yryjj	1
-謫	yryjr
+謫	yryjr		yry'jr
 𫌴	yryk
 䜔	yrykb
 諺	yrykh
@@ -82146,7 +82146,7 @@ encoder:
 𨓞	yyiu
 𨓞	yyiv
 䢏	yyj
-適	yyjr
+適	yyjr		yy'jr
 这	yyk
 遃	yykh
 𨒻	yyki
