@@ -5,8 +5,8 @@
 3. To personalise, follow instructions in `cangjie6.schema.yaml`
 
 ======
-1. 本方案爲爲 Rime 輸入法引擎所製蒼頡檢字法輸入方案  
-2. `cangjie6.dict.yaml`爲蒼頡檢字法字表，`cangjie6.extended.dict.yaml`爲詞表，`cangjie6.schema.yaml`爲方案配置文件   
+1. 本方案爲爲 Rime 輸入法引擎所製蒼頡檢字法輸入方案
+2. `cangjie6.dict.yaml`爲蒼頡檢字法字表，`cangjie6.extended.dict.yaml`爲詞表，`cangjie6.schema.yaml`爲方案配置文件
 3. 如欲更改默認配置，請循`cangjie6.schema.yaml`中註釋進行
 
 ##蒼頡·快打模式〔Cangjie6 Express〕
@@ -16,16 +16,16 @@
 3. To personalise, follow instructions in `cangjie6_express.schema.yaml`
 
 ===
-1. 快打模式爲單字自動上屛模式   
-2. `cangjie6.dict.yaml`爲蒼頡檢字法字表，`cangjie6_express.schema.yaml`爲方案配置文件   
+1. 快打模式爲單字自動上屛模式
+2. `cangjie6.dict.yaml`爲蒼頡檢字法字表，`cangjie6_express.schema.yaml`爲方案配置文件
 3. 如欲更改默認配置，請循`cangjie6_express.schema.yaml`中註釋進行
 
 ##使用方法
-<ol><li>Download <a href="https://code.google.com/p/rimeime/">La Rime</a>.</br>
+<ol><li>Download <a href="https://code.google.com/p/rimeime/">La Rime</a>.<br />
 Get the archived Cangjie6 package from <a href="http://www.bintray.com/rime-aca/Schemata/Cangjie6">Bintray</a>.</li>
 <li>Unarchive the package, move the files archived to Rime's user folder.
-<br><small><ul>
-<code>MacOS X</code>: ~/Library/Rime<br>
+<br /><small><ul>
+<code>MacOS X</code>: ~/Library/Rime<br />
 <code>Windows</code>: User_Direction\AppData\Roaming\Rime
 </small></ul>
 <li>Add</li>
@@ -37,11 +37,11 @@ to <code>default.custom.yaml</code> in Rime's user folder.
 <li>Deploy. Then press <code>control</code>+<code>`</code> and choose Cangjie6 or Cangjie6 Express to start to use.</li></ol>
 
 <hr>
-<ol><li>下載<a href="http://code.google.com/p/rimeime">中州韻輸入法引擎</a>，</br>
+<ol><li>下載<a href="http://code.google.com/p/rimeime">中州韻輸入法引擎</a>，<br />
 前往 Bintray 下載<a href="http://www.bintray.com/rime-aca/Schemata/Cangjie6">蒼六壓縮包</a>；
 <li>將下載的文件放入【用戶檔案夾】；
-<br><small><ul>
-<code>MacOS X</code>: ~/Library/Rime (鼠鬚管狀態欄選單中的「用戶文檔…」)<br>
+<br /><small><ul>
+<code>MacOS X</code>: ~/Library/Rime (鼠鬚管狀態欄選單中的「用戶文檔…」)<br />
 <code>Windows</code>: User_Direction\AppData\Roaming\Rime (開始→所有程式→小狼毫→用戶檔案夾)
 </small></ul>
 <li>在<code>default.custom.yaml</code>中加入：
