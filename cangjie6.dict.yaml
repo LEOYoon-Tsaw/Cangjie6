@@ -17,7 +17,7 @@
 # License: GPL
 ---
 name: cangjie6
-version: "0.27"
+version: "0.28"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -32088,8 +32088,8 @@ encoder:
 寬	jtbi	2
 𡪨	jtbi
 贲	jtbo	1
-寛	jtbu	2
-宽	jtbu	1
+宽	jtbu	2
+寛	jtbu	1
 𡨄	jtc
 𦞫	jtcb	1
 𢄏	jtcb
@@ -37528,6 +37528,7 @@ encoder:
 𧞣	lmak
 貴	lmbc	1
 𧜙	lmbc
+将	lmbdi
 𧟐	lmbi
 䙇	lmbk
 袻	lmbl		lmb'l
