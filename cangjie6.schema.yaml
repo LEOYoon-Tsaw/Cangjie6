@@ -75,7 +75,8 @@ speller:
 translator:
   dictionary: &dict
     cangjie6.extended
-# 不想鍵詞的話可以把上條中「.extended」刪去
+# 若不需鍵詞，請刪去上條中之「.extended」
+# 若需簡體詞，请將上條中之「.extended」改爲「.extsimp」
   enable_charset_filter: true
   enable_user_dict: true
 # 不想自動調頻的話，將上條中「true」改爲「false」
