@@ -41,7 +41,7 @@ encoder:
 日	a	1
 曰	a
 昌	aa	2
-昍	aa	1
+昍	aa
 晶	aaa	2
 晿	aaa	1
 𪱈	aaaa	1
@@ -25404,16 +25404,16 @@ encoder:
 𣯢	huehv
 㲧	hueii
 臯	huej
-熈	huf	10
-焈	huf	8
-𪺋	huf	6
-𪵘	huf	5
-𤐏	huf	4
-𤋞	huf	3
-𤋅	huf	2
-毜	huf	1
-㷩	huf	1
-㷗	huf	1
+熈	huf	6
+焈	huf	5
+毜	huf	4
+㷩	huf	3
+㷗	huf	2
+𪺋	huf	1
+𪵘	huf	1
+𤐏	huf
+𤋞	huf
+𤋅	huf
 𣭱	hufb
 𣮜	hufbr
 毩	hufd	2
@@ -39621,9 +39621,9 @@ encoder:
 𤥜	mgbue
 𤥛	mgbup
 現	mgbuu	3
-𧡋	mgbuu	2
-𧠫	mgbuu	1
-䚈	mgbuu
+䚈	mgbuu	2
+𧡋	mgbuu	1
+𧠫	mgbuu
 𤤢	mgbv
 𤨊	mgbvk
 瑫	mgbx
@@ -42714,13 +42714,13 @@ encoder:
 𪤬	mrmrg
 𥗃	mrmrg
 𥑗	mrmrm
-磊	mrmrr	10
-舙	mrmrr	8
-𧭳	mrmrr	5
-𦧵	mrmrr	4
-𥗐	mrmrr	3
-𥗉	mrmrr	2
-𠾳	mrmrr	1
+磊	mrmrr	8
+舙	mrmrr	6
+𧭳	mrmrr	3
+𦧵	mrmrr	2
+𥗐	mrmrr	1
+𥗉	mrmrr
+𠾳	mrmrr
 𥔁	mrmrw
 砈	mrmsu	1
 𥑣	mrmsu
@@ -56144,10 +56144,10 @@ encoder:
 撺	qjcl
 控	qjcm
 挖	qjcn	3
-𢲁	qjcn	2
-𢮍	qjcn	1
+摉	qjcn	2
+𢲁	qjcn	1
+𢮍	qjcn
 𢭕	qjcn
-摉	qjcn
 搲	qjco	2
 攨	qjco	1
 𢳙	qjco
