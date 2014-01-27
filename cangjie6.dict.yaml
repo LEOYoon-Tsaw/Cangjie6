@@ -5866,9 +5866,9 @@ encoder:
 鐛	cayf	1
 𨩄	cayt
 𨰴	cayv
-鈅	cb	2
+鈅	cb	3
+䏌	cb	1
 𨥘	cb
-䏌	cb
 𨭘	cbaa
 錋	cbb
 𨪷	cbbb
@@ -7586,7 +7586,6 @@ encoder:
 鍿	cvw
 鈿	cw	1
 𠁤	cw
-曾	cwa	1
 曽	cwa
 𤎰	cwaf	1
 𤎯	cwaf
@@ -7598,6 +7597,7 @@ encoder:
 鎅	cwcl
 錁	cwd
 㷕	cwf
+曾	cwfa
 𨭆	cwff
 鋰	cwg	1
 𡈤	cwgv
@@ -13105,9 +13105,9 @@ encoder:
 𣻃	eoyr
 涖	eoyt	1
 𣳁	eoyv
-沁	ep	1
+沁	ep	2
+㲺	ep	1
 𢗨	ep
-㲺	ep
 洵	epa	1
 𣇹	epa
 𣹯	epas
@@ -17471,8 +17471,8 @@ encoder:
 𠫾	ginin
 𨚫	ginl
 㰦	gino
-𩻉	ginwf	1
-䲀	ginwf
+䲀	ginwf	1
+𩻉	ginwf
 𪚸	ginxu
 𤴢	ginyo
 垿	ginz
@@ -17680,9 +17680,9 @@ encoder:
 𡉕	gkni
 𡉻	gknj
 𡉕	gknk
-鰲	gknwf	1
+鰲	gknwf	2
+䲀	gknwf	1
 𩻉	gknwf
-䲀	gknwf
 𤴢	gknyo
 𫆰	gkobo
 埉	gkoo
@@ -27724,8 +27724,8 @@ encoder:
 𥚉	ifvvw
 𥚷	ifwb
 禝	ifwce
-祵	ifwd	2	ifw'd
-祼	ifwd	1
+祼	ifwd	2
+祵	ifwd	1	ifw'd
 𥚃	ifwg
 禑	ifwib
 祻	ifwjr		ifw'jr
@@ -29437,8 +29437,8 @@ encoder:
 说	iucru
 𫍛	iucsh
 𫟠	iucwj
-𥀧	iudhe	1
-诐	iudhe
+诐	iudhe	1
+𥀧	iudhe
 讨	iudi
 诀	iudk
 𫍧	iudt
@@ -32487,10 +32487,10 @@ encoder:
 𡙞	kbxm
 𡗭	kby
 龓	kbybp
-𤴭	kc	2
-𡗜	kc	1
+㾣	kc	2
+𤴭	kc	1
+𡗜	kc
 𡗕	kc
-㾣	kc
 昚	kca
 尞	kcaf	1
 𤋯	kcaf
@@ -43842,9 +43842,9 @@ encoder:
 䙶	mwhbv
 𨢼	mwhce
 酥	mwhd	3
-𫌚	mwhd	2
-𩈒	mwhd	1
-䅇	mwhd
+䅇	mwhd	2
+𫌚	mwhd	1
+𩈒	mwhd
 𨡲	mwhdf
 𨡌	mwhdv
 𨡃	mwhej
@@ -47096,8 +47096,8 @@ encoder:
 䨁	nkog
 憨	nkp	2
 愗	nkp	1
-𢞀	nkp
 㤵	nkp
+𢞀	nkp
 𨂣	nkryo
 𠝸	nksh
 骛	nksm
@@ -50325,10 +50325,10 @@ encoder:
 𠑙	ojyp
 体	ojz	1
 𫌠	ojzu
-矢	ok	3
+矢	ok	4
 攵	ok	2
+㐲	ok	1
 𪜧	ok
-㐲	ok
 𥎭	oka
 𥏅	okaj
 𥏫	okamh
@@ -51633,8 +51633,8 @@ encoder:
 𨱓	opogf
 镌	opogh
 𨱅	opohh
-𫗐	opomg	1
-铨	opomg
+铨	opomg	1
+𫗐	opomg
 钤	opon	1
 𨰿	opon
 铃	oponi
@@ -61883,9 +61883,9 @@ encoder:
 𠥋	seha
 䵖	sehde
 𤔛	sehlo
-犀	sehq	1
+犀	sehq	2
+㹂	sehq	1
 𤚉	sehq
-㹂	sehq
 𣭼	sehqu
 𡱤	sehu
 鹥	sehym
@@ -77693,10 +77693,10 @@ encoder:
 𩫋	ybdhe
 敹	ybdok
 𪲬	ybdt
-𧆤	ybe	2
-𣦻	ybe	1
+㕟	ybe	2
+𧆤	ybe	1
+𣦻	ybe
 𠭉	ybe
-㕟	ybe
 𠨇	ybeed
 𥹟	ybefd
 𡋪	ybeg
@@ -79246,9 +79246,9 @@ encoder:
 𨒓	yndy
 𣲊	yne	1
 𣦼	yne
+迩	ynf	2
 𤓤	ynf	1
 𤍋	ynf
-迩	ynf
 𢽯	ynfok
 𩦶	ynfsf
 𡑤	yng
@@ -80287,8 +80287,8 @@ encoder:
 評	yrmfj
 𫌶	yrmfm
 逞	yrmg	4
-𧥶	yrmg
 䚾	yrmg
+𧥶	yrmg
 𧩼	yrmgk
 𧨿	yrmha
 𧬎	yrmhd
