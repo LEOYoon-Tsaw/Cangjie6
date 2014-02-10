@@ -17,7 +17,7 @@
 # License: GPL
 ---
 name: cangjie6
-version: "0.28"
+version: "0.29"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -46069,7 +46069,8 @@ encoder:
 𩵼	nfke
 𩷎	nfkhf
 𩷗	nfkhg
-𫙢	nfkid
+𩶼	nfkic
+𩶼	nfkid
 𩷮	nfkiv
 䱁	nfkj
 𩵲	nfkk
@@ -46635,6 +46636,7 @@ encoder:
 魴	nfyhs	1
 𩽲	nfyhs
 𩺼	nfyib
+𫙢	nfyid
 鯍	nfyiu	1
 鯍	nfyiv
 𩵬	nfyj
