@@ -42,12 +42,12 @@ engine:
   segmentors:
     - ascii_segmentor
     - matcher
+    - abc_segmentor
     - affix_segmentor@pinyin
     - affix_segmentor@jyutping
     - affix_segmentor@pinyin_lookup
     - affix_segmentor@jyutping_lookup
     - affix_segmentor@reverse_lookup
-    - abc_segmentor
     - punct_segmentor
     - fallback_segmentor
   translators:
