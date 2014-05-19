@@ -3494,6 +3494,7 @@ encoder:
 𦐎	bmss
 𦠑	bmto	1
 𠖔	bmto
+𢮣	bmtq
 𠕶	bmu
 䐶	bmua
 冦	bmue
@@ -6731,8 +6732,8 @@ encoder:
 釫	cmks	1
 𨫌	cmla
 𫒧	cmlb	2
-𨥚	cmlb	1
 𨨄	cmlb	1
+𨥚	cmlb
 𫒝	cmlk
 𫒖	cmlw
 銢	cmme	1
@@ -7292,8 +7293,8 @@ encoder:
 岔	cshu	4
 銫	cshu	3
 鋔	cshu	2
-𠒁	cshu	1
 𥄟	cshu	1
+𠒁	cshu
 𦒥	cshuk
 𡛑	cshv
 錎	cshx	2
@@ -8320,6 +8321,7 @@ encoder:
 𪌎	ded	1
 𣑔	ded
 𣒑	ded
+𣠬	dedce
 䴭	dedh	1
 𤿋	dedh
 麬	dedhe	2
@@ -8329,7 +8331,6 @@ encoder:
 𪌊	dedk
 𪌶	dedl
 𥀊	dedmq
-𣠬	dedoe
 𪎂	dedoo	1
 麳	dedoo
 𥀳	dedtk
@@ -9411,8 +9412,8 @@ encoder:
 𪅙	dlokz
 𪲥	dlol
 惁	dlp	2
-𢜣	dlp	1
 𢣱	dlp	1
+𢜣	dlp
 𪴗	dlpc
 𪳧	dlpd
 𠣩	dlpi
@@ -10461,7 +10462,7 @@ encoder:
 㯼	dtgt
 欟	dtgu	2
 𣚰	dtgu	1
-𪲞	dtgu	1
+𪲞	dtgu
 𣕞	dtgv
 𪈻	dtgz
 𣖾	dthb
@@ -11787,8 +11788,8 @@ encoder:
 𤁈	ehc
 𣼺	ehce
 瀏	ehcn	2
-𣽳	ehcn	1
 𤁦	ehcn	1
+𣽳	ehcn
 桬	ehd	3
 𪳷	ehd	2
 𣲲	ehd	1
@@ -14237,7 +14238,7 @@ encoder:
 滝	eytv	1
 淁	eytv
 漓	eyub
-𣻤	eyue	1
+𣻤	eyud
 𣹭	eyue
 滮	eyuh
 𤁘	eyul
@@ -15263,6 +15264,7 @@ encoder:
 䪯	ffbya
 𣂈	ffbyj
 謍	ffbyr
+𤍩	ffbyt
 褮	ffbyv
 𨧿	ffc
 𣓳	ffd
@@ -15317,7 +15319,6 @@ encoder:
 𢻑	ffje
 𤑁	ffjv	1
 𡠺	ffjv
-𤍩	ffjyt
 𪥢	ffk
 𤏃	ffkmr
 𤋍	fflbk
@@ -22322,6 +22323,7 @@ encoder:
 𥯺	hkjo
 𦤬	hkjqr
 𢍃	hkjt
+𥮈	hkjt
 笅	hkk
 𥭘	hkkb
 𦤠	hkkf
@@ -22340,7 +22342,7 @@ encoder:
 𢖄	hkli
 𧉕	hkli
 䗞	hklii	1
-䘉	hklii	1
+䘉	hklii
 乔	hkll
 𥁢	hkllt
 刋	hkln
@@ -23648,7 +23650,6 @@ encoder:
 㣷	hojpn
 𢖘	hojqp
 衚	hojrn
-𥮈	hojt
 𢕋	hojun
 𢕞	hojup
 𪫖	hojwi
@@ -23776,7 +23777,6 @@ encoder:
 㣜	homtn	3
 𧗦	homtn	2
 𢕁	homtn	1
-𢮣	homtq
 𥳸	homu
 衏	homun	3
 㼻	homun	2
@@ -27864,8 +27864,8 @@ encoder:
 丷	ih
 𢊵	ihaj
 𦙪	ihb
-𣀣	ihbok
 𥁣	ihbt
+𣀣	ihbye	2
 𧥙	ihbye	1
 𣁀	ihbye
 𢌍	ihcc
@@ -30044,6 +30044,7 @@ encoder:
 䆱	jceff
 窪	jcegg
 𥨿	jcehk
+𪂸	jcehz
 𠝠	jceln
 窏	jcemd
 𥦷	jceni
@@ -30656,6 +30657,7 @@ encoder:
 𡨎	jfdi
 𪧘	jfdv
 叜	jfe
+𪂸	jfehz
 𠝬	jfeln
 𪹀	jfeq
 𢾐	jfeye
@@ -32545,7 +32547,6 @@ encoder:
 𠝱	kcdln
 𪥆	kce	1
 𠬲	kce
-𪂸	kcehz
 𨜛	kcenl
 㶫	kcf
 鷯	kcfhz
@@ -56412,7 +56413,6 @@ encoder:
 拻	qkf	3
 热	qkf	2
 𤉟	qkf	1
-𤉟	qkf	1
 𤎅	qkf
 𫛍	qkfhz
 垫	qkg	2
@@ -79437,7 +79437,7 @@ encoder:
 𨑐	ynn	1
 𨑎	ynn
 䖘	ynnai
-𪛀	ynnbu
+𪛀	ynnba
 𨕖	ynnc
 𧆰	ynnd
 𠧽	ynnif
