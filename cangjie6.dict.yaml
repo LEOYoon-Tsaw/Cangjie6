@@ -468,7 +468,8 @@ encoder:
 𣊈	aixp
 𣈘	aiyr	1
 𣈔	aiyr
-早	aj	1
+早	aj	2
+曱	aj	1
 旪	aj
 𨷝	ajamu
 昁	ajb
@@ -29832,6 +29833,7 @@ encoder:
 𪗆	iyx
 𢋿	iyxf
 十	j
+甴	ja
 䥌	jaac
 𪇧	jachz
 𡨶	jaf
@@ -38383,7 +38385,6 @@ encoder:
 襗	lwll	1
 𤰶	lwll
 𤱓	lwll
-甴	lwlm
 𣢘	lwlno
 𨾡	lwlog
 襬	lwlp
@@ -76277,7 +76278,6 @@ encoder:
 𤴍	wmjmn
 𤲖	wmkp
 畀	wml	1
-曱	wmll
 𫕾	wmlsy
 𡆤	wmm
 囩	wmmi	1	w'mmi
@@ -78483,7 +78483,6 @@ encoder:
 𨒦	yhpl
 𨑴	yhq
 逓	yhqb
-産	yhqm
 迭	yhqo
 造	yhqr
 𨑺	yhqu
@@ -81450,6 +81449,7 @@ encoder:
 𧰜	ythjg
 𥪌	ythkp
 竬	ythlb
+産	ythm
 竌	ythn	1
 𥩕	ythn
 𧇔	ythn
