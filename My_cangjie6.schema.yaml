@@ -16,16 +16,19 @@ schema:
 switches:
   - name: ascii_mode
     reset: 0
+    states: [ 中文, 西文 ]
   - name: full_shape
     reset: 0
+    states: [ 半角, 全角 ]
   - name: simplification
     reset: 0
+    states: [ 漢字, 簡字 ]
   - name: extended_charset
-    reset: 1
-
-switcher:
-  save_options:
-    - extended_charset
+    reset: 0
+    states: [ 通用, 增廣 ]
+  - name: ascii_punct
+    reset: 0
+    states: [ 句讀, 標點 ]
 
 engine:
   processors:
@@ -40,18 +43,18 @@ engine:
   segmentors:
     - ascii_segmentor
     - matcher
+    - abc_segmentor
     - affix_segmentor@pinyin
     - affix_segmentor@jyutping
     - affix_segmentor@pinyin_lookup
     - affix_segmentor@jyutping_lookup
     - affix_segmentor@reverse_lookup
     - affix_segmentor@emoji
-    - abc_segmentor
     - punct_segmentor
     - fallback_segmentor
   translators:
     - punct_translator
-    - table_translator
+    - script_translator
     - table_translator@custom_phrase
     - script_translator@pinyin
     - script_translator@jyutping
@@ -61,6 +64,7 @@ engine:
   filters:
     - simplifier@zh_simp
     - uniquifier
+    - cjk_minifier
     - reverse_lookup_filter@middle_chinese
     - reverse_lookup_filter@pinyin_reverse_lookup
     - reverse_lookup_filter@jyutping_reverse_lookup
@@ -68,26 +72,23 @@ engine:
 zh_simp:
   option_name: simplification
   tags: [ pinyin, jyutping, abc ]
-  tips: all
+  tips: char
 
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
-  delimiter: " '"
+  delimiter: " "
 
 translator:
   dictionary: &dict
     cangjie6.extended
-  enable_charset_filter: true
   enable_completion: true
   enable_sentence: true
   sentence_over_completion: true
-  enable_encoder: true
-  encode_commit_history: true
-  max_phrase_length: 5
   preedit_format:
-    - xform/^([a-z ]*)$/$1｜\U$1\E/
-    - xform/(?<=[a-z])\s(?=[a-z])//
-    - xlit|ABCDEFGHIJKLMNOPQRSTUVWXYZ|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片|
+#    - xform/^([a-z ]*)$/$1｜\U$1\E/
+#    - xform/(?<=[a-z])\s(?=[a-z])//
+#    - xlit|ABCDEFGHIJKLMNOPQRSTUVWXYZ|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片|
+    - xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片|
   comment_format:
     - xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片・|
   initial_quality: 0.75
@@ -102,14 +103,11 @@ custom_phrase:
 
 pinyin:
   tag: pinyin
-  dictionary: luna_pinyin
-  enable_charset_filter: true
+  dictionary: luna_pinyin.extended
   prefix: P
   suffix: ;
   preedit_format: &pinyin
-    - xform/([nl])v/$1ü/
-    - xform/([nl])ue/$1üe/
-    - xform/([jqxy])v/$1u/
+    - xform/v/ü/
   tips: 【漢拼】
   closing_tips: 【蒼頡】
   initial_quality: 0.2
@@ -117,7 +115,6 @@ pinyin:
 jyutping:
   tag: jyutping
   dictionary: jyutping
-  enable_charset_filter: true
   prefix: J
   suffix: ;
   tips: 【粵拼】
@@ -139,7 +136,7 @@ pinyin_lookup:
   tag: pinyin_lookup
   prefix: "`P"
   suffix: ;
-  dictionary: luna_pinyin
+  dictionary: luna_pinyin.extended
   preedit_format: *pinyin
   tips: 【漢拼反查】
   closing_tips: 【蒼頡】
@@ -218,11 +215,11 @@ middle_chinese:
     - xform/\x01zsr/\x01俟\x02/
     - xform/\x01zr/\x01崇\x02/
     - xform/\x01sr/\x01生\x02/
-    - xform/\x01ch(j)/\x01昌\x02/
-    - xform/\x01c(j)/\x01章\x02/
-    - xform/\x01zs(j)/\x01船\x02/
-    - xform/\x01z(j)/\x01常\x02/
-    - xform/\x01s(j)/\x01書\x02/
+    - xform/\x01chj/\x01昌\x02/
+    - xform/\x01cj/\x01章\x02/
+    - xform/\x01zsj/\x01船\x02/
+    - xform/\x01zj/\x01常\x02/
+    - xform/\x01sj/\x01書\x02/
     - xform/\x01ch/\x01清\x02/
     - xform/\x01c/\x01精\x02/
     - xform/\x01zs/\x01邪\x02/
@@ -238,16 +235,17 @@ middle_chinese:
     - xform/\x01([iy])/\x01云\x02$1/
     - xform/\x01j/\x01以\x02/
     - xform/\x01l/\x01來\x02/
-
-    - "xform/'//"
+    - xform/'//
 
     - xform/\x01(L?)([^\x00-\x7f]{3})\x02([^\x01\x02\x03wxhq]+)([wxhq]*)\x03\s((?:\x01[^\x01\x03]+\x03\s)*)\x01\1([^\x00-\x7f]{3})\x02\3([wxhq]*)\x03\s((?:\x01[^\x01\x03]+\x03\s)*)\x01\1([^\x00-\x7f]{3})\x02\3([wxhq]*\x03)/\x01$1$2／$6／$9\x02$3$4／$7／$10 $5$8/
-    - xform/\x01(L?)([^\x00-\x7f]{3})\x02([^\x01\x02\x03wxhq]+)([wxhq]*)\x03\s((?:\x01[^\x01\x03]+\x03\s)*)\x01\1([^\x00-\x7f]{3})\x02\3([wxhq]*\x03)/\x01$1$2／$6\x02$3$4／$7 $5/
+    - xform/\x01(L?)([^\x00-\x7f]{3})\x02([^\x01\x02\x03wxhq]+)([wxhq]*)\x03\s((?:\x01[^\x01\x03]+\x03\s)*)\x01\1([^\x00-\x7f]{3})\x02\3([wxhq]*\x03)\s?/\x01$1$2／$6\x02$3$4／$7 $5/
+    - xform/\x01(L?)([^\x00-\x7f]{3})\x02([^\x01\x02\x03wxhq]+)([wxhq]*)\x03\s((?:\x01[^\x01\x03]+\x03\s)*)\x01\1([^\x00-\x7f]{3})\x02\3([wxhq]*\x03)\s?/\x01$1$2／$6\x02$3$4／$7 $5/
+    - xform/／\x03/\x03/
     - xform/([xhq]+)w/w$1/
     - xform/(w?)([hq]+)x/$1x$2/
-    - xform/qh/hq/
-    - xform/\x02([^\x01\x02\x03wxhq]+)([wxhq]+)／\2／\2\x03/\x02$1$2\x03/
-    - xform/\x02([^\x01\x02\x03wxhq]+)([wxhq]+)／\2\x03/\x02$1$2\x03/
+    - xform/q(h)/$1q/
+    - xform/\x02([^\x01\x02\x03wxhq]+?)([wxhq]+)／\2／\2\x03/\x02$1$2\x03/
+    - xform/\x02([^\x01\x02\x03wxhq]+?)([wxhq]+)／\2\x03/\x02$1$2\x03/
 
     - xform/\x02(i?)uŋ((?:[wxhq]|／)*\x03)/\x02$1東$2/
     - xform/\x02(y)uŋ((?:[wxhq]|／)*\x03)/\x02$1鐘$2/
@@ -298,7 +296,7 @@ middle_chinese:
 
     - xform/\x02(j?)([iy])e((?:[wxh]|／)*\x03)/\x02$1ɨ$2o支$3/
     - xform/\x02(j?)([iy])i((?:[wxh]|／)*\x03)/\x02$1ɨ$2o脂$3/
-    - xform/\x02i((?:[wxh]|／)*\x03)/\x02o之$1/
+    - xform/\x02i((?:[wxh]|／)*\x03)/\x02io之$1/
     - xform/\x02([iy])oi((?:[wxh]|／)*\x03)/\x02$1o微$2/
     - xform/\x02([iy])a((?:d|／)+\x03)/\x02$1o廢$2/
     - xform/\x02(ru?)a((?:d|／)+\x03)/\x02$1o夬$2/
@@ -335,7 +333,6 @@ middle_chinese:
     - xform/(】)([wxhq]+)／\2(\s)/$1$2$3/
 
     - xlit|wxhq|平上去入|
-
 emoji:
   tag: emoji
   dictionary: emoji
@@ -354,7 +351,7 @@ key_binder:
   import_preset: default
 
 punctuator:
-  import_preset: symbols
+  import_preset: symbols_leo
 
 recognizer:
   import_preset: default
