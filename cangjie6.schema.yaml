@@ -59,6 +59,7 @@ engine:
     - script_translator@jyutping_lookup
   filters:
     - simplifier@simplify
+    - charset_filter@extended_char
     - uniquifier
     - reverse_lookup_filter@pinyin_reverse_lookup
     - reverse_lookup_filter@jyutping_reverse_lookup
@@ -67,6 +68,10 @@ simplify:
   option_name: simplification
   tips: all
   tags: [ abc, pinyin, jyutping ]
+
+extended_char:
+  option_name: extended_charset
+  tags: [ abc ]
 
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
@@ -77,7 +82,6 @@ translator:
     cangjie6.extended
 # 若不需鍵詞，請刪去上條中之「.extended」
 # 若需簡體詞，请將上條中之「.extended」改爲「.extsimp」
-  enable_charset_filter: true
   enable_user_dict: true
 # 不想自動調頻的話，將上條中「true」改爲「false」
   enable_sentence: true
@@ -95,7 +99,6 @@ translator:
 pinyin:
   tag: pinyin
   dictionary: luna_pinyin
-  enable_charset_filter: true
   prefix: P
 # 漢語拼音輸入以〔大寫〕「P」引導
   suffix: ;
@@ -110,7 +113,6 @@ pinyin:
 jyutping:
   tag: jyutping
   dictionary: jyutping
-  enable_charset_filter: true
   prefix: J
 # 粵拼輸入以〔大寫〕「J」引導
   suffix: ;

@@ -64,7 +64,7 @@ engine:
   filters:
     - simplifier@zh_simp
     - uniquifier
-    - cjk_minifier
+    - charset_filter@cjk_filter
     - reverse_lookup_filter@middle_chinese
     - reverse_lookup_filter@pinyin_reverse_lookup
     - reverse_lookup_filter@jyutping_reverse_lookup
@@ -74,13 +74,16 @@ zh_simp:
   tags: [ pinyin, jyutping, abc ]
   tips: char
 
+cjk_filter:
+  tags: [ abc ]
+
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
   delimiter: " "
 
 translator:
   dictionary: &dict
-    cangjie6.extended
+    cangjie6
   enable_completion: true
   enable_sentence: true
   sentence_over_completion: true
@@ -103,7 +106,7 @@ custom_phrase:
 
 pinyin:
   tag: pinyin
-  dictionary: luna_pinyin.extended
+  dictionary: luna_pinyin
   prefix: P
   suffix: ;
   preedit_format: &pinyin
@@ -136,7 +139,7 @@ pinyin_lookup:
   tag: pinyin_lookup
   prefix: "`P"
   suffix: ;
-  dictionary: luna_pinyin.extended
+  dictionary: luna_pinyin
   preedit_format: *pinyin
   tips: 【漢拼反查】
   closing_tips: 【蒼頡】
@@ -333,6 +336,7 @@ middle_chinese:
     - xform/(】)([wxhq]+)／\2(\s)/$1$2$3/
 
     - xlit|wxhq|平上去入|
+
 emoji:
   tag: emoji
   dictionary: emoji
@@ -364,5 +368,5 @@ recognizer:
     pinyin: (?<![`A-Z])P[a-z']*;?$
     jyutping: (?<![`A-Z])J[a-z']*;?$
     emoji: (?<![A-Z])E[a-z]*;?$
-    punct: ^z([a-z]+|[0-9])$
+    punct: "^z([a-z]+|[0-9])$"
     upper_case: ^([A-DF-IK-OQ-Z][a-zA-Z0-9]*|[EJP][A-Z0-9]*)$
