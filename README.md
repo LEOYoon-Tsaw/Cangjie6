@@ -1,7 +1,7 @@
 ##蒼頡檢字法〔Cangjie6〕
 
 1. This is a Chinese input method(Cangjie, 6th edition) based on Rime input engine
-2. `cangjie6.schema.yaml` is the configuration file, `cangjie6.dict.yaml` is the charactor encoding list, `cangjie6.extended.dict.yaml` is the phrase list, and `cangjie6.extsimp.dict.yaml` is the phrase list of simplified Chinese.
+2. `cangjie6.schema.yaml` is the configuration file, `cangjie6.dict.yaml` is the character encoding list, `cangjie6.extended.dict.yaml` is the phrase list, and `cangjie6.extsimp.dict.yaml` is the phrase list of simplified Chinese.
 3. To personalise, follow instructions in `cangjie6.schema.yaml`
 
 ======
@@ -12,7 +12,7 @@
 ##蒼頡·快打模式〔Cangjie6 Express〕
 
 1. Express mode is a mode of character-by-character typing with automatique word selection
-2. `cangjie6_express.schema.yaml` is the configuration file, and `cangjie6.dict.yaml` is the charactor encoding list
+2. `cangjie6_express.schema.yaml` is the configuration file, and `cangjie6.dict.yaml` is the character encoding list
 3. To personalise, follow instructions in `cangjie6_express.schema.yaml`
 
 ===
