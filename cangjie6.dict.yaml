@@ -84411,6 +84411,7 @@ encoder:
 邀	yhsk	2
 𣁅	yhsk
 𠛍	yhsln
+𨒎	yhsm
 邡	yhsnl
 𪴩	yhsno
 𨾔	yhsog
@@ -87330,7 +87331,8 @@ encoder:
 𠅑	yslk
 𪰂	ysllc
 𣄜	yslmc
-与	ysm
+与	ysm	1
+𨒎	ysm
 颅	ysmbo	1
 𣄫	ysmcz
 𬊐	ysmf
