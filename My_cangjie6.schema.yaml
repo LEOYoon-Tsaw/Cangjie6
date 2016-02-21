@@ -70,7 +70,7 @@ engine:
     - reverse_lookup_filter@jyutping_reverse_lookup
 
 zh_simp:
-  option_name: simplification
+  opencc_config: t2s.json
   tags: [ pinyin, jyutping, abc ]
   tips: char
 
@@ -87,11 +87,10 @@ translator:
   enable_completion: true
   enable_sentence: true
   sentence_over_completion: true
+  soft_cursor: true
   preedit_format:
-#    - xform/^([a-z ]*)$/$1｜\U$1\E/
-#    - xform/(?<=[a-z])\s(?=[a-z])//
-#    - xlit|ABCDEFGHIJKLMNOPQRSTUVWXYZ|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片|
-    - xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片|
+    - xform/^([a-z ]*)$/$1\t \U$1\E/
+    - xlit|ABCDEFGHIJKLMNOPQRSTUVWXYZ|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片|
   comment_format:
     - xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田止卜片・|
   initial_quality: 0.75
@@ -336,7 +335,6 @@ middle_chinese:
     - xform/(】)([wxhq]+)／\2(\s)/$1$2$3/
 
     - xlit|wxhq|平上去入|
-
 emoji:
   tag: emoji
   dictionary: emoji
