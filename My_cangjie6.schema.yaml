@@ -23,6 +23,9 @@ switches:
   - name: simplification
     reset: 0
     states: [ 漢字, 簡字 ]
+  - name: emoji_segestion
+    reset: 1
+    states: [ 🈚️️, 🈶️️ ]
   - name: extended_charset
     reset: 0
     states: [ 通用, 增廣 ]
@@ -63,6 +66,7 @@ engine:
     - script_translator@emoji
   filters:
     - simplifier@zh_simp
+    - simplifier@emoji_switch
     - uniquifier
     - charset_filter@cjk_filter
     - reverse_lookup_filter@middle_chinese
@@ -73,6 +77,12 @@ zh_simp:
   opencc_config: t2s.json
   tags: [ pinyin, jyutping, abc ]
   tips: char
+
+emoji_switch:
+  opencc_config: emoji.json
+  option_name: emoji_segestion
+  tags: [ pinyin, jyutping, abc ]
+  tips: all
 
 cjk_filter:
   tags: [ abc ]
