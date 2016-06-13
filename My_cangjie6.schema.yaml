@@ -361,4 +361,4 @@ recognizer:
     pinyin: (?<![`A-Z])P[a-z']*;?$
     jyutping: (?<![`A-Z])J[a-z']*;?$
     punct: "^z([a-z]+|[0-9])$"
-    upper_case: ^([A-DF-IK-OQ-Z][a-zA-Z0-9]*|[EJP][A-Z0-9]*)$
+    upper_case: ^([A-IK-OQ-Z][a-zA-Z0-9]*|[JP][A-Z0-9]*)$
