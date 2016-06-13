@@ -52,7 +52,6 @@ engine:
     - affix_segmentor@pinyin_lookup
     - affix_segmentor@jyutping_lookup
     - affix_segmentor@reverse_lookup
-    - affix_segmentor@emoji
     - punct_segmentor
     - fallback_segmentor
   translators:
