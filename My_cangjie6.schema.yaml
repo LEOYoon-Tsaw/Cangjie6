@@ -63,7 +63,6 @@ engine:
     - script_translator@jyutping
     - script_translator@pinyin_lookup
     - script_translator@jyutping_lookup
-    - script_translator@emoji
   filters:
     - simplifier@zh_simp
     - simplifier@emoji_switch
@@ -345,19 +344,6 @@ middle_chinese:
     - xform/(】)([wxhq]+)／\2(\s)/$1$2$3/
 
     - xlit|wxhq|平上去入|
-emoji:
-  tag: emoji
-  dictionary: emoji
-  prefix: E
-  suffix: ;
-  tips: 【表情】
-  closing_tips: 【蒼頡】
-  spelling_hints: 1
-  comment_format:
-    - xform/;[a-z'`]*$//
-    - xform/^/ /
-    - xform/,/ (/
-    - xform/\((.*)$/\($1\)/
 
 key_binder:
   import_preset: default
@@ -375,6 +361,5 @@ recognizer:
     jyutping_lookup: "`J[a-z]*;?$"
     pinyin: (?<![`A-Z])P[a-z']*;?$
     jyutping: (?<![`A-Z])J[a-z']*;?$
-    emoji: (?<![A-Z])E[a-z]*;?$
     punct: "^z([a-z]+|[0-9])$"
     upper_case: ^([A-DF-IK-OQ-Z][a-zA-Z0-9]*|[EJP][A-Z0-9]*)$
