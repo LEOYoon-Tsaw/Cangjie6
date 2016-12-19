@@ -25,7 +25,7 @@ switches:
     states: [ 漢字, 簡字 ]
   - name: emoji_segestion
     reset: 1
-    states: [ 🈚️️, 🈶️️ ]
+    states: [ "🈚️️\uFE0E", 🈶️️ ]
   - name: extended_charset
     reset: 0
     states: [ 通用, 增廣 ]
