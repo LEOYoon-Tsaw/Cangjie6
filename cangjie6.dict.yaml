@@ -744,8 +744,10 @@ encoder:
 㬖	amrk
 𣅥	amrm
 鼌	amru
+昈	ams
 㫤	amse	1
 𣇗	amse
+𤋁	amsf
 昜	amsh	1
 𬀶	amsh
 昻	amsl
@@ -9667,6 +9669,7 @@ encoder:
 𪳁	dite
 樜	ditf	1
 𣙃	ditf
+𣓙	ditf
 𣓙	diti	1
 𣒏	diti
 𣔳	ditu
@@ -30172,8 +30175,8 @@ encoder:
 𫻸	ikik
 猋	ikikk
 𫷱	ikjt
-𥆳	ikju
-𧚛	ikjv
+𥆳	ityu
+𧚛	ityv
 軬	ikjwj	1
 犮	ikk	1
 𢦑	ikk
@@ -31093,6 +31096,7 @@ encoder:
 𪋎	ipuv
 𦄐	ipvif
 𪊛	ipvis
+𢍻	ipvs
 𪋊	ipwd	1
 𪊽	ipwd
 麕	ipwhd		ipw'hd
@@ -31486,6 +31490,7 @@ encoder:
 廉	itxc	1
 㢘	itxf
 𠦑	ityf
+𠦑	ityi
 𧇑	itypn
 𧇑	itypu
 廝	itzl
@@ -31845,7 +31850,6 @@ encoder:
 𤭒	ivmun
 𫵉	ivnlk
 郒	ivrau
-𢍻	ivs
 㓪	ivsh
 𫨧	ivsm
 𫨪	ivsmr
@@ -31904,6 +31908,7 @@ encoder:
 𢊻	ixof
 庛	ixp
 𢉪	ixpd
+𢊁	ixpf
 𪋞	ixphz
 𫜋	ixpks
 𢊳	ixpl
@@ -31915,7 +31920,6 @@ encoder:
 𢿇	ixpye
 𢋵	ixtw
 𢋺	ixue
-𢊁	ixvf
 𢋹	ixxd
 廌	ixyf
 𫋡	ixyi	1
@@ -33074,6 +33078,7 @@ encoder:
 𪃘	jirz
 𡫣	jisk
 翝	jiss
+𡨜	jitf
 𡨜	jiti
 𢨎	jiuuu
 𦀂	jivif
@@ -37343,6 +37348,7 @@ encoder:
 𤺶	ksfe
 𤼔	ksfp
 𡉂	ksg
+犭	ksh	1
 𤴬	ksh
 𪥂	ksh
 瓠	kshio	1
@@ -39538,7 +39544,8 @@ encoder:
 归	lis	1
 蝘	lisav		lis'av
 褊	lisb
-𧌈	lisbb
+𧌈	lisbb	1
+帰	lisbb
 𧓇	lisce
 𫊻	lisdi
 𧌍	lise
@@ -45441,6 +45448,7 @@ encoder:
 𥑋	mreg
 䂘	mrei
 𥒣	mreki
+亟	mrem
 𥒀	mremd
 𥔨	mremr
 𥕂	mreob
@@ -65608,7 +65616,8 @@ encoder:
 𫏛	rxitb
 𨇁	rxitc
 踱	rxite
-蹠	rxitf
+蹠	rxitf	1
+𨁕	rxitf
 𨁕	rxiti
 𨂫	rxitu
 䟠	rxiu
@@ -66505,6 +66514,7 @@ encoder:
 𠸽	rysp	1
 𠳧	rysp
 𡂙	rysq
+唹	rysy
 㕸	ryt
 喑	ryta	1
 𫬱	rytb
@@ -71831,6 +71841,7 @@ encoder:
 蔗	titf	1
 𦯂	titf
 𡅐	titgr
+𦯂	titi
 𦏱	titii
 𬞈	tito
 𡅐	titqr
@@ -73742,6 +73753,7 @@ encoder:
 𩁥	tovog
 𦯌	tovp
 𦬉	tovs
+荒	tovu
 𤲱	tow
 薈	towa	1
 𦸥	towa
@@ -81518,6 +81530,7 @@ encoder:
 顒	wibmz
 𨜖	wibnl
 𩀍	wibog
+愚	wibp
 畯	wice
 𤲁	wicu
 𣡯	widvi
@@ -83458,6 +83471,7 @@ encoder:
 㱖	xyoj
 𢢎	xyp
 𬅵	xyrno
+與	xysc
 舃	xysf
 𦑳	xyss
 𦥸	xyt
@@ -85619,6 +85633,7 @@ encoder:
 𨗌	yoms
 迄	yon
 𨒣	yond
+夜	yonk	1
 𨕀	yonk
 𨗵	yonq
 𧚤	yonv	1
