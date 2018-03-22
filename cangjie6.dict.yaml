@@ -19,7 +19,7 @@
 # License: GPL
 ---
 name: cangjie6
-version: "0.30"
+version: "0.31"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -25052,6 +25052,7 @@ encoder:
 𢤂	hhoep
 𥡁	hhof	1
 𥟖	hhof
+鿯	hhofd
 𮇵	hhofd
 𨿯	hhog	1
 𥯂	hhog
@@ -34403,6 +34404,7 @@ encoder:
 𠙥	ithn
 𢉭	itho
 鴘	ithz
+鿮	itjb
 𢈒	itk
 𢉳	itkr
 席	itlb
@@ -50659,6 +50661,7 @@ encoder:
 𥔥	mrvvw
 𥓱	mrvvx
 畐	mrw
+鿬	mrw	1
 𫪸	mrwc
 𥔅	mrwcl
 𮁓	mrwcm
@@ -60033,6 +60036,7 @@ encoder:
 𪵧	ongsk
 仍	onh	4
 氕	onh	2
+鿫	onhbk
 𪜷	onhd
 伋	onhe	1
 氡	onhem	1
@@ -60797,6 +60801,7 @@ encoder:
 铤	opneg
 键	opneq
 𮣴	opnex
+鿭	opnf
 钮	opng
 钑	opnhe
 钖	opnhh
@@ -93290,8 +93295,6 @@ encoder:
 遍	ymsb
 𨙆	ymse	1
 𨘹	ymse
-鿪	ymsf	1
-㸂	ymsf
 𠝅	ymsh
 𨒒	ymsj
 逐	ymso	1
@@ -95864,6 +95867,8 @@ encoder:
 𥪕	ythdl
 𥪍	ythdv
 𬩞	ythe
+鿪	ythf	1
+㸂	ythf
 𫐬	ythg
 𥪸	ythgi
 𤬛	ythio	1
