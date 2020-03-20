@@ -20,7 +20,7 @@
 # License: GPL
 ---
 name: cangjie6
-version: "0.32"
+version: "1.0"
 sort: by_weight
 use_preset_vocabulary: false
 columns:
@@ -41,6 +41,7 @@ encoder:
 #𣔕	onqd
 #𤈎	fpa
 #𤦼	bimgi
+#﨣	goyj
 日	a	1
 曰	a
 昌	aa	2
@@ -2593,7 +2594,6 @@ encoder:
 𠛹	bbmln
 𦙇	bbmm	2
 𠕄	bbmm	1
-𠕋	bbmm
 𭶪	bbmm
 䯈	bbmmu	1
 𠹬	bbmmu
@@ -11946,7 +11946,6 @@ encoder:
 棦	dnsd
 𦖝	dnsj
 𦖨	dnsj
-𦖨	dnsj
 𬃡	dnsp
 㯑	dnsv
 𣟑	dnti
@@ -13082,7 +13081,6 @@ encoder:
 㯿	dvvv
 椔	dvvw	1
 𣓩	dvvw
-椔	dvw
 東	dw	1
 𣐬	dw
 𣐭	dw
@@ -18762,7 +18760,6 @@ encoder:
 𮭖	ffshz
 𤉼	ffsu
 𰟎	fftc
-𤎫	fftco
 𤑋	fftf	1
 𤎫	fftf
 𤐥	fftf
@@ -19827,7 +19824,6 @@ encoder:
 煰	frrr	2
 煆	frse	2
 𤊳	frse
-煅	frse
 𭵓	frsj
 㷷	fruc
 𭵯	fruf
@@ -20203,7 +20199,6 @@ encoder:
 爉	fvvv
 𤊲	fvvw	1
 𤉣	fvvw
-𤉣	fvw
 𬖠	fvyj
 畑	fw	3
 畄	fw	2
@@ -27420,7 +27415,6 @@ encoder:
 𩦨	hksqf
 笳	hksr
 𦑸	hkss
-翺	hkss
 𦒣	hkssa
 䇲	hkt
 𫖿	hktgk
@@ -40884,7 +40878,6 @@ encoder:
 𤟰	khdln
 獭	khdlo	1
 𤡃	khdlo
-獺	khdlz
 痢	khdn	2
 痜	khdn	1
 猍	khdoo
@@ -44448,6 +44441,7 @@ encoder:
 蚆	liau
 蛝	liav	1
 𧚅	liav
+䗾	liavf
 蠍	liavo
 蟃	liawe
 𧑊	liayf
@@ -46064,7 +46058,6 @@ encoder:
 𭷎	llhii
 㸡	llhjd
 𤗠	llhju
-牐	llhjw
 牐	llhjx
 𰠙	llhlo
 𣂔	llhml
@@ -47347,7 +47340,6 @@ encoder:
 申	lwl	3
 䘥	lwl
 𤲥	lwlbb
-叟	lwle
 𧟍	lwlf
 𧟌	lwlg
 𮬱	lwlhz
@@ -48866,7 +48858,6 @@ encoder:
 𥛚	mfyjr
 𮂉	mfykh
 𬓖	mfykl
-𥚚	mfyku
 𥙅	mfylb
 𮁞	mfym
 𫀎	mfymr
@@ -55878,7 +55869,6 @@ encoder:
 弓	n	1
 𢎗	n
 𢎜	n
-n	rter
 𣄽	na
 𫿔	nabok
 𰷐	nabuc
@@ -57914,7 +57904,6 @@ n	rter
 𥎠	nhnwi
 𥍤	nhnzh
 𣱱	nho
-豕	nho
 𥎄	nhoar
 𣏻	nhod
 𥎟	nhokj
@@ -63279,6 +63268,7 @@ n	rter
 佤	omun
 𨞅	omunl
 𪝏	omur
+𪜨	omv	2
 𡛉	omv	1
 𠋗	omv
 𠬿	omve
@@ -66630,7 +66620,6 @@ n	rter
 𢠂	pdlk
 𠜀	pdln
 懒	pdlo
-懶	pdlz
 颖	pdmbo	1
 𫖷	pdmbo
 𠤡	pdmjj
@@ -66646,7 +66635,6 @@ n	rter
 𦐁	pdss
 𢛔	pdw
 𢥱	pdwa
-𢛔	pdwf
 乸	pdwyi		pdwy'i
 𢻫	pdye
 𬃯	pdyg
@@ -67316,7 +67304,6 @@ n	rter
 𤌝	plbf
 𢘚	plbi
 怏	plbk
-懞	plbo
 𭞾	plbo
 𢝈	plbt
 忱	plbu
@@ -69974,7 +69961,6 @@ n	rter
 技	qje	3
 𫽂	qjeh
 擯	qjfc
-𢯱	qjfe
 𡉘	qjg
 𠂙	qjh
 𠲱	qjher
@@ -71811,7 +71797,6 @@ n	rter
 𢹬	qvug
 𢭓	qvvb
 摷	qvvd
-摷	qvvd
 拶	qvvn	1
 𢴫	qvvn
 擸	qvvv
@@ -72940,7 +72925,6 @@ n	rter
 哌	rhhv
 𠺕	rhhw
 𠾫	rhhz
-吆	rhi
 䶸	rhi
 𠺑	rhik
 𭊔	rhik
@@ -75033,6 +75017,7 @@ n	rter
 𡂺	rtcv
 𪡧	rtcw
 𭌖	rtdd
+𡀩	rter
 𡌍	rtg
 㗕	rtgb
 㗝	rtgf
@@ -82930,7 +82915,6 @@ n	rter
 𦿱	tihm
 蒇	tiho
 𦽫	tihp
-菧	tihp
 𦭷	tihq
 蒧	tihr	1
 葴	tihr
@@ -85193,7 +85177,6 @@ n	rter
 𩁥	tovog
 𦯌	tovp
 𦬉	tovs
-荒	tovu
 𮎰	tovu
 𤲱	tow
 薈	towa	1
@@ -89494,7 +89477,6 @@ n	rter
 𡞸	vdln
 嫰	vdlo
 𰌙	vdlo
-嬾	vdlz
 𫰬	vdm
 𡞫	vdmf
 𰙂	vdmmu
@@ -89592,7 +89574,6 @@ n	rter
 𧘽	veyhv
 𢇁	vf	1
 龻	vf
-災	vf
 𭴇	vf
 𰋺	vf
 曫	vfa	1
@@ -90883,7 +90864,6 @@ n	rter
 𦃽	vfvvu
 𦆻	vfvvv
 緇	vfvvw
-緇	vfvw
 細	vfw
 緭	vfwb
 𥿖	vfwc
@@ -91106,7 +91086,6 @@ n	rter
 𡓱	vgg
 𫮸	vgg
 𪦇	vggi
-嬈	vggn
 㜇	vggp
 嬈	vggu
 𠨡	vghvl
@@ -91211,7 +91190,6 @@ n	rter
 𡟈	vhju
 𡜘	vhjv
 㛼	vhjx	1
-㛼	vhjx
 妖	vhk
 嬌	vhkb
 𭒤	vhkb
@@ -91524,7 +91502,6 @@ n	rter
 𡢌	vjcc	1
 𡡨	vjcc
 𡢷	vjce
-㛮	vjce
 𡞛	vjcj
 𪦛	vjck
 𡡃	vjco
@@ -93180,14 +93157,12 @@ n	rter
 㓯	vvwln
 䣎	vvwnl
 𨿴	vvwog
-巢	vvxd
 𡬸	vvxdi
 𢀀	vvxu
 𢀏	vvxwb
 𧥥	vvymr
 𭗿	vvyni
 㚼	vw
-甾	vw
 媦	vwb
 𨡰	vwbt
 𤳤	vwbvk
@@ -94994,7 +94969,6 @@ n	rter
 母	wyi	1	wy'i
 𡇁	wyi
 𰕽	wyia
-貫	wyic
 䳇	wyihz
 𨾥	wyiog
 𪽒	wyiu
@@ -98845,6 +98819,7 @@ n	rter
 𧞮	yoyhv
 𥪱	yoyt
 迿	ypa
+𰲡	ypame
 𬟫	ypbc
 𮓣	ypbjs
 𮓣	ypbks
