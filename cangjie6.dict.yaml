@@ -34311,8 +34311,6 @@ encoder:
 𭙍	ihn
 𭙔	ihne
 𰆭	ihni
-𡦹	ihnk
-𠘹	ihnm
 𠫠	ihnn
 𢳅	ihnq
 𪪖	ihoe
@@ -35315,6 +35313,7 @@ encoder:
 𢊔	inbo
 廨	inbq
 𭟵	inbq
+𡦹	incrz
 𪲁	ind	1
 𭙒	ind
 庭	ineg
@@ -35346,6 +35345,7 @@ encoder:
 㢌	inlr
 𭙗	inm
 𢋈	inmd
+𠘹	inmmm
 𢈌	inmu
 𬻺	inn
 𭙏	inn
@@ -38869,7 +38869,6 @@ encoder:
 𬷚	jkihz
 𤞮	jkik
 𩓘	jkimz
-𡧑	jkk
 𡪋	jkkv
 𭓤	jklb
 𰌻	jklg
@@ -38935,6 +38934,7 @@ encoder:
 𫜰	jkxuo	1
 𪘻	jkxuo
 𧩥	jkymr
+𡧑	jkzk
 𫲹	jl
 𰀉	jl
 暫	jla
@@ -45969,7 +45969,6 @@ encoder:
 袏	lkm
 襫	lkma
 䙃	lkmb
-𭁇	lkmc
 裿	lkmr
 袴	lkms
 㼜	lkmun	1
@@ -47594,6 +47593,7 @@ encoder:
 𧙡	lyz
 𬡯	lyzi
 𬱍	lzysy
+𭁇	lzmc
 一	m
 百	ma	3
 𣄼	ma
@@ -61654,7 +61654,6 @@ encoder:
 餷	oidbm
 𠍨	oidd
 𠉷	oide
-𠍋	oidi
 䬴	oidj
 𩚟	oidk
 餗	oidl
@@ -62124,8 +62123,8 @@ encoder:
 𩞲	oiqoa
 𩟪	oiqoc
 𩝙	oiqpa
-𠇇	oiqr
 𩚊	oiqu
+𠇇	oiqz
 佁	oir
 䭂	oirau
 䬼	oirb
@@ -62362,6 +62361,7 @@ encoder:
 𩟮	oiywv
 䭣	oiyx
 飰	oiyy
+𠍋	oizi
 午	oj	3
 什	oj	2
 仐	oj	1
@@ -63152,6 +63152,7 @@ encoder:
 𠆬	omks
 𠆮	omks
 㒎	omky
+𠆭	omkz
 倆	omlb	4
 𢁭	omlb	3
 𠉴	omlb	2
@@ -63585,7 +63586,6 @@ encoder:
 𢛪	onup
 𬾲	onus
 𣱘	onv	1
-𠆭	onv
 𪥯	onve
 𩔝	onvmz
 𣱟	onw
@@ -84397,7 +84397,6 @@ encoder:
 蒆	tmkv
 𮎿	tmkv
 𦻅	tmky
-𦹗	tmkz
 𦭱	tml
 𦵻	tmla
 䓣	tmlb	4
@@ -84629,6 +84628,7 @@ encoder:
 𬝹	tmzs
 蘎	tmzu
 蕾	tmzw
+𦹗	tmzz
 艺	tn	2
 芎	tn	1
 𦫴	tn
@@ -94036,7 +94036,6 @@ encoder:
 𡇐	wjz
 因	wk	1	w'k
 龱	wk
-𡆢	wk
 𤲉	wka
 囿	wkb		w'kb
 盢	wkbt	1
@@ -94080,6 +94079,7 @@ encoder:
 𡜭	wkv
 𭻼	wkwkn
 𡈲	wkwkw
+𡆢	wkz
 甲	wl	1
 𫩏	wl
 𦍄	wlaai
