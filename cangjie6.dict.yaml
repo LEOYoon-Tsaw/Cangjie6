@@ -42960,7 +42960,6 @@ encoder:
 𫯽	krqa
 𫯽	krqia
 𭄻	krqyt
-㔔	krr
 㾔	krr
 𮟶	krrau
 𪥜	krrb
@@ -42978,6 +42977,7 @@ encoder:
 𰣾	krrw
 𡚍	krrx
 𮜈	krrxe
+㔔	krrz
 㔖	krs
 瘕	krse
 驾	krsm
@@ -72143,8 +72143,7 @@ encoder:
 𭡬	qyzk
 𪮠	qyzp
 𢥤	qzp
-口	r	1
-〇	r
+口	r
 𠯮	ra	1
 𠯐	ra
 𠯭	ra
@@ -77006,6 +77005,7 @@ encoder:
 𠲔	ryz
 𭉎	ryzn
 𠸠	ryzr
+〇	rz
 𡂢	rzd
 𭍔	rzhwj
 尸	s
@@ -97686,7 +97686,6 @@ encoder:
 𩫭	yjqa
 𩫭	yjqia
 啇	yjr	1
-㪳	yjr
 𫐢	yjr
 𩫩	yjrau
 𪄱	yjrhz
@@ -97704,6 +97703,7 @@ encoder:
 𮖭	yjrv
 𪟼	yjrvc
 𰙷	yjrx
+㪳	yjrz
 𠞻	yjsh
 𫦈	yjshh
 𫦈	yjshi
@@ -102106,7 +102106,6 @@ encoder:
 𨔛	yypu
 𫧰	yypu
 迠	yyr	1
-㫈	yyr
 𬽅	yyr
 𰻊	yyrb
 𨙎	yyre
@@ -102114,6 +102113,7 @@ encoder:
 𪆿	yyrhz
 旕	yyrp
 𨘔	yyrr
+㫈	yyrz
 𫑉	yysb
 𰻊	yysb
 遊	yysd
