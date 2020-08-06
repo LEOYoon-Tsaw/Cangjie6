@@ -767,7 +767,6 @@ encoder:
 𣅬	almp
 𰖵	almt
 顕	almz
-𣆜	alnm
 𪴯	alno	1
 𠨠	alno
 𬀲	alo
@@ -1857,6 +1856,7 @@ encoder:
 𬱉	askmz
 𣇉	askr
 𰆌	asl
+𣆜	asll
 𣆓	asm
 𭥰	asmg
 𣋣	asmt
@@ -5276,6 +5276,7 @@ encoder:
 貂	bsshr
 𧴙	bsshx	1
 𧳺	bsshx
+𪚴	bssi
 𧴙	bssix	1
 𧳺	bssix
 臎	bssj
@@ -17345,10 +17346,10 @@ encoder:
 𬉙	eytw
 漓	eyub
 𣻤	eyud
-𰝱	eyudk
 𣹭	eyue
 滮	eyuh
 𭰔	eyuk
+𰝱	eyuk
 𤁘	eyul
 𭱛	eyus
 𣶑	eyuu
@@ -29098,6 +29099,7 @@ encoder:
 𤔜	homrw	1
 𢔲	homrw
 𭛷	homrw
+𤓹	homsc
 𢓻	homso
 𢓄	homt
 㣜	homtn	3
@@ -29109,7 +29111,6 @@ encoder:
 㼻	homun	2
 𧗭	homun	1
 𧗨	homun
-𤓹	homvf
 𢔉	homvg
 𢓎	homvi
 𰟼	homvi
@@ -33026,6 +33027,7 @@ encoder:
 𢉦	ibjj
 𮌙	ibk
 𢉏	ibke
+𧒟	ibkli
 𠫦	iblb
 𪭑	iblu
 㡹	ibm	1
@@ -33134,7 +33136,6 @@ encoder:
 𰡪	ickpr
 𪎞	iclbk
 𢋙	icli
-𧒟	iclii
 𪎯	iclmc
 𢌁	iclsm
 靡	iclsy
@@ -35463,6 +35464,8 @@ encoder:
 庎	ioll
 𭆣	ioll
 𫸆	iolo
+𢎉	iolon
+𢎉	iolol
 𪪦	iolz	1
 𢋞	iolz
 𢇹	iom
@@ -35712,8 +35715,6 @@ encoder:
 𨾍	ipog
 𪋇	ipog
 𪊢	ipok
-𢎉	ipoll
-𢎉	ipoln
 𪊸	ipomd
 𢎂	ipoo
 𰐒	ipooa
@@ -36719,6 +36720,7 @@ encoder:
 𧓣	iwli
 𢋇	iwll
 𫸁	iwlv
+𡇛	iwmi
 𢈷	iwml
 𢉝	iwmv
 𢊬	iwrf
@@ -40318,7 +40320,6 @@ encoder:
 𩳙	kchwi	1
 𩳃	kchwi
 𤷥	kcib
-𤫒	kcinx
 弒	kcipm	2
 弑	kcipm
 𤹗	kcis
@@ -40733,6 +40734,7 @@ encoder:
 㾆	kgb
 𨫹	kgc
 𤷖	kgce
+𤫒	kgcix
 𤷵	kgde
 痔	kgdi
 奎	kgg	1
@@ -41916,8 +41918,6 @@ encoder:
 𬏦	kive
 㾿	kivl
 𡘒	kiw
-𫎣	kiwj
-𫎣	kiwk
 𰄖	kixu
 𭁘	kiyc
 夲	kj	1
@@ -42762,7 +42762,6 @@ encoder:
 𫐑	kqjrr
 𮝷	kqjto
 轪	kqk
-𬬇	kqkc
 𰺛	kqkcf
 𬏧	kqki
 𬏧	kqkk
@@ -42772,6 +42771,7 @@ encoder:
 𦎃	kqknk
 𫯪	kqko
 𤷰	kqkq
+𬬇	kqkqc
 𬨄	kqlbk
 𰺗	kqlit
 𰹳	kqlll
@@ -46564,8 +46564,7 @@ encoder:
 𪠫	lome
 袵	lomg
 𫋻	lomi
-𭤏	lomjk
-𭤏	lomnk
+𭤏	lommk
 衿	lon
 𧜃	lond
 袊	loni
@@ -47228,7 +47227,6 @@ encoder:
 𧜐	luip
 𫌌	lujf
 凿	lul	1	tu'l
-𫷄	lulb
 𠖑	lumam
 褍	lumb
 𫖫	lumbo
@@ -47303,7 +47301,6 @@ encoder:
 𤳃	lwbvk
 𠢮	lwbws
 𮕳	lwc
-𭾉	lwcct
 𡕦	lwce
 裸	lwd	1
 裍	lwd		lw'd
@@ -47311,6 +47308,7 @@ encoder:
 䙟	lwdq
 䙨	lwdv
 𰆹	lwe
+𭾉	lwet
 𰞅	lwf
 𬡶	lwfg
 𧞾	lwfk
@@ -47355,7 +47353,6 @@ encoder:
 婁	lwlv
 𬱖	lwmbo
 𤳨	lwmfe
-𡇛	lwmi
 畁	lwml
 𤰣	lwmp
 甹	lwms	3
@@ -55517,7 +55514,6 @@ encoder:
 𨟘	mzmnl
 𩂶	mzmnn
 𩆃	mzmoc
-𱁬	mzmp
 𮦔	mzmpx
 雼	mzmr	1
 𩃼	mzmrh
@@ -55533,6 +55529,7 @@ encoder:
 雫	mzmy	3
 𩔊	mzmz
 𬰄	mzmz
+𱁬	mzmzp
 𩇌	mzmzu
 𩖏	mzmzz
 𩁽	mzn	1
@@ -55668,7 +55665,7 @@ encoder:
 𩇂	mzrbx
 𩆼	mzrei
 𩆼	mzrel
-𬋣	mzrf
+𬋣	mzrhf
 𩵂	mzrhi
 𪛈	mzrhs
 𪈝	mzrhz
@@ -55683,6 +55680,7 @@ encoder:
 𩄖	mzrmo
 𩄺	mzrmt
 𩖊	mzrmz
+𬋣	mzrnf
 酃	mzrnl
 𰼂	mzrnl
 𩇃	mzrnn
@@ -57993,7 +57991,7 @@ encoder:
 𰍨	ni
 𡖥	niail	1
 𡖖	niail
-𭥟	niav
+𭥟	niaz
 𡖸	nibc
 𣵳	nibe
 𭺹	nibh
@@ -58078,7 +58076,6 @@ encoder:
 𡖎	ninks
 邜	ninl
 𠛫	ninln
-𬻑	ninm
 䫂	ninmz
 𨛅	ninnl
 𡖙	ninok
@@ -60932,7 +60929,6 @@ encoder:
 休	od
 䵹	odbaa
 𠍷	odbb
-𫣮	odbe
 𥁙	odbt
 𪝋	odbu
 賲	odbuc
@@ -63044,6 +63040,7 @@ encoder:
 𬹡	omda
 𦛝	omdb
 𠎳	omdd
+𫣮	omde
 𭴯	omdf
 𡌆	omdg
 䳜	omdhz
@@ -63096,12 +63093,12 @@ encoder:
 𠇤	omgi
 𠊷	omgk
 𠛮	omgln
-𰂺	omglr
 倒	omgn
 𨛈	omgnl
 𠓴	omgr	1
 𠌆	omgr
 𠓳	omgr
+𰂺	omgr
 㑝	omgt
 𪀼	omgz
 𬿰	omgz
@@ -73802,7 +73799,6 @@ encoder:
 𭉝	rmnd
 𠺅	rmnf
 𠯪	rmni
-𭌔	rmnjk
 𢑣	rmnk
 咧	rmnn
 𭊧	rmnn
@@ -75073,7 +75069,6 @@ encoder:
 𠵔	rtl
 𠽾	rtla
 𠾛	rtlc	1
-𠵢	rtlc
 𡅲	rtld
 嚥	rtlf
 㗆	rtlj
@@ -75188,6 +75183,7 @@ encoder:
 𠴏	rtyv	1
 唭	rtz	1
 𠴩	rtz
+𠵢	rtz
 𭊫	rtzb
 𠼻	rtzg
 嘶	rtzl
@@ -76526,7 +76522,6 @@ encoder:
 𨄎	rxtzg
 踸	rxtzv
 䟖	rxu	3
-𪚴	rxu	2
 𧾹	rxu	1
 𠱂	rxu
 蹦	rxubb
@@ -81572,7 +81567,6 @@ encoder:
 㝺	tcfh
 𮑍	tcfh
 𡋍	tcg
-𡏳	tcg
 黊	tcgg
 𩁘	tcgog
 𧃃	tchb
@@ -84013,6 +84007,7 @@ encoder:
 𡚈	tlak
 䕣	tlav
 芇	tlb
+𫷄	tlb
 𮎧	tlbc
 𧁥	tlbf
 𦻷	tlbi
@@ -84041,6 +84036,7 @@ encoder:
 𦮵	tlf
 糵	tlfd	1
 䔥	tlfd
+𡏳	tlfg
 䴏	tlfhz
 𮨤	tlfmz
 酀	tlfnl
@@ -86044,8 +86040,8 @@ encoder:
 𧅆	ttbi
 𭔿	ttbi
 𦺻	ttbk
+𡚙	ttbk
 𭘧	ttblb
-𡚙	ttblk
 葥	ttbn	2
 𦿏	ttbn
 𧂛	ttbn
@@ -88926,9 +88922,9 @@ encoder:
 㱁	uufno
 𢿆	uufye
 𭗷	uugk
-𧂥	uuhab
 𦺂	uuhaf
 𦯦	uuhau
+𧂥	uuhbb
 𡻀	uuhj
 𦽱	uuhlu
 𦆰	uuhmf
@@ -94464,7 +94460,6 @@ encoder:
 𰭎	wlyl
 詈	wlymr
 𦋾	wlypm
-𦌻	wlyrc
 罸	wlyri
 罰	wlyrn
 𦋤	wlysd
@@ -96453,6 +96448,7 @@ encoder:
 𧞥	ybbv
 𬩟	ybby
 𢿝	ybbye
+𠨆	ybcb
 𠧿	ybcho
 𤙺	ybchq
 𫖣	ybcmz
@@ -97552,9 +97548,11 @@ encoder:
 𡿮	yivv
 𤰸	yiw
 𬬘	yiwk
+𫎣	yiwk
 夣	yiwn	1
 𦣔	yiwn
 𬬘	yiwn
+𫎣	yiwn
 𢨞	yiwtc
 𫑃	yixd
 𨖥	yixi
@@ -98310,7 +98308,6 @@ encoder:
 𮞁	ymmm
 𫠢	ymmn
 𨒮	ymmo
-𠨆	ymmob
 悥	ymmp	1
 言	ymmr	2
 訁	ymmr	1
@@ -101835,6 +101832,7 @@ encoder:
 卥	ywkk		yw'kk
 𨒇	ywl
 𨖞	ywla
+𦌻	ywlc
 遝	ywle
 𰁞	ywle
 遝	ywlf
