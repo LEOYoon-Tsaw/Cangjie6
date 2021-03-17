@@ -5906,6 +5906,7 @@ encoder:
 䁛	buhwi
 𰦋	buhwi
 睥	buhwj
+𮗙	buhwz
 𥉟	buhye
 鹞	buhym
 𥉘	buhyn
@@ -6125,7 +6126,6 @@ encoder:
 𬑗	bulsa
 𰥨	bulsb
 𥆧	bulsg
-𮗙	bulsh
 𥇪	bulsy
 𥋙	bultd
 瞨	bulto
@@ -34414,7 +34414,6 @@ encoder:
 厸	ii	1
 㕕	ii
 㡲	ii
-𰒥	ii
 𠬋	iiahm
 㢃	iiav
 朗	iib	2
@@ -36833,6 +36832,7 @@ encoder:
 𪗆	iyx
 𢋿	iyxf
 𮭴	iyxv
+𰒥	izi
 𫸉	izygq
 十	j	1
 𬂛	j
@@ -59663,6 +59663,7 @@ encoder:
 𡗌	nnyvg
 㚊	nnyvo
 𢎻	nnz
+𫸪	nnz
 𠄏	nnz
 久	no	5
 欠	no	4
@@ -59990,7 +59991,6 @@ encoder:
 𧎻	nsli
 弬	nsll	1	ns'll
 弫	nsll		ns'll
-𫸪	nsln
 𭛀	nsmg
 𭣰	nsmok
 𧰈	nsmrt
