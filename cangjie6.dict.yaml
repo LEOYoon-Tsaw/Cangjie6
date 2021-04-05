@@ -11842,7 +11842,6 @@ encoder:
 𰼶	dnc
 李	dnd	3
 杍	dnd	2
-𪳻	dndd
 槂	dndf
 𭪔	dndk
 𣔞	dndo
@@ -11971,8 +11970,9 @@ encoder:
 杼	dnz
 橘	dnzb
 𭫜	dnzb
-楺	dnzd	1
-㮊	dnzd
+楺	dnzd	2
+㮊	dnzd	1
+𪳻	dnzd
 柕	dnzh
 櫲	dnzo
 𰗸	dnzo
@@ -20598,7 +20598,6 @@ encoder:
 堈	gbtu		gb'tu
 𡊟	gbu
 垻	gbuc	1
-𥈜	gbuc
 𣤟	gbuno
 𡋳	gbup
 㚃	gbut	1
@@ -21121,6 +21120,7 @@ encoder:
 奊	ggvk
 𰊻	ggwc
 𣫴	ggwj
+𣫴	ggwy
 卦	ggy
 𪚝	ggybp
 㪈	ggye
@@ -28281,6 +28281,7 @@ encoder:
 凬	hnma	1	hn'ma
 䉲	hnmb
 𠙒	hnmbc
+㓘	hnmbg
 颓	hnmbo
 𨡐	hnmcw
 𩗢	hnme
@@ -35168,7 +35169,6 @@ encoder:
 𭂉	impkk
 凝	impko	1
 𫥗	impko
-𠘤	impoe
 𰃻	imppj
 𠗨	imptd
 𩇟	imqbu	1
@@ -35442,6 +35442,7 @@ encoder:
 䳐	iohz
 腐	ioib
 𢊾	ioic
+𠘤	ioie
 焤	ioif
 𬽂	ioii
 𢉶	ioik	1
@@ -35463,8 +35464,6 @@ encoder:
 庎	ioll
 𭆣	ioll
 𫸆	iolo
-𢎉	iolon
-𢎉	iolol
 𪪦	iolz	1
 𢋞	iolz
 𢇹	iom
@@ -35714,6 +35713,8 @@ encoder:
 𨾍	ipog
 𪋇	ipog
 𪊢	ipok
+𢎉	ipoln
+𢎉	ipoll
 𪊸	ipomd
 𢎂	ipoo
 𰐒	ipooa
@@ -37022,6 +37023,7 @@ encoder:
 𡩈	jbud
 𡕹	jbue
 𫹦	jbui
+𥈜	jbuk
 悳	jbup	1
 嗭	jbup
 𢜇	jbup
@@ -38882,7 +38884,8 @@ encoder:
 𪆕	jkghz
 𭹯	jkhng
 㹈	jkhq
-㲠	jkhqu
+㲠	jkhqu	1
+𣰠	jkhqu
 𱊖	jkhym
 𪀱	jkhz
 宏	jki	1
@@ -38972,7 +38975,6 @@ encoder:
 衷	jlhv
 𩴕	jlhwi
 䳻	jlhz
-𬺿	jli
 𧔃	jlii
 𠁱	jljj
 𠦱	jljlk
@@ -39028,6 +39030,7 @@ encoder:
 𡧹	jlwm
 寠	jlwv	1
 𡫤	jlwv
+𬺿	jly
 𡫗	jlyd
 𰍕	jlye
 疌	jlyo	1
@@ -39360,6 +39363,7 @@ encoder:
 𪂦	jnuz
 𫝰	jnwu
 𰍡	jnyc
+𭤪	jnyhs
 卖	jnyk
 𭔧	jnyok
 𭔥	jnysf
@@ -39414,7 +39418,8 @@ encoder:
 𫷃	joob
 𮭻	jooe
 𡨠	joog
-𢾶	jook	1
+𢾶	jook	2
+𠁊	jook
 𡘖	jook
 𭫈	jooo
 宱	joos
@@ -39964,7 +39969,6 @@ encoder:
 𫳗	jvvw
 𰅷	jvvx
 𰍚	jvwln
-𭤪	jvyhs
 𰴴	jvyr
 𪧈	jw	1
 𤰔	jw
@@ -43400,6 +43404,7 @@ encoder:
 癦	kwfg
 𤼎	kwft
 㾖	kwg
+𬏼	kwgf
 𤷒	kwhj
 𤸒	kwib
 𭑠	kwjc
@@ -46348,6 +46353,7 @@ encoder:
 𩇨	lmloo
 𭁉	lmmc
 𮖳	lmmi
+𭤏	lmmjk
 𧘚	lmms	1
 𠁩	lmms
 𧙒	lmmt
@@ -46355,6 +46361,7 @@ encoder:
 𬻳	lmn
 𰠗	lmnd
 将	lmnii
+𭤏	lmnjk
 𧙷	lmnn
 𦘣	lmnq
 袔	lmnr
@@ -46455,8 +46462,8 @@ encoder:
 𠂗	lniv
 𧜄	lniw
 𱆉	lnjac
+鬧	lnjb
 𩰝	lnjfc
-鬧	lnjlb
 奖	lnk	1
 𡗻	lnk
 𩰑	lnkb
@@ -46564,7 +46571,6 @@ encoder:
 𪠫	lome
 袵	lomg
 𫋻	lomi
-𭤏	lommk
 衿	lon
 𧜃	lond
 袊	loni
@@ -47335,7 +47341,7 @@ encoder:
 𤕣	lwku
 申	lwl	3
 䘥	lwl
-𤲥	lwlbb
+𤲥	lwlb
 𧟍	lwlf
 𧟌	lwlg
 𮬱	lwlhz
@@ -50931,8 +50937,8 @@ encoder:
 𥞱	mlhd
 𭴪	mlhf
 𫠦	mlhl
-𠀣	mlhm
 𣂕	mlhml
+𣃪	mlhn	2
 𠁘	mlhn	1
 𠀺	mlhn
 𠁈	mlhn
@@ -50967,6 +50973,7 @@ encoder:
 𣃞	mlms
 㓚	mln
 𢄉	mlnb
+𠀣	mlnm
 𭭈	mlno
 𧵹	mloc
 𠡲	mloks
@@ -51125,7 +51132,6 @@ encoder:
 𰁖	mmol
 𨿳	mmoog
 忈	mmp	4
-𠘤	mmpoe
 𠄽	mmqy
 𥐖	mmr
 𨳇	mmrln
@@ -51278,6 +51284,7 @@ encoder:
 䊄	mnfd	1
 𣧲	mnfd
 𣨬	mnff
+𠀺	mnfmc
 𭮋	mnfmu
 𣧖	mnfo
 𥘦	mnfok
@@ -51478,6 +51485,7 @@ encoder:
 殛	mnmem
 𭮤	mnmfb
 𰏣	mnmfj
+𠁈	mnmfr
 𣩋	mnmfs
 𪼷	mnmg
 𤤶	mnmgi
@@ -51730,6 +51738,7 @@ encoder:
 㽝	mnw	1
 𬏄	mnw
 𣨪	mnwd
+𠁘	mnwff
 瓼	mnwg	1
 𭮔	mnwg
 𣩔	mnwjc
@@ -54901,10 +54910,10 @@ encoder:
 𨢡	mwwtj
 𮗂	mwwvj
 𮡋	mwxed
+𠪳	mwxez
 醙	mwxle
 𩉓	mwxoc
 𨠐	mwxp
-𠪳	mwxro
 𨤉	mwxwv
 𨣦	mwxyc
 𧟻	mwyaj
@@ -55471,6 +55480,7 @@ encoder:
 電	mzlwv	2
 𩄽	mzlwv	1
 需	mzmbl		mzmb'l
+𩇌	mzmbu
 𩁹	mzmd
 𩆝	mzmdp
 𮦷	mzmdx
@@ -55504,6 +55514,7 @@ encoder:
 雲	mzmmi
 霊	mzmml
 䨏	mzmmo
+𱁬	mzmmp
 𮦊	mzmmr
 雩	mzmms
 䨌	mzmmu
@@ -55529,8 +55540,6 @@ encoder:
 雫	mzmy	3
 𩔊	mzmz
 𬰄	mzmz
-𱁬	mzmzp
-𩇌	mzmzu
 𩖏	mzmzz
 𩁽	mzn	1
 𩁶	mzn
@@ -59881,6 +59890,7 @@ encoder:
 𰇉	nr
 弲	nrb
 𨼼	nrbdu
+𤿘	nrdhe
 𬯩	nrdlc
 焏	nref	1
 𤊅	nref
@@ -67872,7 +67882,6 @@ encoder:
 𮠐	prbnl
 怾	prc
 𰑠	prd
-𤿘	prdhe
 𭴔	prf
 悜	prhg
 𤫱	prhio
@@ -70903,7 +70912,6 @@ encoder:
 𫯰	qohjg
 𩖬	qohni
 𢰑	qoho
-𣰠	qohqu
 𢬜	qohv
 𱉎	qohym
 鳺	qohz
@@ -70990,7 +70998,6 @@ encoder:
 㧿	qooo	3
 𪭮	qooo	2
 𢹦	qooo	1
-𠁊	qooo
 𢸟	qooo
 𢭢	qoos
 𤏠	qootf
@@ -72211,13 +72218,13 @@ encoder:
 𡄗	ratr
 吧	rau	2
 邑	rau	1
-𨙨	rau
 𨚋	rauf
 𡃢	raum
 𨛗	raunl
 𡅜	raur
 𡄊	raut
 𮖄	rauv
+𨙨	rauz
 哏	rav
 𡀾	ravf
 𠿒	ravo
@@ -80283,6 +80290,7 @@ encoder:
 𭇱	srcsh
 𰙅	srd
 𰅬	srde
+𤿘	srdhe
 尀	srdi	1
 𡬿	srdi
 𪠯	sre	2
@@ -89019,7 +89027,6 @@ encoder:
 𢾕	uusok
 𫅥	uuss
 𮋚	uussg
-𧀍	uusug
 𢾍	uusye	1
 𢽅	uusye
 𪞷	uut	1
@@ -89061,6 +89068,7 @@ encoder:
 𠨤	uuuu
 𦱢	uuuu
 𰄔	uuuu
+𧀍	uuuug
 𦱺	uuuv
 𣦣	uuux
 𦱧	uuuz
@@ -101081,6 +101089,7 @@ encoder:
 𮄫	ythqm
 竓	ythqu	1
 𣯓	ythqu
+𠱫	ythr
 𮞍	yths
 竧	ythsh	1
 竔	ytht
@@ -101163,7 +101172,6 @@ encoder:
 𥪑	ytlq
 𰻍	ytlq
 𠶷	ytlr	1
-𠱫	ytlr
 𥩼	ytluo
 𥪁	ytlws
 𧅣	ytlx
