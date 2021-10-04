@@ -6163,6 +6163,7 @@ encoder:
 𥋠	bumfn
 𢝝	bumfp
 𥉿	bumfu
+𪛟	bumg
 睚	bumgg	1
 𣃒	bumhl
 𥌮	bumhx
@@ -7026,7 +7027,8 @@ encoder:
 㬵	byck
 𮍊	bycu
 𤿔	bydhe
-㬿	bydk
+㬿	bydk	1
+𫜶	bydk
 𫨳	bye
 𦟂	byfd
 𦜟	byfr
@@ -21384,6 +21386,7 @@ encoder:
 墋	giih
 𠬃	giijb
 𭏱	giil
+鿾	giil
 𡑐	giip
 𪠢	giitc
 𡊸	gij	1
@@ -21507,6 +21510,7 @@ encoder:
 𫭨	give
 縶	givif	1
 𦂌	givif
+鿾	givl
 㙻	giwg	1
 𡏂	giwg
 𰆯	giwg
@@ -26694,8 +26698,9 @@ encoder:
 𫂈	hiie
 𥳮	hiif
 𮆠	hiifg
-爫	hiih	1
-篸	hiih
+篸	hiih	1
+爫	hiih
+𫜵	hiih
 𩴁	hiihr
 𩴑	hiiih
 𩳐	hiijb
@@ -34559,6 +34564,7 @@ encoder:
 𠫘	ij
 甫	ijb	1
 𪪌	ijb
+鿿	ijbe
 鵏	ijbhz
 𢋮	ijbk
 𠜙	ijbln
@@ -49942,6 +49948,7 @@ encoder:
 𬎟	mgtaw
 琠	mgtbc	2
 𦥃	mgtbc
+𪛞	mgtbd
 𬎆	mgtbi
 𤩀	mgtbk
 𪼘	mgtbm
@@ -70179,6 +70186,7 @@ encoder:
 𪉑	qkhym
 𢪯	qki
 獒	qkik	1
+𫜷	qkinl
 𡘕	qkino
 𫾳	qkiok
 捹	qkjt
@@ -73321,6 +73329,7 @@ encoder:
 𠾘	rjcr	1
 𠹍	rjcr
 𠴛	rjcs
+鿽	rjcs
 𡀙	rjcu
 𫫍	rjcu
 𡅥	rjcz
@@ -74326,6 +74335,7 @@ encoder:
 叱	rp	3
 吣	rp	1
 𠮟	rp
+𫜸	rp
 𢗀	rp
 咰	rpa	1
 𭇣	rpa
