@@ -14746,7 +14746,6 @@ encoder:
 洠	eihq	1
 𣴿	eihq
 減	eihr	1
-𠗱	eihr
 𣻟	eihs
 𬇠	eihs
 𭰢	eihs
@@ -27307,7 +27306,6 @@ encoder:
 𢍃	hkjt
 𥮈	hkjt
 𮝕	hkjwj
-𮝕	hkjwj
 笅	hkk
 𭑕	hkk
 𥭘	hkkb
@@ -27347,6 +27345,7 @@ encoder:
 徴	hkmg
 𤤋	hkmgi
 微	hkmhn
+徵	hkmhg
 𭷯	hkmhq
 微	hkmhu
 𭯡	hkmhu
@@ -35017,7 +35016,8 @@ encoder:
 㓕	imihf	1
 𠗼	imihf
 𭂢	imihp
-减	imihr
+减	imihr	1
+𠗱	imihr
 𪞞	imihs
 𠗿	imiih
 𠗷	imiil
@@ -48692,10 +48692,8 @@ encoder:
 𥚶	mfrsj
 祀	mfru
 𰨓	mfruc
-𰨓	mfruc
 𥙈	mfrue
 𥚝	mfrvb
-𰨓	mfrvc
 祦	mfrvk
 𬒺	mfryo
 祲	mfsbe	1
@@ -50776,7 +50774,8 @@ encoder:
 𠔬	mkjbc
 𫯸	mkjcp
 𰋮	mkjju
-䡗	mkjwj
+䡗	mkjwj	1
+𮝕	mkjwj
 𰋡	mkkhu
 𬨆	mkkq
 𭄯	mkks
@@ -101423,7 +101422,6 @@ encoder:
 𧙦	yucv
 𣜦	yud
 𧇨	yudd
-𧈇	yuddh
 𧈇	yuddh
 𧆯	yudh
 導	yudi	1
