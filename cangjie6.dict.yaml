@@ -11999,7 +11999,8 @@ encoder:
 𬄂	docl
 𣐾	dod
 柎	dodi
-㯤	dodoo
+㯤	dodoo	1
+𠐇	dodoo
 桼	doe	1
 𣏘	doe
 𰛾	doe
@@ -12132,7 +12133,6 @@ encoder:
 顂	doomz
 郲	doonl
 𪲧	dooo	1
-𠐇	dooo
 𢽟	doook
 𠎙	door
 𣓚	doos
@@ -23647,6 +23647,7 @@ encoder:
 𤽪	hahau
 𩡄	hahd
 𩡐	hahda
+𩡌	hahda
 皈	hahe
 𩡇	hahej
 𮩨	haheq
@@ -24345,7 +24346,6 @@ encoder:
 𥝌	hd
 香	hda
 䅛	hdaa	1
-𩡌	hdaa
 𫀹	hdab	2
 𪴞	hdab	1
 𩡜	hdab
@@ -57265,7 +57265,8 @@ encoder:
 䱢	nfnsd
 𩺜	nfnuw
 𩽈	nfnwa
-䲆	nfnwf
+䲆	nfnwf	1
+𩺰	nfnwf
 𱆰	nfnwu
 䱤	nfnx
 䱬	nfnyb
@@ -60381,7 +60382,6 @@ encoder:
 𮫬	nwf
 魯	nwfa	2
 𩶑	nwfa
-𩺰	nwff
 𩵘	nwfg
 鷠	nwfhz
 𠢴	nwfks
@@ -61010,6 +61010,7 @@ encoder:
 𠓼	odoj
 𪝅	odok
 𪝎	odol
+𠎳	odomd
 倈	odoo	1
 怹	odp	3
 恷	odp	2
@@ -63055,7 +63056,6 @@ encoder:
 㐵	omd
 𬹡	omda
 𦛝	omdb
-𠎳	omdd
 𫣮	omde
 𭴯	omdf
 𡌆	omdg
@@ -95017,6 +95017,7 @@ encoder:
 𡆲	wyv
 𡇎	wyvi
 畡	wyvo
+𣫯	wywyi
 𬆷	wyyfe
 袰	wyyhv
 𧦥	wyymr
@@ -96756,7 +96757,6 @@ encoder:
 𫑰	ybypl
 𫦞	ybypn
 𪚤	ybypg
-龖	ybypp
 𪈗	ybypz
 𨖈	ybyr
 龍	ybysp	1
@@ -99074,6 +99074,7 @@ encoder:
 𧇴	ypwrf
 𧇽	ypwtc
 𢿊	ypwye
+龖	ypybp
 襲	ypyhv	1
 𧟟	ypyhv
 𪚛	ypyj
