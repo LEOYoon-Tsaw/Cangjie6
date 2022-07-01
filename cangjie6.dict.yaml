@@ -97045,6 +97045,7 @@ encoder:
 𮞵	yeyr
 𨑯	yf
 𬽄	yf
+𰞚	yf
 逍	yfb	2
 𦚍	yfb
 𣤎	yfbo
@@ -97277,9 +97278,9 @@ encoder:
 𨖬	yhhm
 顔	yhhmz
 𪵏	yhhne
-𫝸	yhho	1
 𢒲	yhho
 𮟐	yhhr
+𠷗	yhhr
 裦	yhhv
 𰺺	yhhv
 遛	yhhw
@@ -97335,6 +97336,7 @@ encoder:
 㰠	yhnno
 𨾒	yhnog
 𫑎	yhnx
+𫝸	yho	1
 𨑠	yho
 𭛛	yhoa
 𨘖	yhoh
@@ -97351,6 +97353,7 @@ encoder:
 𮞺	yhq
 逓	yhqb
 𰻄	yhqb
+産	yhqm
 迭	yhqo
 𬩙	yhqq
 造	yhqr
@@ -97893,7 +97896,7 @@ encoder:
 𰺾	yklu
 遀	ykmb
 斋	ykmbl		ykmb'l
-亷	ykmc	1
+𰞚	ykmf
 𭑛	ykmfr
 𰡲	ykmgi
 彥	ykmh	1
@@ -97912,6 +97915,7 @@ encoder:
 𨔙	ykmr	2
 𨓾	ykmr	1
 𠷗	ykmr
+𧧑	ykmr
 𫢄	ykmrw
 斒	ykmsb
 𭺡	ykmun
@@ -97921,6 +97925,7 @@ encoder:
 𣁇	ykmx
 𭤗	ykmx
 𮨂	ykmz
+𥩧	ykmz
 𨑍	ykn	1
 㐎	ykn
 𬢙	yknbg
@@ -101068,7 +101073,6 @@ encoder:
 𥪍	ythdv
 𬩞	ythe
 鿪	ythf	1
-𰞚	ythf
 𫐬	ythg
 𰩨	ythg
 𥪸	ythgi
@@ -101082,7 +101086,6 @@ encoder:
 𥪌	ythkp
 竬	ythlb
 𮄨	ythlo
-産	ythm
 𬔘	ythml
 竌	ythn	1
 𥩕	ythn
@@ -102007,10 +102010,10 @@ encoder:
 𪗅	yxe
 齋	yxf	2
 齌	yxf	1
+𤎉	yxf
 𮞴	yxg
 𩐓	yxgm
 𪗉	yxhd
-𤎉	yxhf
 𣂸	yxhml
 𪗎	yxhn
 𫐰	yxhu
