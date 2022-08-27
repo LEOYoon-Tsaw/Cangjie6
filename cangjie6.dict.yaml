@@ -39156,7 +39156,6 @@ encoder:
 𫳂	jmlw
 𫳥	jmlx
 寎	jmmb	5
-𰷥	jmmb
 𥨨	jmmbc
 賨	jmmc	1
 𧶉	jmmc
@@ -39172,6 +39171,7 @@ encoder:
 𠝳	jmmln
 𰌴	jmmm
 𡧃	jmmn
+𰷥	jmmo
 𡫮	jmmo
 𩀈	jmmog
 𢥜	jmmp	1
@@ -54640,6 +54640,7 @@ encoder:
 𮠴	mwndt
 𨣺	mwnfd
 𩈇	mwng
+𰀞	mwng
 𮗃	mwnii
 𮠣	mwnil
 𮠨	mwnin
@@ -54783,7 +54784,6 @@ encoder:
 䣵	mwsj
 𩈄	mwsk
 𬪧	mwsk
-𰀞	mwskm
 𩈢	mwskp
 勔	mwsks
 𮠗	mwsm
@@ -77077,9 +77077,9 @@ encoder:
 帚	sblb	1
 𢄥	sblb
 朢	sbmg
+𫹅	sbnk
 屃	sbo
 𢑟	sboi
-𫹅	sbok
 𭺸	sbq
 𫧒	sbr
 𢑿	sbrd
@@ -94094,6 +94094,7 @@ encoder:
 𤱷	wkss
 𫥨	wkuu
 𡜭	wkv
+𡚤	wkwkk
 𭻼	wkwkn
 𡈲	wkwkw
 𡆢	wkz
@@ -94254,7 +94255,6 @@ encoder:
 𩕾	wlkmz
 𤲍	wlkoo
 𦌩	wlkte
-𡚤	wlkwk
 𬙛	wlky
 罒	wll
 鸅	wllhz
