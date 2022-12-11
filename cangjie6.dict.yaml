@@ -89490,7 +89490,6 @@ encoder:
 妺	vdj
 𭒊	vdjv
 妜	vdk	1
-𥸸	vdk
 娕	vdl
 嬾	vdlc
 嫩	vdlk
@@ -89749,7 +89748,8 @@ encoder:
 紂	vfdi
 𥿉	vfdj
 𰌔	vfdj
-䊽	vfdk
+䊽	vfdk	1
+𥸸	vfdk
 綀	vfdl	1
 𦇛	vfdlc
 𬗳	vfdlk
@@ -94572,6 +94572,7 @@ encoder:
 囝	wnd	1	w'nd
 𡥔	wnd
 𬏂	wnf
+𡆴	wng
 𭻐	wnhd
 𪽈	wnhh	2
 𤲹	wnhh	1
@@ -94766,7 +94767,6 @@ encoder:
 𡚇	wsk
 𰣊	wske
 𭻟	wsklg
-𡆴	wsl
 𡈑	wsli
 𤱻	wsll	1
 𡇖	wsll
