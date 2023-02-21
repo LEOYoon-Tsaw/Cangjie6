@@ -12859,6 +12859,7 @@ encoder:
 𭪺	dtnh
 𬻮	dtnin
 𬄲	dtnk
+𬩾	dtnl
 𣓃	dtob
 𣘻	dtod	1
 𣗪	dtod
@@ -34895,7 +34896,6 @@ encoder:
 亠	im	1
 𪭉	im
 𭟮	im
-𬨤	imam
 𫥐	imami
 𭂠	imana
 𪞰	imanf
@@ -43187,7 +43187,6 @@ encoder:
 頬	ktmz
 𡚢	ktnd
 郏	ktnl	1
-𬩾	ktnl
 𫗌	ktno
 𬅢	ktno
 𤻙	ktoe
@@ -87594,8 +87593,8 @@ encoder:
 𡹃	ugce
 𰎥	ugcg
 峙	ugdi
-𡉵󠄀	ugg
 𡷅	ugg
+𡉵󠄀	ugg
 崶	uggi
 嶢	uggu	1
 嶤	uggu
@@ -98226,6 +98225,7 @@ encoder:
 㫖	yma
 𨒹	yma
 𫑖	ymac
+𬨤	ymam
 𫠺	ymap
 𭾴	ymau
 𰀏	ymav
@@ -98237,7 +98237,6 @@ encoder:
 𠜔	ymbln	1
 𠛯	ymbln
 𧇣	ymbm
-𬨤	ymbm
 邐	ymbp
 𮟚	ymbs
 𬩢	ymbt
