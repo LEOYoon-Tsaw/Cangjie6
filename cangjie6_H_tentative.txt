@@ -1,7 +1,7 @@
 𱍐	mmlc
-𱍑	gi
+𱍑	gim
 𱍒	mnlbk
-𱍓	kqq
+𱍓	kkho
 𱍔	myikp
 𱍕	mfoo
 𱍖	tmmy
@@ -26,18 +26,18 @@
 𱍩	ymmzb
 𱍪	mbixe
 𱍫	svs
-𱍬	link
-𱍭	liav
-𱍮	liyiu
-𱍯	libmr
-𱍰	llml
-𱍱	libtu
-𱍲	lihab
-𱍳	lita
-𱍴	litgv
-𱍵	litxc
-𱍶	liipf
-𱍷	lie
+𱍬	lidk lldk
+𱍭	liav llav
+𱍮	liyiu llyiu
+𱍯	libmr llbmr
+𱍰	liml llml
+𱍱	libtu llbtu
+𱍲	lihab llhab
+𱍳	lita llta
+𱍴	litgv lltgv
+𱍵	litxc lltxc licmc llcmc lihhc llhhc
+𱍶	liipf llipf
+𱍷	lie lle
 𱍸	hv
 𱍹	nhi
 𱍺	ots
@@ -4014,7 +4014,7 @@
 𲋽	sfgrv
 𲋾	hiosf
 𲋿	sfjwi
-𲌀	sfvff sfvfy
+𲌀	sfvfy sfvfm
 𲌁	sftzl
 𲌂	sfiip
 𲌃	sftgi
@@ -4163,7 +4163,7 @@
 𲎒	qeyok
 𲎓	qegsk
 𲎔	icww
-𲎕	litlc lltwc
+𲎕	litlc lltlc litwc lltwc
 𲎖	hiwff iiwff
 𲎗	jzwff
 𲎘	wfjcz
