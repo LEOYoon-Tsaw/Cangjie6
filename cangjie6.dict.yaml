@@ -15765,7 +15765,7 @@ encoder:
 𣴚	ekss
 浃	ekt
 𤅅	ektd
-㵮	ektj
+㵮	ektq
 潛	ekua
 灊	ekub	1
 𱦙	ekud
@@ -25199,7 +25199,6 @@ encoder:
 𦢳	hbbhf
 䉰	hbbk
 笧	hbbm	1
-䈀	hbbn	1
 𫂝	hbbn
 䈑	hbbr	1
 𢄗	hbbr
@@ -25298,6 +25297,7 @@ encoder:
 𬕉	hbme
 𰩱	hbmm
 𠿻	hbmmu
+䈀	hbmn
 𰳨	hbmnn
 𰪓	hbmo
 𥭿	hbmp
@@ -46195,6 +46195,7 @@ encoder:
 鹔	lfhym
 𫦅	lfln
 𰙑	lfno
+䏋	lfpu
 袢	lfq	1
 裆	lfs
 𬚄	lfss
@@ -51046,6 +51047,7 @@ encoder:
 𫀕	mfxms
 𥙺	mfxnh
 𱵖	mfxyo
+䃼	mfy
 𫀑	mfyaj
 𩫇	mfyb	1
 𨖕	mfyb
@@ -69507,6 +69509,7 @@ encoder:
 𢛹	pcau
 𢣩	pcav
 𢥅	pchb
+㫁	pchml
 忪	pci	1
 𢚔	pcie
 𢛌	pcip
@@ -71220,7 +71223,6 @@ encoder:
 𱐻	puhbq
 𢢯	puhi
 㼊	puhio
-㫁	puhml
 𠘸	puhn
 𡴉	puhni
 𱂿	puhni
@@ -93829,7 +93831,6 @@ encoder:
 𦃓	vfhhw
 𦄼	vfhhz
 𫄏	vfhir
-䌣	vfhj	1
 䊹	vfhj
 絑	vfhjd
 緞	vfhje	1
@@ -102785,6 +102786,7 @@ encoder:
 迩	ynf	2
 𤓤	ynf	1
 𤍋	ynf
+䊨	ynfd
 𮓯	ynfdq
 𮓮	ynfhf
 𢽯	ynfok
