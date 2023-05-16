@@ -39633,7 +39633,6 @@ encoder:
 𡫑	jgkg
 𫳐	jgl
 𡫭	jgld
-䘁	jgli	1
 㝪	jgli
 𧕾	jglii
 㝪	jglk
@@ -39795,7 +39794,8 @@ encoder:
 㦲	jihs
 𱉧	jihym
 𲍺	jihym
-䳒	jihz
+䳒	jihz	1
+䳣	jihz
 𱐵	jiiks
 𢦛	jij
 𫻭	jijb
@@ -39834,6 +39834,7 @@ encoder:
 𡭇	jiob
 胾	jiobo
 截	jiog	1
+䘁	jioi
 𪧝	jipf
 㢤	jips
 𢧭	jipua
@@ -41455,7 +41456,6 @@ encoder:
 𭃍	jshj
 𡩚	jsho
 𡨚	jshu
-䳣	jshz
 𱷑	jsjd
 㝡	jsje
 𡪬	jsjl	1
@@ -54722,7 +54722,6 @@ encoder:
 𱴔	mrei
 𰧨	mrejd
 𥒣	mreki
-亟	mrem
 𥒀	mremd
 𥔨	mremr
 𥕂	mreob
@@ -60187,7 +60186,6 @@ encoder:
 𬴺	nfuz
 𡝠	nfv
 𡝡	nfv
-䲃	nfvd
 𩹾	nfvfb
 𱇋	nfvfn
 𫙶	nfvfw
@@ -60197,6 +60195,7 @@ encoder:
 𩷅	nfvme
 鱂	nfvmi
 𩷊	nfvok
+䲃	nfvvd
 鱜	nfvvl
 𫚅	nfvvo
 鱲	nfvvv
@@ -74582,7 +74581,6 @@ encoder:
 𩏼	qsob
 𬰴	qsodi
 㨤	qsog
-䫨	qsoki	2
 𢧴	qsoki	1
 䫨	qsokz
 𫖑	qson
@@ -84753,6 +84751,7 @@ encoder:
 𫊔	tamnf
 𦳚	tamo
 𬞀	tamv
+䕎	tamw
 菛	tan
 蕳	tana
 𮒼	tana
@@ -85158,7 +85157,6 @@ encoder:
 莧	tbuu	1
 𦺊	tbuu
 𮑥	tbuv
-䕎	tbuw	1
 𦽖	tbuw
 薡	tbux
 荽	tbv
