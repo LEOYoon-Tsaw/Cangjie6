@@ -17373,6 +17373,7 @@ encoder:
 𣸃	etic
 𣸃	etid
 瀳	etif
+㳤	eitf
 𣸻	etih
 𣷸	etio
 𣿎	etir	1
@@ -38040,12 +38041,15 @@ encoder:
 𢾅	iteok
 𢾖	iteye
 庶	itf	2
+𠦑	itf
 𢉙	itf
 𱝅	itf
 𰊤	itfg
 鷓	itfhz
 䗪	itfi
 𩔼	itfmz
+𥆳	itfu
+𧚛	itfv
 𡊅	itg
 𭙬	itgi
 𭙭	itgm
@@ -38099,7 +38103,6 @@ encoder:
 㢜	itwp
 廉	itxc	1
 㢘	itxf
-𠦑	ityf
 𠦑	ityi
 𧇑	itypn
 𧇑	itypu
@@ -39621,6 +39624,7 @@ encoder:
 𭓖	jdbms
 䙿	jdbuu
 𡨭	jdci
+𱤜	jdcwa
 㝝	jdd	1
 𣒐	jdd
 𪧲	jdde
@@ -39648,6 +39652,7 @@ encoder:
 𤳡	jdihw
 𣚺	jdihy
 𭓆	jdino
+𱒮	jdir
 𰥡	jdiu
 𲁎	jdiu
 𬂧	jdjd
@@ -72383,7 +72388,6 @@ encoder:
 䎥	qdcor
 𮋧	qdcr
 𮋤	qdcsh
-𱤜	qdcwa
 㨆	qdd
 𢵳	qddd
 𢴻	qdde
@@ -72435,7 +72439,6 @@ encoder:
 𦔣	qdihy
 𦔩	qdipf
 耛	qdir
-𱒮	qdir
 𦔁	qdisi
 𡦳	qdixf	1
 𡦲	qdixf
@@ -73432,6 +73435,7 @@ encoder:
 擴	qitc
 𢱋	qite
 摭	qitf
+𰓹	qitf
 𰓹	qiti
 𱡑	qitr
 𢯪	qitu
@@ -74670,7 +74674,6 @@ encoder:
 志	qp
 𣬛	qp
 𰒷	qp
-𰭧	qp
 指	qpa	2
 耆	qpa	1
 㧦	qpa
@@ -74762,7 +74765,6 @@ encoder:
 䎛	qpr	2
 㖈	qpr	1
 𦒵	qpr
-𮋞	qprjd
 𫅳	qprp
 𪮇	qprr	1
 抱	qpru	2
@@ -75312,6 +75314,7 @@ encoder:
 击	qu	2
 㧄	qu
 𢩳	qu
+𰭧	qu
 𭠼	quau
 𪮤	qubb
 𭠽	qubk
@@ -75359,6 +75362,7 @@ encoder:
 𢭞	quon
 𢹂	quos
 𠓆	quqmu
+𮋞	qurjd
 𲃼	quro
 𨇜	quryo
 𢶮	qusf
@@ -82732,6 +82736,7 @@ encoder:
 𩬹	shsmg
 䰐	shsmt
 𩭨	shsmv
+𥯵	shsn
 𭄎	shsqa
 𩭅	shss
 𩭊	shssr
