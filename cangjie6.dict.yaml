@@ -18506,7 +18506,7 @@ encoder:
 尝	fbmmi
 𠤝	fbmmp
 𱍙	fbmn
-烔	fbmr		fb'mr	1
+烔	fbmr	1	fb'mr
 𬒈	fbmr
 𡜈	fbmv
 𫴽	fbmvu
@@ -18532,8 +18532,8 @@ encoder:
 㶲	fbq
 𪸼	fbqr
 尚	fbr	3	fb'r
-炯	fbr	1	fb'r
-尙	fbr		fb'r	1
+炯	fbr	2	fb'r
+尙	fbr	1	fb'r
 𫩠	fbr
 𬻬	fbram
 𨜂	fbrau
@@ -30146,7 +30146,7 @@ encoder:
 𢖠	hobcv
 篧	hobg
 衢	hobgn
-徟	hobgr		hob'gr	1
+徟	hobgr	1	hob'gr
 𬋬	hobgr
 𥰓	hobh
 𢕷	hobhf
@@ -30166,7 +30166,7 @@ encoder:
 徭	hobou	2
 𤬔	hobou
 𭛳	hobqo
-徟	hobqr		hob'qr	1
+徟	hobqr	1	hob'qr
 𬋬	hobqr
 𭛡	hobr		hob'r
 衕	hobrn
@@ -106084,7 +106084,7 @@ encoder:
 𧇔	ythn
 竐	ythne
 颯	ythni		ythn'i
-飒	ythnk		ythn'k	1
+飒	ythnk	1	ythn'k
 𬱻	ythnk
 𬱻	ythnq
 遂	ytho	2
